@@ -5,24 +5,24 @@
   "use strict";
   var esc = function (s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); };
   var T = {
-    fa: { cert: "گواهی پایان دوره", k_done: "گواهی پایان دوره", k_exc: "گواهی تقدیر و برتری", k_part: "گواهی شرکت در دوره",
-      given: "این گواهی به", done: "برای گذراندن موفق دوره", on: "تاریخ صدور", code: "کد گواهی", st: "وضعیت", valid: "معتبر", revoked: "باطل شده", scan: "برای تأیید، QR را بخوان", bar: "شناسهٔ بارکد",
+    fa: { cert: "گواهی پایان دوره", k_done: "گواهی‌نامهٔ پایان دوره", k_exc: "گواهی تقدیر و برتری", k_part: "گواهی شرکت در دوره",
+      given: "با افتخار تقدیم می‌گردد به", done: "برای گذراندن موفق دورهٔ", d_exc: "برای کسب موفقیت درخشان در دورهٔ", d_part: "برای شرکت فعال در دورهٔ", a_done: "که با پشتکار و کنجکاوی، مسیر یادگیری این دوره را تا پایان پیمود و مهارت‌های آن را به‌کار گرفت.", a_exc: "که با تلاش و پشتکاری ستودنی در این دوره درخشید و شایستهٔ تقدیر است.", a_part: "که با حضور فعال و همراهی صمیمانه در این دوره، سهمی ارزشمند داشت.", on: "تاریخ صدور", code: "کد گواهی", st: "وضعیت", valid: "معتبر", revoked: "باطل شده", scan: "برای تأیید، QR را بخوان", bar: "شناسهٔ بارکد",
       note: "این گواهی پایان دوره آموزشی آکادمی سینه‌کد است و مدرک دانشگاهی نیست.", sign: "بنیان‌گذار و مدرس", sample: "نمونه · این گواهی واقعی نیست", print: "چاپ", pdf: "دانلود فایل PDF", pdfw: "در حال ساخت PDF…", pdfe: "ساخت PDF نشد. از دکمهٔ چاپ استفاده کن.",
       share: "اشتراک‌گذاری", copy: "کپی لینک", copied: "کپی شد", li: "لینکدین (افزودن به پروفایل)", lif: "لینکدین (پست)", fb: "فیسبوک", x: "ایکس (X)", wa: "واتس‌اپ", tg: "تلگرام", em: "ایمیل", more: "بیشتر…",
-      tpl: "طرح گواهی", t1: "کلاسیک", t2: "مدرن", t3: "سینمایی", t4: "سلطنتی", t5: "تکنو", seal: "تأیید‌شده",
+      tpl: "طرح گواهی", t1: "کلاسیک", t2: "مدرن", t3: "سینمایی", t4: "سلطنتی", t5: "تکنو", t6: "آکادمیک", t7: "استودیو", t8: "مینیمال", seal: "تأیید‌شده",
       stxt: "پیام آمادهٔ اشتراک (می‌توانی ویرایش کنی)", mk: "من دورهٔ «%c» را در آکادمی سینه‌کد با موفقیت به پایان رساندم! 🎓\nشناسهٔ گواهی: %id\nتأیید گواهی: %u\n#سینه‌کد #آموزش #برنامه‌نویسی #سینما #طراحی",
       sc_t: "نمونهٔ گواهی‌ها", sc_h: "گواهی‌هایی که می‌گیری", sc_p: "هر گواهی کد یکتا، QR، بارکد و امضای رسمی دارد و با یک کلیک در لینکدین و شبکه‌های دیگر به اشتراک گذاشته می‌شود. همهٔ نمونه‌ها «نمونه» هستند و واقعی نیستند.",
-      prev: "قبلی", next: "بعدی", d1: "عاج و طلا؛ رسمی و کلاسیک", d2: "سفید و بنفش؛ تمیز و امروزی", d3: "تیره و فیروزه‌ای؛ سینمایی", d4: "سرمه‌ای و طلایی؛ باشکوه", d5: "شبکهٔ کد؛ مخصوص برنامه‌نویسی", nm: "نام دانشجو (نمونه)", cn: "نام دوره (نمونه)", dt: "۱۴۰۵/۰۸/۱۷" },
+      prev: "قبلی", next: "بعدی", d1: "عاج و طلا؛ رسمی و کلاسیک", d2: "سفید و بنفش؛ تمیز و امروزی", d3: "تیره و فیروزه‌ای؛ سینمایی", d4: "سرمه‌ای و طلایی؛ باشکوه", d5: "شبکهٔ کد؛ مخصوص برنامه‌نویسی", d6: "سبز زمردی؛ دانشگاهی و رسمی", d7: "رنگ‌های گرم و پوستری؛ برای هنر و طراحی", d8: "سفید و خطی؛ ساده و تمیز", nm: "نام دانشجو (نمونه)", cn: "نام دوره (نمونه)", dt: "۱۴۰۵/۰۸/۱۷" },
     en: { cert: "Course completion certificate", k_done: "Certificate of Completion", k_exc: "Certificate of Excellence", k_part: "Certificate of Participation",
-      given: "This certificate is awarded to", done: "for successfully completing the course", on: "Issued", code: "Certificate code", st: "Status", valid: "Valid", revoked: "Revoked", scan: "Scan the QR to verify", bar: "Barcode ID",
+      given: "This certificate is proudly presented to", done: "in recognition of successfully completing the course", d_exc: "in recognition of outstanding achievement in the course", d_part: "in recognition of active participation in the course", a_done: "who followed the course through to the end with dedication and curiosity, and put its skills to work.", a_exc: "whose effort and perseverance in this course were truly commendable.", a_part: "whose active presence and engagement made a real contribution to this course.", on: "Issued", code: "Certificate code", st: "Status", valid: "Valid", revoked: "Revoked", scan: "Scan the QR to verify", bar: "Barcode ID",
       note: "This is a course completion certificate from CineCode Academy. It is not a university degree.", sign: "Founder & Instructor", sample: "SAMPLE · not a real certificate", print: "Print", pdf: "Download PDF file", pdfw: "Building PDF…", pdfe: "Could not build the PDF. Use the Print button.",
       share: "Share", copy: "Copy link", copied: "Copied", li: "LinkedIn (add to profile)", lif: "LinkedIn (post)", fb: "Facebook", x: "X", wa: "WhatsApp", tg: "Telegram", em: "Email", more: "More…",
-      tpl: "Certificate style", t1: "Classic", t2: "Modern", t3: "Cinematic", t4: "Royal", t5: "Tech", seal: "Verified",
+      tpl: "Certificate style", t1: "Classic", t2: "Modern", t3: "Cinematic", t4: "Royal", t5: "Tech", t6: "Scholar", t7: "Studio", t8: "Minimal", seal: "Verified",
       stxt: "Ready-made post (you can edit it)", mk: "I just completed “%c” at CineCode Academy! 🎓\nCertificate ID: %id\nVerify it here: %u\n#CineCode #Learning #Coding #Cinema #Design",
       sc_t: "Certificate samples", sc_h: "The certificates you earn", sc_p: "Every certificate has a unique code, a QR, a barcode and an official signature, and can be shared to LinkedIn and other networks in one click. All samples are marked SAMPLE and are not real.",
-      prev: "Previous", next: "Next", d1: "Ivory & gold; formal and classic", d2: "White & purple; clean and modern", d3: "Dark & cyan; cinematic", d4: "Navy & gold; grand", d5: "Code grid; made for developers", nm: "Student Name (sample)", cn: "Course name (sample)", dt: "17 Nov 2026" }
+      prev: "Previous", next: "Next", d1: "Ivory & gold; formal and classic", d2: "White & purple; clean and modern", d3: "Dark & cyan; cinematic", d4: "Navy & gold; grand", d5: "Code grid; made for developers", d6: "Emerald green; academic and formal", d7: "Warm poster colours; for art and design", d8: "White and linear; simple and clean", nm: "Student Name (sample)", cn: "Course name (sample)", dt: "17 Nov 2026" }
   };
-  var TPL = ["classic", "modern", "cinema", "royal", "tech"], KIND = ["done", "exc", "part"];
+  var TPL = ["classic", "modern", "cinema", "royal", "tech", "scholar", "studio", "minimal"], KIND = ["done", "exc", "part"];
   /* v179: each course gets its own default design (stable hash of the course name); a student's explicit choice is remembered per course */
   function hsh(x) { var h = 0, i; x = String(x || ""); for (i = 0; i < x.length; i++) h = (h * 31 + x.charCodeAt(i)) >>> 0; return h; }
   function pick(o) { try { var m = JSON.parse(localStorage.getItem("am-ctpl2") || "{}") || {}, k = o && o.course ? String(o.course) : ""; if (k && TPL.indexOf(m[k]) >= 0) return m[k]; if (k) return TPL[hsh(k) % TPL.length]; var d = (JSON.parse(localStorage.getItem("am-design") || "{}") || {}).cert_tpl; return TPL.indexOf(d) >= 0 ? d : "classic"; } catch (e) { return "classic"; } }
@@ -42,7 +42,36 @@
   /* ---------- hand-drawn style signature (SVG strokes) ---------- */
   var SIG = '<svg class="pc-sgs" viewBox="0 0 220 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path stroke-width="2.6" d="M8 44c10-26 20-34 26-30 7 5-12 36-6 38 8 2 20-26 30-26 7 0 0 18 6 18 8 0 12-12 20-12 6 0 2 10 8 10 9 0 14-10 24-10 8 0 2 12 10 12 10 0 14-14 26-14"/><path stroke-width="1.6" d="M16 54c40-6 120-8 196-2"/><path stroke-width="1.4" d="M150 18c10-8 22-10 34-6"/></svg>';
   var SEAL = '<svg viewBox="0 0 100 100" width="84" height="84"><circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="50" cy="50" r="38" fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="2 3"/><path d="M50 22l7 15 16 2-12 11 3 16-14-8-14 8 3-16-12-11 16-2z" fill="currentColor"/><path d="M34 74h32" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>';
+
+  /* v182: every template has its own icon + seal (Lucide, stroke 1.75) */
+  var TI = {
+    classic: '<path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/><circle cx="12" cy="8" r="6"/>',
+    modern: '<path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m9 12 2 2 4-4"/>',
+    cinema: '<path d="M20.2 6 3 11l-.9-2.4c-.3-1.1.3-2.2 1.3-2.5l13.5-4c1.1-.3 2.2.3 2.5 1.3z"/><path d="m6.2 5.3 3.1 3.9"/><path d="m12.4 3.4 3.1 4"/><path d="M3 11h18v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>',
+    royal: '<path d="M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z"/><path d="M5.5 21h13"/>',
+    tech: '<rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2"/>',
+    scholar: '<path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/>',
+    studio: '<path d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"/><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/>',
+    minimal: '<path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/>'
+  };
+  var KI = { done: '<path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/>', exc: '<path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/>', part: '<circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>' };
+  function ico(path, n) { return '<svg viewBox="0 0 24 24" width="' + n + '" height="' + n + '" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">' + path + '</svg>'; }
+  function sealFor(t) { return '<svg viewBox="0 0 100 100" width="84" height="84" aria-hidden="true"><circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="50" cy="50" r="38" fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="2 3"/><g transform="translate(30 30) scale(1.67)" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">' + (TI[t] || TI.classic) + '</g></svg>'; }
   var ORN = '<i class="pc-o a"></i><i class="pc-o b"></i><i class="pc-o c"></i><i class="pc-o d"></i>';
+
+  /* brand icons for share buttons (Lucide strokes; X mark filled) */
+  var BR = {
+    li: '<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/>',
+    fb: '<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>',
+    wa: '<path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/><path d="M9 9.5c.4 1.6 2 3.6 4.5 4.5l1.2-1.2 1.8.6v1.6c-3.4.8-8-3.4-7.5-7z"/>',
+    tg: '<path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/>',
+    em: '<path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/>'
+  };
+  BR.lif = BR.li;
+  function brand(k) {
+    if (k === "x") return '<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true" focusable="false"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>';
+    return BR[k] ? '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">' + BR[k] + '</svg>' : "";
+  }
 
   function ds() { try { return JSON.parse(localStorage.getItem("am-design") || "{}") || {}; } catch (e) { return {}; } }
   function sigImg(u) { var b = (window.SITE && window.SITE.supabaseUrl || "").replace(/\/$/, ""); return b && typeof u === "string" && u.indexOf(b + "/storage/v1/object/public/media/") === 0 ? u : ""; }
@@ -54,11 +83,11 @@
       '<div class="pc-frame"><div class="pc-in">' + ORN +
       (o.sample ? '<p class="pc-wm" aria-hidden="true">' + esc(L.sample.split(" · ")[0]) + '</p>' : "") +
       '<img class="pc-logo" src="assets/img/logo-full.png" width="260" height="67" alt="CineCode Academy">' +
-      '<p class="pc-k">' + esc(L["k_" + kd]) + '</p>' +
+      '<p class="pc-ic" aria-hidden="true"><span class="pc-ib">' + ico(TI[t] || TI.classic, 26) + '</span></p><p class="pc-k"><span class="pc-ki" aria-hidden="true">' + ico(KI[kd], 15) + '</span>' + esc(L["k_" + kd]) + '</p>' +
       '<p class="pc-g">' + esc(L.given) + '</p><h2 class="pc-n" dir="auto">' + esc(o.name) + '</h2>' +
-      '<p class="pc-g">' + esc(L.done) + '</p><h3 class="pc-c" dir="auto">' + esc(o.course) + '</h3>' +
+      '<p class="pc-g">' + esc(kd === "exc" ? L.d_exc : kd === "part" ? L.d_part : L.done) + '</p><h3 class="pc-c" dir="auto">' + esc(o.course) + '</h3><p class="pc-g pc-aw">' + esc(L["a_" + kd]) + '</p>' +
       '<div class="pc-row"><div class="pc-sig">' + (sigImg(D.cert_sig) ? '<img class="pc-sgi" src="' + esc(sigImg(D.cert_sig)) + '" alt="" width="170" height="60">' : SIG) + '<span class="pc-sg" dir="ltr">' + esc(D.cert_signer || "Ansarulhaq Mubarez") + '</span><span class="pc-sl">' + esc((D.cert_signer ? D.cert_signer + " · " : "") + (D["cert_title_" + lg] || L.sign)) + '</span></div>' +
-      '<div class="pc-seal" aria-hidden="true">' + SEAL + '<span>' + esc(L.seal) + '</span></div>' +
+      '<div class="pc-seal" aria-hidden="true">' + sealFor(t) + '<span>' + esc(L.seal) + '</span></div>' +
       '<div class="pc-qr"><div class="pc-qrb" role="img" aria-label="QR" dir="ltr" data-url="' + esc(o.url || "") + '"></div><span>' + esc(L.scan) + '</span></div></div>' +
       '<dl class="pc-m"><div><dt>' + esc(L.on) + '</dt><dd>' + esc(o.date) + '</dd></div><div><dt>' + esc(L.code) + '</dt><dd dir="ltr">' + esc(o.code) + '</dd></div><div><dt>' + esc(L.st) + '</dt><dd><b class="pc-st">' + esc(ok ? L.valid : L.revoked) + '</b></dd></div></dl>' +
       '<div class="pc-bc" dir="ltr">' + barcode(o.code) + '<span>' + esc(o.code) + '</span></div>' +
@@ -146,7 +175,7 @@
       sh = '<div class="pc-sh2"><span class="pc-shl">' + esc(L.share) + '</span>' +
         '<div class="pc-pl" role="group" aria-label="' + esc(fa ? "انتخاب شبکه" : "Choose network") + '">' + PL.map(function (k) { return '<button type="button" class="btn" data-pl="' + k + '" aria-pressed="' + (k === cur0) + '">' + esc(NM[k]) + '</button>'; }).join("") + '</div>' +
         '<label class="pc-stl" for="pcTxt">' + esc(L.stxt) + '</label><textarea id="pcTxt" class="pc-stx" rows="6">' + esc(txt) + '</textarea>' +
-        '<div class="pc-sh" data-links>' + links(o, txt).map(function (a) { return '<a class="btn pc-n pc-n-' + a[0] + '" data-k="' + a[0] + '" href="' + esc(a[2]) + '" target="_blank" rel="noopener noreferrer"><i aria-hidden="true">' + ({ li: "in", lif: "in", fb: "f", x: "X", wa: "W", tg: "T", em: "@" }[a[0]] || "") + '</i>' + esc(a[1]) + '</a>'; }).join("") +
+        '<div class="pc-sh" data-links>' + links(o, txt).map(function (a) { return '<a class="btn pc-n pc-n-' + a[0] + '" data-k="' + a[0] + '" href="' + esc(a[2]) + '" target="_blank" rel="noopener noreferrer"><i aria-hidden="true">' + brand(a[0]) + '</i>' + esc(a[1]) + '</a>'; }).join("") +
         (navigator.share ? '<button type="button" class="btn" data-native>' + esc(L.more) + '</button>' : "") +
         '<button type="button" class="btn" data-copy>' + esc(fa ? "کپی متن" : "Copy text") + '</button><button type="button" class="btn" data-copyl>' + esc(L.copy) + '</button><button type="button" class="btn" data-img>' + esc(fa ? "دانلود تصویر اشتراک" : "Download share image") + '</button><span class="fstatus ok" role="status" aria-live="polite"></span></div>' +
         '<p class="pc-note muted">' + esc(fa ? "اینستاگرام لینک مستقیم نمی‌پذیرد: متن را کپی کن و تصویر را در پست بگذار." : "Instagram has no share link: copy the text and attach the image to your post.") + '</p>' + (o.sample ? '<p class="pc-note muted">' + esc(fa ? "این یک نمونه است؛ گواهی واقعی با کد واقعی ساخته می‌شود." : "This is a sample; a real certificate gets a real code.") + '</p>' : "") + '</div>';
@@ -205,7 +234,7 @@
   /* ---------- public showcase slider: all styles, all kinds, labelled SAMPLE ---------- */
   function showcase(box, lang) {
     lang = lang === "fa" ? "fa" : "en"; var L = T[lang], n = 0;
-    var pairs = [["classic", "done"], ["modern", "exc"], ["cinema", "done"], ["royal", "exc"], ["tech", "part"]];
+    var pairs = [["classic", "done"], ["modern", "exc"], ["cinema", "done"], ["royal", "exc"], ["tech", "part"], ["scholar", "done"], ["studio", "exc"], ["minimal", "part"]];
     var slides = pairs.map(function (p, i) {
       return '<li class="pcs-s" id="pcs' + i + '"><div class="pc-wrap">' + html({ lang: lang, tpl: p[0], kind: p[1], sample: true, name: L.nm, course: L.cn, date: L.dt, code: "CCA-2026-SAMPLE-000" + (i + 1), url: "https://example.org/verify", ok: true }) + '</div><p class="pcs-c"><b>' + esc(L["t" + (i + 1)]) + '</b> · ' + esc(L["k_" + p[1]]) + '<br><span>' + esc(L["d" + (i + 1)]) + '</span></p></li>';
     }).join("");

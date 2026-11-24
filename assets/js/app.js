@@ -162,10 +162,10 @@ function buildChrome() {
     <div class="ft-brand" id="ftBrand"><a class="ft-logo" href="index.html" aria-label="CineCode Academy"><img class="lg lg-l" src="assets/img/logo-full.png" width="184" height="47" alt="CineCode Academy" loading="lazy"><img class="lg lg-d" src="assets/img/logo-full-light.png" width="184" height="47" alt="" aria-hidden="true" loading="lazy"></a><p data-k="hsite"></p></div>
     <div class="ft-c ft-aca"><h2 data-k="nAcademy"></h2><ul>${ACA.map(([h, k]) => lk(h, k)).join("")}</ul></div>
     <div class="ft-c ft-exp"><h2 data-k="ftExplore"></h2><ul>${ABT.map(([h, k]) => lk(h, k)).join("")}</ul></div>
-    <div class="ft-c ft-con"><h2 data-k="fGT"></h2><ul><li><a href="mailto:${esc(S.contactEmail)}" dir="ltr">${icon("mail")}<span>${esc(S.contactEmail)}</span></a></li>${(S.phones || []).slice(0, 1).map(ph => `<li class="ft-ph"><a href="tel:${esc(ph.n)}" dir="ltr">${icon("phone")}<span>${esc(ph.show)}</span></a>${ph.wa ? `<a class="ft-ch" href="https://wa.me/${esc(ph.n.replace(/\D/g, ""))}" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">WhatsApp</a>` : ""}${ph.tg ? `<a class="ft-ch" href="https://t.me/${esc(ph.n)}" target="_blank" rel="noopener noreferrer" aria-label="Telegram">Telegram</a>` : ""}</li>`).join("")}<li><span class="ft-t">${icon("pin")}<span data-k="fLoc"></span></span></li><li><a class="btn go ft-btn" href="contact.html">${icon("mail")}<span data-k="fSend"></span></a></li></ul></div>
+    <div class="ft-c ft-con"><h2 data-k="fGT"></h2><ul><li><a href="mailto:${esc(S.contactEmail)}" dir="ltr">${icon("mail")}<span>${esc(S.contactEmail)}</span></a></li>${(S.phones || []).slice(0, 1).map(ph => `<li class="ft-ph"><a href="tel:${esc(ph.n)}" dir="ltr">${icon("phone")}<span>${esc(ph.show)}</span></a>${ph.wa ? `<a class="ft-ch" href="https://wa.me/${esc(ph.n.replace(/\D/g, ""))}" target="_blank" rel="noopener noreferrer" aria-label="${lang === "fa" ? "واتساپ" : "WhatsApp"}">${icon("chat")}${lang === "fa" ? "واتساپ" : "WhatsApp"}</a>` : ""}${ph.tg ? `<a class="ft-ch" href="https://t.me/${esc(ph.n)}" target="_blank" rel="noopener noreferrer" aria-label="${lang === "fa" ? "تلگرام" : "Telegram"}">${icon("telegram")}${lang === "fa" ? "تلگرام" : "Telegram"}</a>` : ""}</li>`).join("")}<li><span class="ft-t">${icon("pin")}<span data-k="fLoc"></span></span></li><li><a class="btn go ft-btn" href="contact.html">${icon("mail")}<span data-k="fSend"></span></a></li></ul></div>
     <nav class="ft-more" aria-label="${lang === "fa" ? "بخش‌های بیشتر" : "More pages"}">${[["blog.html", "nBlog"], ["notes.html", "ntT"], ["activity.html", "actT"], ["timeline.html", "tlT"], ["toolkit.html", "tkT"], ["directory.html", "dirT"], ["project.html", "projectsAll"], ["card.html", "dCard"], ["social.html", "nSocial"], ["resources.html", "nResources"]].map(([h, k]) => `<a href="${h}" data-k="${k}"></a>`).join("")}</nav>
     <div class="fsoc-row"><span class="fs" id="fsoc"></span></div></div>
-    <div class="fbar"><div class="wrap fx fbar-in"><div class="fbar-l"><p class="fcopy" data-k="fCopy"></p><p class="fmis" data-k="fSlogan"></p></div><nav class="fbar-r" aria-label="Legal"><a href="privacy.html" data-k="privacy"></a><a href="terms.html">${lang === "fa" ? "شرایط استفاده" : "Terms of Service"}</a><a href="faq.html" data-k="nFaq"></a><a href="blog.html" data-en="Articles">مقاله‌ها</a><a href="feedback.html" data-k="nFeedback"></a><a href="sitemap.xml">Sitemap</a></nav></div></div>`;
+    <div class="fbar"><div class="wrap fx fbar-in"><div class="fbar-l"><p class="fcopy" data-k="fCopy"></p><p class="fmis" data-k="fSlogan"></p></div><nav class="fbar-r" aria-label="Legal"><a href="privacy.html" data-k="privacy"></a><a href="terms.html">${lang === "fa" ? "شرایط استفاده" : "Terms of Service"}</a><a href="faq.html" data-k="nFaq"></a><a href="feedback.html" data-k="nFeedback"></a><a href="sitemap.xml">Sitemap</a></nav></div></div>`;
   try { /* custom pages from admin → footer "About" column */
     const pgs = (JSON.parse(localStorage.getItem("am-design") || "{}") || {}).pages, ul = $("#site-footer .ft-exp ul");
     const fl = (JSON.parse(localStorage.getItem("am-design") || "{}") || {}).footer_links, ul1 = $("#site-footer .ft-aca ul"), lg = localStorage.getItem("am-lang") === "en" ? "en" : "fa";
@@ -1043,10 +1043,13 @@ async function liveCourse(id, root, C0) {
   if (!SB.on() || !/^[\w-]+$/.test(id || "")) return;
   const L = LC[lang], q = encodeURIComponent(id);
   let course, lessons;
+  const why = (fa_msg, en_msg) => { const m = $("#cmsg", root), n = $(".cnote", root); const t = lang === "fa" ? fa_msg : en_msg; if (n) n.textContent = ""; if (m) { m.textContent = t; m.className = "fstatus err"; m.setAttribute("role", "alert"); } };
   try {
-    course = (await SB.rest(`courses?id=eq.${q}&select=id,title,summary`))[0]; if (!course) return;
+    course = (await SB.rest(`courses?id=eq.${q}&select=id,title,summary`))[0];
+    if (!course) { why("این دوره در پایگاه‌داده پیدا نشد. در پنل ادمین چک کن: دوره با همین شناسه (" + id + ") ساخته شده و وضعیتش «منتشرشده» است؟" + (SB.get() ? "" : " اگر منتشر شده، یک بار وارد حساب شو."), "This course was not found. In the admin panel check that a course with this id (" + id + ") exists and is set to Published." + (SB.get() ? "" : " If it is published, try signing in first.")); return; }
     lessons = await SB.rest(`lessons?course_id=eq.${q}&select=id,position,title,youtube_id,duration_sec&order=position`);
-  } catch (e) { return; }
+  } catch (e) { why("بارگذاری دوره از پایگاه‌داده خطا داد (" + String(e && e.message || e).replace(/^rest /, "کد ") + "). اگر تازه SQL زده‌ای چند ثانیه صبر کن و رفرش کن.", "Loading the course failed (" + String(e && e.message || e) + "). If you just ran SQL, wait a few seconds and refresh."); return; }
+  if (!lessons.length) { const n0 = $(".cnote", root); if (n0) n0.textContent = ""; }
   const ses = SB.get(); let enrolled = false, prog = {};
   if (ses) { try {
     enrolled = (await SB.rest(`enrollments?course_id=eq.${q}&select=course_id`)).length > 0;
@@ -1292,7 +1295,11 @@ function renderCourse() {
     <div class="cmq" aria-hidden="true"><div class="cmqt">${Array(4).fill(`<span>${esc(C.big)}</span>`).join("")}</div></div>
     <section class="csec"><span class="lbl">${esc(C.related)}</span><h2>${esc(C.more)}</h2><div class="grid">${rel}</div></section>`;
   { const sb = $("#csamp"), go = () => window.__cert && sb && window.__cert.mount(sb, { lang, name: lang === "fa" ? "نام دانشجو (نمونه)" : "Student Name (sample)", course: title, date: lang === "fa" ? "تاریخ صدور" : "Issue date", code: "CCA-SAMPLE", ok: true, sample: true, url: location.origin + location.pathname.replace(/[^/]*$/, "") + "verify.html?code=CCA-SAMPLE" }); if (window.__cert) go(); else { const sc = document.createElement("script"); sc.src = "assets/js/certs.js"; sc.onload = go; document.head.appendChild(sc); } }
-  $("#cenr").onclick = () => { $("#cmsg").textContent = C.soonMsg; $("#cmsg").className = "fstatus err"; };
+  { const bt = $("#cenr"), mg = $("#cmsg"), fa0 = lang === "fa";
+    const h = async () => { if (!SB.on()) { mg.textContent = C.soonMsg; mg.className = "fstatus err"; return; }
+      mg.textContent = fa0 ? "در حال بارگذاری دوره…" : "Loading the course…"; mg.className = "fstatus";
+      await liveCourse(c.id, root, C); if (bt.onclick !== h && !bt.disabled) { mg.textContent = ""; bt.click(); } };
+    bt.onclick = h; }
   liveCourse(c.id, root, C);
 }
 

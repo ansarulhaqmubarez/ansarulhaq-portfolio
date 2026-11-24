@@ -15,7 +15,6 @@
     var old = document.getElementById("bot"); if (old) old.remove();
     var l1 = document.createElement("link"); l1.rel = "stylesheet"; l1.href = "assets/css/bot2.css"; document.head.appendChild(l1);
     var s = document.createElement("script"); s.src = "assets/js/bot2.js"; document.head.appendChild(s);
-    var s2 = document.createElement("script"); s2.src = "assets/js/mini.js"; document.head.appendChild(s2);
   }
   /* v179: footer groups with icons + cookie settings (re-applied whenever the footer is re-rendered) */
   var P = {

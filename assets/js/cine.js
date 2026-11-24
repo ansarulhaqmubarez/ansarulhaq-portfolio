@@ -58,6 +58,7 @@
 
   /* 3b. motion bio video (own files, plays only on click; Persian and English versions) */
   function bio() {
+    return; /* v183: intro video removed from the site */
     var m = main(), k = L(), o = $("#bio"); if (PAGE !== "home" || !m) return; if (o && o.dataset.k === k) return; if (o) { var vv = $("video", o); if (vv && !vv.paused) return; o.remove(); }
     var ref = $("#acad"); if (!ref || ref.parentNode !== m) return; var fa = k === "fa", vl = k;
     var V = { fa: { src: "assets/video/bio.mp4", vtt: "assets/video/bio-fa.vtt", poster: "assets/video/bio-poster.jpg", t: "1:04", lab: "فارسی" }, en: { src: "assets/video/bio-en.mp4", vtt: "assets/video/bio-en.vtt", poster: "assets/video/bio-poster-en.jpg", t: "0:54", lab: "English" } };

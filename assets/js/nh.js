@@ -55,6 +55,30 @@
     };
   });
 
+  /* live courses from Supabase (published only, public read): shown first, with a working enroll link */
+  (function () {
+    var g = $("#cgrid"), tpl = g && g.querySelector("article"); if (!g || !tpl || !S.supabaseUrl || !S.supabaseAnonKey) return;
+    fetch(String(S.supabaseUrl).replace(/\/$/, "") + "/rest/v1/courses?select=id,title,summary,level&status=eq.published&order=created_at", { headers: { apikey: S.supabaseAnonKey, Accept: "application/json" } })
+      .then(function (r) { return r.ok ? r.json() : []; }).then(function (rows) {
+        if (!Array.isArray(rows) || !rows.length) return;
+        var LV = { beginner: ["مقدماتی", "Beginner"], intermediate: ["متوسط", "Intermediate"], advanced: ["پیشرفته", "Advanced"] };
+        function two(el, fa, en) { el.dataset.fa = fa; el.dataset.en = en; el.textContent = lang === "en" ? en : fa; }
+        rows.slice().reverse().forEach(function (c) {
+          if (!c || !/^[\w-]+$/.test(c.id || "")) return;
+          var a = tpl.cloneNode(true), t = c.title || {}, su = c.summary || {}, lv = LV[c.level] || LV.beginner;
+          a.dataset.c = "live"; a.dataset.live = "1";
+          var badge = a.querySelector(".absolute.top-3.end-3"); if (badge) { two(badge, "فعال", "Open"); badge.className = badge.className.replace("bg-[#07172D]", "bg-[#39A9E8]").replace("text-white", "text-[#07172D]"); }
+          var cat = a.querySelector(".absolute.top-3.start-3"); if (cat) two(cat, "دورهٔ فعال", "Live course");
+          var lvl = a.querySelector(".text-accx.text-xs, span.text-xs.font-medium"); if (lvl) two(lvl, lv[0], lv[1]);
+          var h = a.querySelector("h3"); if (h) two(h, t.fa || t.en || c.id, t.en || t.fa || c.id);
+          var pp = a.querySelector("p.text-mut"); if (pp) two(pp, su.fa || "", su.en || "");
+          var go = a.querySelector("a.btn"); if (go) { go.href = "course.html#" + encodeURIComponent(c.id); two(go, "ثبت‌نام رایگان و شروع درس‌ها", "Enrol free and start lessons"); }
+          g.insertBefore(a, g.firstChild);
+        });
+        var note = $("#courses .max-w-2xl p"); if (note) two(note, "این دوره‌ها همین حالا برای ثبت‌نام باز هستند. بقیه دوره‌های برنامه‌ریزی‌شده به‌زودی فعال می‌شوند.", "These courses are open for enrolment now. The other planned courses will open soon.");
+      }).catch(function () {});
+  })();
+
   /* contact form (Web3Forms public key, honeypot, consent) */
   var form = $("#form"), st = $("#fstatus");
   function say(fa, en, ok) { st.textContent = lang === "fa" ? fa : en; st.className = "text-sm min-h-[1.5rem] " + (ok ? "text-green-600" : "text-red-600"); }
@@ -90,12 +114,6 @@
     ["video", "design", "cs"].forEach(function (k) { (sk[k] || []).forEach(function (x) { if (words.indexOf(x[1]) < 0) words.push(x[1]); }); });
     var t = $("#mqT"); t.innerHTML = ""; for (var r = 0; r < 2; r++) words.forEach(function (w) { var sp = document.createElement("span"); sp.textContent = w; if (r) sp.setAttribute("aria-hidden", "true"); t.appendChild(sp); });
   }
-  /* motion bio video: language switch */
-  var BIO = { fa: ["assets/video/bio.mp4", "assets/video/bio-fa.vtt", "assets/video/bio-poster.jpg", "fa", "فارسی"], en: ["assets/video/bio-en.mp4", "assets/video/bio-en.vtt", "assets/video/bio-poster-en.jpg", "en", "English"] };
-  $$("[data-v]").forEach(function (b) { b.onclick = function () {
-    var v = $("#bioV"), d = BIO[b.dataset.v]; v.pause(); v.poster = d[2]; v.innerHTML = '<source src="' + d[0] + '" type="video/mp4"><track kind="captions" src="' + d[1] + '" srclang="' + d[3] + '" label="' + d[4] + '" default>'; v.load();
-    $$("[data-v]").forEach(function (x) { var on = x === b; x.setAttribute("aria-pressed", on ? "true" : "false"); x.classList.toggle("btn-p", on); x.classList.toggle("btn-o", !on); });
-  }; });
   /* QR dialog */
   var qd = $("#qrd");
   $("#qrBtn").onclick = function () {
@@ -110,6 +128,7 @@
   drawMq();
   var sm = store("am-mode"); applyTheme(sm === "dark" ? "dark" : "light");
   var sl = store("am-lang"); if (sl === "en") applyLang("en"); else { $("#langBtn").textContent = "EN"; drawList(); }
+  R.classList.add("l-ok");
   if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")) window.addEventListener("load", function () { navigator.serviceWorker.register("sw.js").catch(function () {}); });
   var cks = $("#ckSet"); if (cks) cks.onclick = function () { try { localStorage.removeItem("am-ck"); } catch (e) {} location.reload(); };
 })();

@@ -142,3 +142,47 @@
 .pc-n i{width:24px;height:24px;border-radius:50%;display:inline-grid;place-items:center;font-style:normal;font-size:12px;font-weight:900;color:#fff;flex:none}
 .pc-n-li i,.pc-n-lif i{background:#0A66C2}.pc-n-fb i{background:#1877F2}.pc-n-x i{background:#111}.pc-n-wa i{background:#128C4B}.pc-n-tg i{background:#1C7FB8}.pc-n-em i{background:#1F6FB5}
 .pc-stx{background:rgba(128,128,170,.12)!important;color:inherit!important;border:1px solid rgba(128,128,170,.5)!important;line-height:1.8}
+/* v182 certificates: 8 designs, own font pairing per design (site fonts only), one shared type scale for Persian and English */
+.pc{--s-k:clamp(11px,1.6cqi,13px);--s-g:clamp(13px,1.9cqi,16px);--s-n:clamp(28px,5.4cqi,48px);--s-c:clamp(18px,3.1cqi,28px);--s-m:clamp(11px,1.5cqi,13px);--adj:1;
+  --fd:"Farhang","Inter",sans-serif;--fb:"Inter","Farhang",sans-serif;--fm:"JetBrains Mono",ui-monospace,monospace;--fdw:800;--trk:.02em;--kt:uppercase;font-family:var(--fb)}
+.pc:lang(fa){--fd:"Farhang FA","Farhang",sans-serif;--fb:"Farhang FA","Farhang",sans-serif;--adj:1.08;--trk:0;--kt:none}
+.pc-k{font-family:var(--fb);font-size:calc(var(--s-k)*var(--adj));text-transform:var(--kt);letter-spacing:.16em}.pc:lang(fa) .pc-k{letter-spacing:0;font-weight:700}
+.pc-g{font-family:var(--fb);font-size:calc(var(--s-g)*var(--adj))}
+.pc .pc-n{font-family:var(--fd);font-weight:var(--fdw);font-size:calc(var(--s-n)*var(--adj));letter-spacing:var(--trk);line-height:1.25}
+.pc .pc-c{font-family:var(--fd);font-size:calc(var(--s-c)*var(--adj));line-height:1.35}
+.pc-m dt,.pc-sl,.pc-note,.pc-qr,.pc-seal span{font-size:calc(var(--s-m)*var(--adj))}
+.pc-m dd{font-family:var(--fm);font-size:calc(var(--s-m)*var(--adj)*1.1)}.pc:lang(fa) .pc-m dd{font-family:var(--fb)}
+.pc-bc span{font-family:var(--fm)}
+/* icon badge + kind icon */
+.pc-ic{margin:0 0 8px;display:flex;justify-content:center}
+.pc-ib{display:inline-grid;place-items:center;width:clamp(42px,7cqi,58px);height:clamp(42px,7cqi,58px);border-radius:50%;color:var(--gold);border:2px solid var(--ln);background:color-mix(in srgb,var(--gold) 10%,transparent)}
+.pc-ib svg{width:55%;height:55%}.pc-ki{display:inline-block;vertical-align:-2px;margin-inline-end:6px;color:var(--gold)}
+.pc-seal svg{width:clamp(64px,11cqi,84px);height:auto}
+/* per design font pairing */
+.pc-classic{--fdw:800;--trk:.03em}
+.pc-modern{--fd:"Inter","Farhang",sans-serif;--fdw:800;--trk:-.02em}.pc-modern:lang(fa){--fd:"Farhang FA","Farhang",sans-serif;--fdw:700}
+.pc-cinema{--fdw:900;--trk:.06em}.pc-cinema .pc-c{text-transform:uppercase;letter-spacing:.1em}.pc-cinema:lang(fa) .pc-c{text-transform:none;letter-spacing:0}
+.pc-royal{--fdw:800;--trk:.05em}.pc-royal .pc-c{font-variant:small-caps;letter-spacing:.08em}.pc-royal:lang(fa) .pc-c{letter-spacing:0}
+.pc-tech{--fd:"JetBrains Mono",ui-monospace,monospace;--fb:"JetBrains Mono",ui-monospace,monospace;--fdw:500;--trk:-.01em}.pc-tech:lang(fa){--fd:"Farhang FA","Farhang",sans-serif;--fb:"Farhang FA","Farhang",sans-serif;--fdw:700}
+.pc-tech .pc-n{font-size:calc(var(--s-n)*.82*var(--adj))}
+/* scholar: emerald, double rule */
+.pc-scholar{--bg:#F4FBF7;--ink:#0C3A2D;--mute:#3D5E52;--acc:#0F7B5F;--gold:#9A7414;--ln:#0F7B5F;--fdw:600;--trk:.01em}
+.pc-scholar .pc-frame{border:3px double var(--ln)}.pc-scholar .pc-in{background:radial-gradient(circle at 50% 0,#fff,#F4FBF7 70%)}.pc-scholar .pc-n{color:var(--acc)}
+/* studio: warm poster band */
+.pc-studio{--bg:#FFF6EF;--ink:#2A0F2E;--mute:#5E4560;--acc:#C2255C;--gold:#C2255C;--ln:#F59E0B;--fdw:900;--trk:.01em;border-radius:22px}
+.pc-studio .pc-frame{border:0;padding:0}.pc-studio .pc-in{border:0;border-radius:16px;border-top:clamp(14px,3cqi,26px) solid transparent;border-image:linear-gradient(90deg,#C2255C,#F59E0B,#39A9E8) 1;background:var(--bg)}
+.pc-studio .pc-n{font-size:calc(var(--s-n)*1.08*var(--adj));color:var(--acc)}.pc-studio .pc-o{display:none}
+/* minimal: thin line, light weight */
+.pc-minimal{--bg:#fff;--ink:#0A1D38;--mute:#53667E;--acc:#0B4F8A;--gold:#0B4F8A;--ln:#D8E1EA;--fd:"Inter","Farhang",sans-serif;--fdw:300;--trk:.04em;box-shadow:0 8px 28px rgba(7,23,45,.08);border-radius:6px}
+.pc-minimal:lang(fa){--fd:"Farhang FA","Farhang",sans-serif;--fdw:500}.pc-minimal .pc-frame{border:1px solid var(--ln)}.pc-minimal .pc-in{border:0}.pc-minimal .pc-o{display:none}
+.pc-minimal .pc-ib{border-width:1px;background:none}
+/* dark designs: icon contrast */
+.pc-cinema .pc-ib,.pc-royal .pc-ib,.pc-tech .pc-ib{background:rgba(255,255,255,.06)}
+@media print{.pc-ib{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+
+.pc-sh .btn i{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;color:#fff;font-style:normal}
+.pc-sh .btn i svg{width:14px;height:14px}.pc-n-x i{background:#111}
+.pc-aw{max-width:46ch;margin:4px auto 10px;line-height:1.8;color:var(--mute)}.pc-modern .pc-aw,.pc-tech .pc-aw{margin-inline:0}
+/* share buttons reuse the class name pc-n; keep them at normal button size */
+.pc-sh .btn.pc-n{font-size:14px;font-weight:700;line-height:1.3;margin:0;letter-spacing:0;color:var(--ink,inherit)}
+.pc-sh .btn.pc-n i{font-size:0}

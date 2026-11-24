@@ -164,3 +164,4 @@ body[data-page=certs] main#top,body[data-page=certificates] main#top{min-height:
 .fti2{flex:none;color:#39A9E8;vertical-align:-3px;margin-inline-end:8px}#site-footer .ft-c h2{display:flex;align-items:center}#site-footer .ft-c li a,.fbar-r a{display:inline-flex;align-items:center}
 .fbar-r{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center}.ft-ckb{font:inherit;color:inherit;background:none;border:1px solid var(--line);border-radius:999px;padding:6px 14px;min-height:32px;display:inline-flex;align-items:center;cursor:pointer}.ft-ckb:hover{border-color:#39A9E8}
 .ann>span{flex:1 1 auto;min-width:0}.ann>a{flex:none}.ann .ann-ph{display:inline-flex;align-items:center;gap:6px;text-decoration:none;font-weight:600;margin-inline-start:6px;padding:0 4px;min-height:24px}.ann .ann-ph svg{color:#39A9E8}
+.ft-ch{display:inline-flex;align-items:center;gap:6px}.ft-ch svg{width:15px;height:15px}
