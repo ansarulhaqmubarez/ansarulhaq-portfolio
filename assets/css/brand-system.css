@@ -154,3 +154,52 @@ body>header .max-w-7xl>a img{max-width:100%;height:auto}
  body>header .max-w-7xl>div>button{width:38px!important;min-width:38px!important;height:42px!important}
  body>header #srchBtn{display:none!important}
 }
+
+/* Consistent icon alignment: keep inline symbols visible, sharp and evenly spaced. */
+svg.ico,svg.ic{display:inline-block;flex:0 0 auto;vertical-align:middle}
+.btn,button.btn,a.btn{align-items:center;gap:.55em}
+.btn>svg.ico,.btn>svg.ic{width:1.2em;height:1.2em}
+
+/* CineCode motion identity: a slow aurora, a gently floating work gallery, and scroll reveals. */
+@keyframes cc-aurora-drift{
+  0%,100%{transform:translate3d(-2%,0,0) scale(1);opacity:.62}
+  50%{transform:translate3d(2%,2%,0) scale(1.08);opacity:.88}
+}
+@keyframes cc-gallery-float{
+  0%,100%{transform:translateY(0)}
+  50%{transform:translateY(-6px)}
+}
+@keyframes cc-badge-float{
+  0%,100%{transform:translateY(0)}
+  50%{transform:translateY(-4px)}
+}
+@keyframes cc-icon-glint{
+  0%,100%{filter:drop-shadow(0 0 0 rgba(105,209,244,0))}
+  50%{filter:drop-shadow(0 0 5px rgba(105,209,244,.36))}
+}
+body:not([data-page]) #main>section:first-of-type{isolation:isolate}
+body:not([data-page]) #main>section:first-of-type::before{
+  content:"";position:absolute;inset:-18% -12% 18%;z-index:0;pointer-events:none;
+  background:radial-gradient(ellipse at 76% 23%,rgba(49,167,216,.24),transparent 34%),
+    radial-gradient(ellipse at 13% 83%,rgba(61,85,200,.20),transparent 35%);
+  filter:blur(22px);animation:cc-aurora-drift 18s ease-in-out infinite
+}
+body:not([data-page]) #main>section:first-of-type>div:first-child{position:relative;z-index:1}
+body:not([data-page]) #main>section:first-of-type .max-w-md{animation:cc-gallery-float 8s ease-in-out infinite}
+body:not([data-page]) #main>section:first-of-type .max-w-md>div.absolute.rounded-2xl{animation:cc-badge-float 6s ease-in-out infinite}
+body:not([data-page]) #main>section:first-of-type .max-w-md>div.absolute.rounded-2xl:last-child{animation-delay:-2.7s}
+body:not([data-page]) #main>section:first-of-type .absolute.rounded-2xl .ico{animation:cc-icon-glint 4s ease-in-out infinite}
+#main>.cc-motion-pending{opacity:0;transform:translateY(16px);transition:opacity .65s ease,transform .65s cubic-bezier(.2,.7,.2,1)}
+#main>.cc-motion-in{opacity:1;transform:translateY(0)}
+@media(hover:hover){
+  body:not([data-page]) #main>section:first-of-type .max-w-md img{transition:transform .65s cubic-bezier(.2,.7,.2,1),filter .4s ease}
+  body:not([data-page]) #main>section:first-of-type .max-w-md:hover img{filter:saturate(1.08)}
+  .btn:hover>svg.ico,.btn:hover>svg.ic{transform:translateX(-2px)}
+}
+@media(prefers-reduced-motion:reduce){
+  body:not([data-page]) #main>section:first-of-type::before,
+  body:not([data-page]) #main>section:first-of-type .max-w-md,
+  body:not([data-page]) #main>section:first-of-type .max-w-md>div.absolute.rounded-2xl,
+  body:not([data-page]) #main>section:first-of-type .absolute.rounded-2xl .ico{animation:none!important}
+  #main>.cc-motion-pending{opacity:1;transform:none;transition:none}
+}
