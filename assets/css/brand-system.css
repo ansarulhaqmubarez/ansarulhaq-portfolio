@@ -203,3 +203,6 @@ body:not([data-page]) #main>section:first-of-type .absolute.rounded-2xl .ico{ani
   body:not([data-page]) #main>section:first-of-type .absolute.rounded-2xl .ico{animation:none!important}
   #main>.cc-motion-pending{opacity:1;transform:none;transition:none}
 }
+
+/* Utility states must win over the general SVG sizing rule (theme icons, menu icons). */
+svg.ico.hidden,svg.ic.hidden{display:none!important}
