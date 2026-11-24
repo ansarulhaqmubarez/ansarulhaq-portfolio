@@ -138,3 +138,19 @@ select option{background:var(--surface);color:var(--ink)}
   html{scroll-behavior:auto}
   *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
+
+/* Narrow-screen and dark-hero corrections found during the live review. */
+main .text-white h1,main .text-white h2,main .text-white h3,main .bg-dk h1,main .bg-dk h2,main .bg-dk h3{color:#FFFFFF!important}
+html,body{width:100%;max-width:100%;overflow-x:hidden!important}
+body>* ,main,#main,main>section,header,footer{min-width:0;max-width:100%}
+img,video,iframe{max-width:100%}
+body>header .max-w-7xl{width:100%;min-width:0;max-width:1160px}
+body>header .max-w-7xl>a{min-width:0;max-width:min(42vw,190px)}
+body>header .max-w-7xl>a img{max-width:100%;height:auto}
+@media(max-width:360px){
+ body>header .max-w-7xl{padding-inline:10px!important;gap:3px!important}
+ body>header .max-w-7xl>a img{width:min(118px,37vw);height:auto}
+ body>header .max-w-7xl>div{gap:2px!important}
+ body>header .max-w-7xl>div>button{width:38px!important;min-width:38px!important;height:42px!important}
+ body>header #srchBtn{display:none!important}
+}
