@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Run: bash tools/set-domain.sh https://your-domain  (replaces example.com everywhere) -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/works.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/portfolio.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/presskit.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/course.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/verify.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/academy.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/cv.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/privacy.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/library.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/resources.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/about.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/services.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/directory.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/timeline.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/blog.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/notes.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/activity.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/toolkit.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/graphics.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/certificates.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/reels.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/terms.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/card.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/social.html</loc></url>
+  <url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/lab.html</loc></url>
+<url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/contact.html</loc></url>
+<url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/faq.html</loc></url>
+<url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/feedback.html</loc></url>
+<url><loc>https://delicate-frost-e2d6.cinecode.workers.dev/project.html</loc></url>
+</urlset>

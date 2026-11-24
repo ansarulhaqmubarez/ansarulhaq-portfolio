@@ -1,0 +1,1 @@
+Your certificate is ready: {{course_title}} - CineCode Academy

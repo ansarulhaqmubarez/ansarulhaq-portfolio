@@ -1,0 +1,5 @@
+FARHANG fonts (Farhang 2 Pro, FontIran) are proprietary software.
+Laws of use: www.fontiran.com
+This set of fonts is used in this project under the license code: (.....)
+OWNER: replace (.....) above with your 6-digit FontIran license code and keep this file next to the fonts.
+Do NOT upload the original purchased zip, the .ttf files or the variable fonts to a public place. Only the web fonts (.woff2) in this folder are served by the site.

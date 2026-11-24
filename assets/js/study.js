@@ -1,0 +1,59 @@
+/* study.js: private study planner. Data stays in this browser (localStorage). Never put passwords or ID numbers here. */
+(function () {
+  "use strict";
+  var KEY = "am-study", R = document.documentElement, st;
+  var fa = function () { return R.lang === "fa"; };
+  function el(t, c, x) { var e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; }
+  function load() { try { st = JSON.parse(localStorage.getItem(KEY) || "null"); } catch (e) { st = null; } if (!st || typeof st !== "object") st = {}; ["uni", "course", "task", "exam", "score", "log"].forEach(function (k) { if (!Array.isArray(st[k])) st[k] = []; }); }
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} }
+  function today() { return new Date().toISOString().slice(0, 10); }
+  function log(m) { st.log.unshift({ d: today(), m: m }); st.log = st.log.slice(0, 100); }
+  function uid() { return Math.random().toString(36).slice(2, 9); }
+  var CONF = { fa: [["ok", "تأییدشده"], ["seen", "مشاهده‌شده"], ["need", "نیازمند تأیید"], ["unk", "نامشخص"], ["temp", "موقت/ناقص"]], en: [["ok", "Confirmed"], ["seen", "Observed"], ["need", "Needs confirmation"], ["unk", "Unknown"], ["temp", "Temporary / partial"]] };
+  var TS = { fa: [["new", "تازه"], ["doing", "در حال انجام"], ["done", "تکمیل‌شده"]], en: [["new", "New"], ["doing", "In progress"], ["done", "Done"]] };
+  function name(list, k) { var f = fa() ? 0 : 0; for (var i = 0; i < list.length; i++) if (list[i][0] === k) return list[i][1]; return k; }
+  function days(d) { if (!d) return null; var a = new Date(d + "T00:00:00"), b = new Date(today() + "T00:00:00"); return Math.round((a - b) / 864e5); }
+
+  function build() {
+    load(); var f = fa(), host = document.getElementById("study"); if (!host) return; host.textContent = "";
+    var T = f ? { h: "برنامه‌ریز درسی من", p: "همهٔ داده‌ها فقط در همین مرورگر ذخیره می‌شوند. رمز، کد ورود یا شمارهٔ شناسایی ننویس.", na: "ثبت نشده", uni: "دانشگاه‌ها", course: "مضمون‌ها", task: "وظایف", exam: "امتحان‌ها", score: "نتایج", rep: "گزارش هفتگی", hist: "تاریخچهٔ تغییرات", add: "افزودن", del: "حذف", exp: "خروجی پشتیبان", imp: "وارد کردن پشتیبان", clr: "پاک‌کردن همه", cf: "وضعیت اعتبار", ttl: "عنوان", dt: "تاریخ", ur: "دانشگاه", cr: "مضمون", sc: "نمره", fld: "رشته", sem: "سمستر", note: "یادداشت منبع", ty: "نوع نتیجه", off: "رسمی", tmp: "موقت", gen: "ساخت گزارش", cp: "کپی گزارش", ok: "کپی شد", sure: "همه داده‌ها پاک شود؟", left: "روز مانده", over: "عقب‌افتاده", nm: "نام" } : { h: "My study planner", p: "All data stays only in this browser. Do not write passwords, login codes or ID numbers.", na: "Not recorded", uni: "Universities", course: "Courses", task: "Tasks", exam: "Exams", score: "Results", rep: "Weekly report", hist: "Change history", add: "Add", del: "Delete", exp: "Export backup", imp: "Import backup", clr: "Clear all", cf: "Verification status", ttl: "Title", dt: "Date", ur: "University", cr: "Course", sc: "Score", fld: "Field", sem: "Semester", note: "Source note", ty: "Result type", off: "Official", tmp: "Temporary", gen: "Create report", cp: "Copy report", ok: "Copied", sure: "Clear all data?", left: "days left", over: "overdue", nm: "Name" };
+    var w = el("div", "sp"); var h1 = el("h1", "", T.h); w.appendChild(h1); w.appendChild(el("p", "sp-p", T.p));
+    function reload() { save(); build(); }
+    function opts(list) { return list.map(function (o) { return '<option value="' + o[0] + '">' + o[1] + "</option>"; }).join(""); }
+    function uniOpts() { return '<option value="">—</option>' + st.uni.map(function (u) { return '<option value="' + u.id + '">' + esc(u.n) + "</option>"; }).join(""); }
+    function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+    function uname(id) { var u = st.uni.filter(function (x) { return x.id === id; })[0]; return u ? u.n : ""; }
+
+    /* dashboard: never shows a made-up zero */
+    var open = st.task.filter(function (t) { return t.s !== "done"; }), near = open.filter(function (t) { var d = days(t.d); return d !== null && d >= 0 && d <= 7; }), late = open.filter(function (t) { var d = days(t.d); return d !== null && d < 0; });
+    var ex = st.exam.filter(function (e) { var d = days(e.d); return d !== null && d >= 0; }).sort(function (a, b) { return a.d < b.d ? -1 : 1; });
+    var D = [[T.uni, st.uni.length], [T.course, st.course.length], [T.task, st.task.length ? open.length + " / " + st.task.length : 0], [T.exam, ex.length ? ex[0].t + " · " + days(ex[0].d) + " " + T.left : 0], [T.score, st.score.length]];
+    var dash = el("div", "sp-d"); D.forEach(function (d) { var c = el("div", "sp-c"); c.appendChild(el("span", "", d[0])); c.appendChild(el("b", "", d[1] === 0 ? T.na : String(d[1]))); dash.appendChild(c); }); if (late.length) { var lc = el("div", "sp-c bad"); lc.appendChild(el("span", "", T.over)); lc.appendChild(el("b", "", String(late.length))); dash.appendChild(lc); } w.appendChild(dash);
+
+    function section(title, kind, fields, rowFn) {
+      var s = el("section", "sp-s"); s.appendChild(el("h2", "", title)); var fm = el("form", "sp-f"); fm.innerHTML = fields; var sub = el("button", "btn go", T.add); sub.type = "submit"; fm.appendChild(sub);
+      fm.onsubmit = function (e) { e.preventDefault(); var o = { id: uid() }; [].forEach.call(fm.querySelectorAll("[name]"), function (i) { o[i.name] = i.value.trim(); }); if (!(o.n || o.t || o.c)) return; st[kind].push(o); log(title + ": +" + (o.n || o.t || o.c)); reload(); };
+      s.appendChild(fm); var ul = el("ul", "sp-l"); st[kind].forEach(function (o) { var li = el("li"); var row = el("div", "sp-r"); row.innerHTML = rowFn(o); li.appendChild(row); var b = el("button", "btn", T.del); b.type = "button"; b.onclick = function () { st[kind] = st[kind].filter(function (z) { return z.id !== o.id; }); log(title + ": −" + (o.n || o.t || o.c)); reload(); }; li.appendChild(b); ul.appendChild(li); }); s.appendChild(ul); w.appendChild(s);
+    }
+    var CF = CONF[f ? "fa" : "en"];
+    section(T.uni, "uni", '<input name="n" placeholder="' + T.nm + '" maxlength="60" aria-label="' + T.nm + '" required><input name="fld" placeholder="' + T.fld + '" maxlength="60" aria-label="' + T.fld + '"><input name="sem" placeholder="' + T.sem + '" maxlength="20" aria-label="' + T.sem + '">', function (o) { return "<b>" + esc(o.n) + "</b> " + esc([o.fld, o.sem].filter(Boolean).join(" · ")); });
+    section(T.course, "course", '<input name="n" placeholder="' + T.nm + '" maxlength="80" aria-label="' + T.nm + '" required><select name="u" aria-label="' + T.ur + '">' + uniOpts() + '</select><select name="cf" aria-label="' + T.cf + '">' + opts(CF) + "</select>", function (o) { return "<b>" + esc(o.n) + "</b> " + esc(uname(o.u)) + ' <span class="sp-tag">' + esc(name(CF, o.cf)) + "</span>"; });
+    section(T.task, "task", '<input name="t" placeholder="' + T.ttl + '" maxlength="80" aria-label="' + T.ttl + '" required><select name="u" aria-label="' + T.ur + '">' + uniOpts() + '</select><input name="d" type="date" aria-label="' + T.dt + '"><select name="s" aria-label="status">' + opts(TS[f ? "fa" : "en"]) + '</select><select name="cf" aria-label="' + T.cf + '">' + opts(CF) + "</select>", function (o) { var d = days(o.d); return "<b>" + esc(o.t) + "</b> " + esc(uname(o.u)) + " " + esc(o.d || "") + (d !== null && o.s !== "done" ? " (" + (d < 0 ? T.over : d + " " + T.left) + ")" : "") + ' <span class="sp-tag">' + esc(name(TS[f ? "fa" : "en"], o.s)) + '</span> <span class="sp-tag">' + esc(name(CF, o.cf)) + "</span>"; });
+    section(T.exam, "exam", '<input name="t" placeholder="' + T.ttl + '" maxlength="80" aria-label="' + T.ttl + '" required><select name="u" aria-label="' + T.ur + '">' + uniOpts() + '</select><input name="d" type="date" aria-label="' + T.dt + '"><select name="cf" aria-label="' + T.cf + '">' + opts(CF) + "</select>", function (o) { var d = days(o.d); return "<b>" + esc(o.t) + "</b> " + esc(uname(o.u)) + " " + esc(o.d || "") + (d !== null && d >= 0 ? " (" + d + " " + T.left + ")" : "") + ' <span class="sp-tag">' + esc(name(CF, o.cf)) + "</span>"; });
+    section(T.score, "score", '<input name="c" placeholder="' + T.cr + '" maxlength="80" aria-label="' + T.cr + '" required><input name="v" placeholder="' + T.sc + '" maxlength="12" aria-label="' + T.sc + '"><select name="k" aria-label="' + T.ty + '"><option value="off">' + T.off + '</option><option value="tmp">' + T.tmp + "</option></select>", function (o) { return "<b>" + esc(o.c) + "</b> " + esc(o.v || T.na) + ' <span class="sp-tag">' + esc(o.k === "off" ? T.off : T.tmp) + "</span>"; });
+
+    var rs = el("section", "sp-s"); rs.appendChild(el("h2", "", T.rep)); var out = el("pre", "sp-pre"); rs.appendChild(btn(T.gen, "btn go", function () {
+      var done = st.task.filter(function (t) { return t.s === "done"; }), nx = open.filter(function (t) { return t.d; }).sort(function (a, b) { return a.d < b.d ? -1 : 1; })[0];
+      var L = f ? ["گزارش هفتگی — " + today(), "تکمیل‌شده: " + (done.length || T.na), "عقب‌مانده: " + (late.length ? late.map(function (t) { return t.t; }).join("، ") : T.na), "نزدیک‌ترین موعد: " + (nx ? nx.t + " (" + nx.d + ")" : T.na), "امتحان بعدی: " + (ex[0] ? ex[0].t + " (" + ex[0].d + ")" : T.na), "قدم بعدی: " + (nx ? nx.t : T.na)] : ["Weekly report — " + today(), "Completed: " + (done.length || T.na), "Behind: " + (late.length ? late.map(function (t) { return t.t; }).join(", ") : T.na), "Nearest deadline: " + (nx ? nx.t + " (" + nx.d + ")" : T.na), "Next exam: " + (ex[0] ? ex[0].t + " (" + ex[0].d + ")" : T.na), "Next step: " + (nx ? nx.t : T.na)];
+      out.textContent = L.join("\n"); })); rs.appendChild(btn(T.cp, "btn", function () { if (navigator.clipboard && out.textContent) navigator.clipboard.writeText(out.textContent).then(function () { out.textContent += "\n(" + T.ok + ")"; }, function () {}); })); rs.appendChild(out); w.appendChild(rs);
+    var hs = el("section", "sp-s"); hs.appendChild(el("h2", "", T.hist)); var hl = el("ul", "sp-l"); st.log.slice(0, 15).forEach(function (l) { hl.appendChild(el("li", "", l.d + " · " + l.m)); }); if (!st.log.length) hl.appendChild(el("li", "", T.na)); hs.appendChild(hl); w.appendChild(hs);
+    var bs = el("section", "sp-s"); bs.appendChild(btn(T.exp, "btn", function () { var u = URL.createObjectURL(new Blob([JSON.stringify(st, null, 1)], { type: "application/json" })), a = el("a"); a.href = u; a.download = "study-backup-" + today() + ".json"; document.body.appendChild(a); a.click(); a.remove(); setTimeout(function () { URL.revokeObjectURL(u); }, 3000); }));
+    var fi = el("input"); fi.type = "file"; fi.accept = "application/json"; fi.setAttribute("aria-label", T.imp); fi.onchange = function () { var fl = fi.files && fi.files[0]; if (!fl) return; var r = new FileReader(); r.onload = function () { try { var o = JSON.parse(r.result); if (o && typeof o === "object") { st = o; load2(); log("import"); reload(); } } catch (e) {} }; r.readAsText(fl); }; bs.appendChild(fi);
+    bs.appendChild(btn(T.clr, "btn", function () { if (confirm(T.sure)) { st = {}; try { localStorage.removeItem(KEY); } catch (e) {} build(); } })); w.appendChild(bs);
+    host.appendChild(w);
+    function btn(t, c, fn) { var b = el("button", c, t); b.type = "button"; b.onclick = fn; return b; }
+    function load2() { ["uni", "course", "task", "exam", "score", "log"].forEach(function (k) { if (!Array.isArray(st[k])) st[k] = []; }); }
+  }
+  function go() { build(); new MutationObserver(function () { build(); }).observe(R, { attributes: true, attributeFilter: ["lang"] }); }
+  if (window.SITE) { document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", go) : go(); } else addEventListener("load", go);
+})();

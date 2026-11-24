@@ -1,0 +1,1 @@
+You are enrolled: {{course_title}} - CineCode Academy

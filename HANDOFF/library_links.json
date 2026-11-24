@@ -1,0 +1,5222 @@
+[
+{
+"n": 1,
+"name": "هوش مصنوعی و ابزارهای هوشمند",
+"items": [
+{
+"t": "Futurepedia",
+"d": "یکی از بزرگ‌ترین دایرکتوری‌های ابزارهای هوش مصنوعی است که روزانه به‌روزرسانی می‌شود.",
+"u": "https://www.futurepedia.io/",
+"official": false
+},
+{
+"t": "There's An AI For That",
+"d": "یک موتور جستجوی هوشمند است که برای هر نیاز یا شغلی، بهترین ابزار هوش مصنوعی را معرفی می‌کند.",
+"u": "https://theresanaiforthat.com/",
+"official": false
+},
+{
+"t": "Hugging Face",
+"d": "مهم‌ترین جامعه و مخزن متن‌باز برای مدل‌های یادگیری ماشین و هوش مصنوعی است.",
+"u": "https://huggingface.co/",
+"official": false
+},
+{
+"t": "OpenAI",
+"d": "سایت رسمی سازنده ChatGPT و DALL-E است که مقالات علمی و ابزارهای پیشرو را ارائه می‌دهد.",
+"u": "https://openai.com/",
+"official": false
+},
+{
+"t": "Google AI",
+"d": "پورتال رسمی گوگل برای دسترسی به جدیدترین تحقیقات، ابزارها و آموزش‌های هوش مصنوعی است.",
+"u": "https://ai.google/",
+"official": false
+},
+{
+"t": "Papers With Code",
+"d": "مقالات علمی جدید هوش مصنوعی را همراه با کدهای اجرایی آن‌ها منتشر می‌کند.",
+"u": "https://paperswithcode.com/",
+"official": false
+},
+{
+"t": "Midjourney",
+"d": "یکی از قدرتمندترین هوش مصنوعی‌ها برای تولید تصاویر هنری و بسیار باکیفیت است.",
+"u": "https://www.midjourney.com/",
+"official": false
+},
+{
+"t": "Leonardo.Ai",
+"d": "پلتفرمی عالی با اعتبار روزانه رایگان برای ساخت تصاویر گرافیکی، مدل‌های سه‌بعدی و هنر دیجیتال است.",
+"u": "https://leonardo.ai/",
+"official": false
+},
+{
+"t": "Runway",
+"d": "ابزار پیشرفته هوش مصنوعی برای ساخت و ویرایش حرفه‌ای ویدیو است.",
+"u": "https://runwayml.com/",
+"official": false
+},
+{
+"t": "ElevenLabs",
+"d": "بهترین هوش مصنوعی برای تبدیل متن به گفتار طبیعی و شبیه‌سازی صدا به زبان‌های مختلف است.",
+"u": "https://elevenlabs.io/",
+"official": false
+},
+{
+"t": "Perplexity AI",
+"d": "یک موتور جستجوی مبتنی بر هوش مصنوعی است که پاسخ‌ها را همراه با منابع دقیق علمی ارائه می‌دهد.",
+"u": "https://www.perplexity.ai/",
+"official": false
+},
+{
+"t": "Gamma",
+"d": "ابزاری هوشمند برای ساخت سریع اسلایدها، ارائه‌ها و صفحات وب تنها با نوشتن یک موضوع است.",
+"u": "https://gamma.app/",
+"official": false
+},
+{
+"t": "Claude",
+"d": "یکی از هوش مصنوعی‌های بسیار قدرتمند برای تحلیل متن، نگارش و برنامه‌نویسی است.",
+"u": "https://claude.ai/",
+"official": false
+},
+{
+"t": "Consensus",
+"d": "یک موتور جستجوی هوش مصنوعی است که پاسخ سوالات را مستقیماً از دل مقالات علمی استخراج می‌کند.",
+"u": "https://consensus.app/",
+"official": false
+},
+{
+"t": "Elicit",
+"d": "دستیار پژوهشی هوش مصنوعی است که به خلاصه‌سازی و تحلیل مقالات دانشگاهی کمک می‌کند.",
+"u": "https://elicit.com/",
+"official": false
+},
+{
+"t": "Suno",
+"d": "ابزاری شگفت‌انگیز برای ساخت موسیقی و آهنگ کامل همراه با متن و صدای خواننده است.",
+"u": "https://suno.com/",
+"official": false
+},
+{
+"t": "Luma Dream Machine",
+"d": "هوش مصنوعی پیشرفته برای تبدیل متن و عکس به ویدیوهای سینمایی و واقع‌گرایانه است.",
+"u": "https://lumalabs.ai/dream-machine",
+"official": false
+},
+{
+"t": "Adobe Firefly",
+"d": "ابزار رسمی هوش مصنوعی ادوبی برای تولید تصویر و افکت‌های گرافیکی است.",
+"u": "https://firefly.adobe.com/",
+"official": false
+},
+{
+"t": "Remove.bg",
+"d": "سریع‌ترین ابزار هوش مصنوعی برای حذف خودکار پس‌زمینه تصاویر در چند ثانیه است.",
+"u": "https://www.remove.bg/",
+"official": false
+},
+{
+"t": "Codeium",
+"d": "یک دستیار هوشمند و رایگان برای تکمیل خودکار کدها در محیط‌های برنامه‌نویسی است.",
+"u": "https://codeium.com/",
+"official": false
+},
+{
+"t": "NotebookLM (Google)",
+"d": "ابزار شگفت‌انگیز گوگل که جزوات و فایل‌های PDF شما را می‌خواند و خلاصه، سوال و پادکست صوتی می‌سازد.",
+"u": "https://notebooklm.google.com/",
+"official": false
+},
+{
+"t": "Poe",
+"d": "پلتفرمی که دسترسی رایگان به چندین مدل هوش مصنوعی مختلف را در یک محیط ساده فراهم می‌کند.",
+"u": "https://poe.com/",
+"official": false
+},
+{
+"t": "Phind",
+"d": "یک موتور جستجوی هوش مصنوعی که به طور ویژه برای پاسخ به سوالات برنامه‌نویسی و فنی طراحی شده است.",
+"u": "https://play.google.com/store/apps/details?id=com.phind.PhindMobileApp&hl=fa",
+"official": false
+},
+{
+"t": "Blackbox AI",
+"d": "دستیار هوش مصنوعی تخصصی برای نوشتن، اصلاح و توضیح کدهای برنامه‌نویسی است.",
+"u": "https://www.blackbox.ai/",
+"official": false
+},
+{
+"t": "Ideogram",
+"d": "هوش مصنوعی قدرتمند برای تولید تصاویر گرافیکی همراه با توانایی نوشتن دقیق متن داخل تصویر است.",
+"u": "https://ideogram.ai/",
+"official": false
+},
+{
+"t": "Cleanvoice AI",
+"d": "ابزاری هوشمند برای حذف نویز، نفس‌نفس زدن و صداهای اضافه از فایل‌های ضبط شده پادکست و ویدیو است.",
+"u": "https://cleanvoice.ai/",
+"official": false
+},
+{
+"t": "Excalidraw",
+"d": "یک تخته سفید آنلاین و رایگان برای رسم نمودارها، فلوچارت‌ها و ایده‌پردازی با ظاهر دستی است.",
+"u": "https://excalidraw.com/",
+"official": false
+},
+{
+"t": "12ft.io",
+"d": "ابزاری کاربردی برای مطالعه مقالات خبری و آموزشی بدون تبلیغات مزاحم و پنجره‌های مسدودکننده است.",
+"u": "https://12ft.io/",
+"official": true
+},
+{
+"t": "Krea AI",
+"d": "هوش مصنوعی شگفت‌انگیز برای تولید تصویر در لحظه (Real-time) و افزایش کیفیت عکس‌های تار است.",
+"u": "https://www.krea.ai/",
+"official": false
+},
+{
+"t": "Haiper AI",
+"d": "ابزاری رایگان برای ساخت ویدیوهای کوتاه و خلاقانه با هوش مصنوعی از روی متن و عکس است.",
+"u": "https://haiper.ai/",
+"official": false
+},
+{
+"t": "Udio",
+"d": "پلتفرم هوش مصنوعی برای ساخت آهنگ‌ها و موسیقی‌های باکیفیت در سبک‌های مختلف است.",
+"u": "https://www.udio.com/",
+"official": false
+},
+{
+"t": "Napkin AI",
+"d": "متن‌های شما را به صورت خودکار به نمودارها، اینفوگرافیک‌ها و اشکال بصری حرفه‌ای تبدیل می‌کند.",
+"u": "https://www.napkin.ai/",
+"official": false
+},
+{
+"t": "Tome",
+"d": "ابزار هوش مصنوعی برای ساخت داستان‌های بصری و اسلایدهای ارائه مدرن است.",
+"u": "https://tomeapp.ai/",
+"official": false
+},
+{
+"t": "QuillBot",
+"d": "دستیار هوشمند برای بازنویسی، خلاصه‌سازی و اصلاح گرامر متون انگلیسی است.",
+"u": "https://quillbot.com/",
+"official": false
+},
+{
+"t": "DeepL Translator",
+"d": "دقیق‌ترین مترجم مبتنی بر هوش مصنوعی در جهان که متن‌ها را بسیار طبیعی ترجمه می‌کند.",
+"u": "https://www.deepl.com/",
+"official": false
+},
+{
+"t": "Speechify",
+"d": "ابزاری که هر متن، مقاله یا کتاب PDF را با صدای طبیعی برای شما می‌خواند.",
+"u": "https://speechify.com/",
+"official": false
+},
+{
+"t": "Elements of AI",
+"d": "مشهورترین دوره رایگان هوش مصنوعی در جهان (ساخت دانشگاه هلسینکی فنلاند) است که بدون نیاز به کدنویسی، مفاهیم هوش مصنوعی را یاد می‌دهد و مدرک معتبر صادر می‌کند.",
+"u": "https://www.elementsofai.com/",
+"official": false
+},
+{
+"t": "FreeAcademy.ai",
+"d": "مسیرهای آموزشی قدم‌به‌قدم در زمینه هوش مصنوعی، پرامپت‌نویسی و ساخت ایجنت‌های هوشمند را همراه با مدرک رایگان در هر مرحله ارائه می‌دهد.",
+"u": "https://freeacademy.ai/",
+"official": false
+},
+{
+"t": "Google AI Courses",
+"d": "مجموعه دوره‌های رایگان گوگل برای یادگیری هوش مصنوعی مولد، افزایش بهره‌وری و کدنویسی هوشمند است.",
+"u": "https://grow.google/ai-professional/",
+"official": false
+},
+{
+"t": "NVIDIA Deep Learning Institute (Free Courses)",
+"d": "دوره‌های رایگان شرکت انویدیا برای یادگیری شبکه‌های عصبی، هوش مصنوعی مولد و سیستم‌های RAG است.",
+"u": "https://www.nvidia.com/en-us/training/online/",
+"official": false
+},
+{
+"t": "Simplilearn SkillUp",
+"d": "بیش از ۵۰۰ دوره رایگان در زمینه هوش مصنوعی، یادگیری ماشین و علم داده همراه با گواهینامه پایان دوره ارائه می‌دهد.",
+"u": "https://www.simplilearn.com/skillup-free-online-courses",
+"official": false
+},
+{
+"t": "fast.ai",
+"d": "یکی از معتبرترین و کاربردی‌ترین دوره‌های کاملاً رایگان جهان برای یادگیری عملی یادگیری عمیق و هوش مصنوعی است.",
+"u": "https://www.fast.ai/",
+"official": false
+},
+{
+"t": "Hugging Face Learn",
+"d": "دوره‌های رایگان و عملی برای یادگیری مدل‌های زبانی بزرگ (LLMs)، پردازش زبان طبیعی و بینایی ماشین است.",
+"u": "https://huggingface.co/learn",
+"official": false
+},
+{
+"t": "365 Data Science (Free Tier)",
+"d": "دوره‌های مقدماتی رایگان در زمینه علم داده، آمار و هوش مصنوعی همراه با گواهینامه معتبر ارائه می‌دهد.",
+"u": "https://365datascience.com/",
+"official": false
+},
+{
+"t": "Fortinet Training Institute",
+"d": "دوره‌های آموزش امنیت سایبری را به صورت کاملاً رایگان همراه با گواهینامه بین‌المللی در اختیار علاقه‌مندان می‌گذارد.",
+"u": "https://training.fortinet.com/",
+"official": false
+},
+{
+"t": "MATLAB Academy (Free Courses)",
+"d": "دوره‌های رایگان شرکت MathWorks برای یادگیری برنامه‌نویسی متلب، پردازش تصویر و یادگیری ماشین همراه با گواهینامه است.",
+"u": "https://matlabacademy.mathworks.com/",
+"official": false
+},
+{
+"t": "Wolfram U",
+"d": "دوره‌های آنلاین رایگان همراه با گواهینامه در زمینه‌های علم داده، ریاضیات محاسباتی و هوش مصنوعی ارائه می‌دهد.",
+"u": "https://www.wolfram.com/wolfram-u/",
+"official": false
+},
+{
+"t": "AWS Skill Builder",
+"d": "پلتفرم آموزشی رایگان آمازون با صدها دوره در زمینه رایانش ابری و هوش مصنوعی مولد است.",
+"u": "https://aws.amazon.com/training/digital/",
+"official": false
+},
+{
+"t": "SciSpace (Typeset)",
+"d": "یک دستیار هوش مصنوعی فوق‌العاده که مقالات علمی پیچیده (PDF) را می‌خواند و به زبان ساده برای شما توضیح می‌دهد.",
+"u": "https://typeset.io/search?ref=scispace.com",
+"official": false
+},
+{
+"t": "Connected Papers",
+"d": "یک ابزار بصری برای پژوهشگران که تمام مقالات مرتبط با یک موضوع علمی را به شکل یک نقشه گرافیکی نمایش می‌دهد.",
+"u": "https://www.connectedpapers.com/",
+"official": false
+},
+{
+"t": "ResearchRabbit",
+"d": "ابزاری رایگان برای کشف مقالات علمی جدید و دنبال کردن تحقیقات اساتید و پژوهشگران جهان است.",
+"u": "https://www.researchrabbit.ai/",
+"official": false
+},
+{
+"t": "Scribe",
+"d": "با ضبط مراحل کار شما روی صفحه نمایش، به صورت خودکار یک راهنمای آموزشی قدم‌به‌قدم و تصویری می‌سازد.",
+"u": "https://scribehow.com/",
+"official": false
+},
+{
+"t": "Notion Calendar",
+"d": "تقویم هوشمند و رایگان برای مدیریت زمان کلاس‌ها، پروژه‌ها و برنامه‌های روزانه است.",
+"u": "https://www.notion.com/product/calendar",
+"official": false
+},
+{
+"t": "Photopea / Remove.bg Alternatives (Pixlr Express)",
+"d": "ابزار آنلاین رایگان با قابلیت‌های هوش مصنوعی برای ویرایش سریع عکس و طراحی گرافیک در مرورگر است.",
+"u": "https://pixlr.com/express/",
+"official": false
+},
+{
+"t": "HuggingChat",
+"d": "رابط گفتگوی کاملاً رایگان و متن‌باز که به شما اجازه می‌دهد با مدل‌های مختلف هوش مصنوعی بدون محدودیت صحبت کنید.",
+"u": "https://huggingface.co/chat/",
+"official": false
+},
+{
+"t": "Mistral AI (Le Chat)",
+"d": "چت‌بات هوش مصنوعی سریع و رایگان ساخت اروپا با توانایی بالا در تحلیل و کدنویسی است.",
+"u": "https://mistral.ai/news/le-chat-mistral/",
+"official": false
+},
+{
+"t": "Groq",
+"d": "سریع‌ترین موتور اجرای مدل‌های هوش مصنوعی متن‌باز در جهان برای پاسخ‌گویی آنی است.",
+"u": "https://groq.com/",
+"official": false
+},
+{
+"t": "Qwen Chat",
+"d": "دستیار هوش مصنوعی قدرتمند و رایگان برای برنامه‌نویسی، ریاضیات و تحلیل اسناد است.",
+"u": "https://qwenlm.github.io/",
+"official": false
+},
+{
+"t": "DeepSeek",
+"d": "یکی از قوی‌ترین مدل‌های هوش مصنوعی رایگان برای حل مسائل پیچیده منطقی و کدنویسی است.",
+"u": "https://chat.deepseek.com/",
+"official": false
+},
+{
+"t": "Recraft AI",
+"d": "ابزار هوش مصنوعی تخصصی برای طراحی لوگو، آیکون، وکتور و تصویرسازی گرافیکی است.",
+"u": "https://www.recraft.ai/",
+"official": false
+},
+{
+"t": "Playground AI",
+"d": "پلتفرم رایگان برای ساخت و ویرایش تصاویر هنری و پوسترهای گرافیکی با هوش مصنوعی است.",
+"u": "https://playground.com/",
+"official": false
+},
+{
+"t": "Clipdrop",
+"d": "مجموعه ابزارهای هوش مصنوعی برای حذف اشیا، تغییر نورپردازی و افزایش کیفیت عکس است.",
+"u": "https://clipdrop.co/",
+"official": false
+},
+{
+"t": "Upscale.media",
+"d": "ابزار رایگان آنلاین برای افزایش وضوح و کیفیت عکس‌های کم‌کیفیت تا ۴ برابر است.",
+"u": "https://www.upscale.media/",
+"official": false
+},
+{
+"t": "Cleanup.pictures",
+"d": "حذف سریع افراد، نوشته‌ها یا اشیای اضافی از روی عکس با یک کلیک است.",
+"u": "https://cleanup.pictures/",
+"official": false
+},
+{
+"t": "Veed.io AI Tools",
+"d": "ویرایشگر ویدیو آنلاین با قابلیت ساخت خودکار زیرنویس و حذف نویز صدا است.",
+"u": "https://www.veed.io/",
+"official": false
+},
+{
+"t": "CapCut Web",
+"d": "نسخه تحت وب و رایگان محبوب‌ترین نرم‌افزار تدوین ویدیو همراه با ابزارهای هوشمند است.",
+"u": "https://www.capcut.com/",
+"official": false
+},
+{
+"t": "Descript",
+"d": "ویرایش فایل‌های صوتی و ویدیویی از طریق ویرایش متن پیاده‌سازی‌شده آن‌ها است.",
+"u": "https://www.descript.com/",
+"official": false
+},
+{
+"t": "Otter.ai",
+"d": "تبدیل خودکار جلسات صوتی، سخنرانی‌ها و کلاس‌ها به متن نوشتاری دقیق است.",
+"u": "https://otter.ai/",
+"official": false
+},
+{
+"t": "Fireflies.ai",
+"d": "دستیار هوشمند برای ضبط، پیاده‌سازی و خلاصه‌سازی جلسات آنلاین است.",
+"u": "https://fireflies.ai/",
+"official": false
+},
+{
+"t": "Beautiful.ai",
+"d": "طراحی اسلایدهای ارائه حرفه‌ای با چیدمان خودکار هوشمند است.",
+"u": "https://www.beautiful.ai/",
+"official": false
+},
+{
+"t": "Scite.ai",
+"d": "بررسی میزان اعتبار مقالات علمی و نحوه استناد سایر پژوهشگران به آن‌ها است.",
+"u": "https://scite.ai/",
+"official": false
+},
+{
+"t": "ChatPDF",
+"d": "آپلود کتاب‌ها و مقالات PDF و پرسیدن سوال از محتوای آن‌ها به زبان ساده است.",
+"u": "https://www.chatpdf.com/",
+"official": false
+},
+{
+"t": "Humata AI",
+"d": "تحلیل سریع اسناد فنی و مقالات طولانی با هوش مصنوعی است.",
+"u": "https://www.humata.ai/",
+"official": false
+},
+{
+"t": "Cursor",
+"d": "ویرایشگر کد مبتنی بر هوش مصنوعی که برنامه‌نویسی را چندین برابر سریع‌تر می‌کند.",
+"u": "https://www.cursor.com/",
+"official": false
+},
+{
+"t": "Windsurf (Codeium)",
+"d": "محیط برنامه‌نویسی هوشمند با دستیار کدنویسی رایگان است.",
+"u": "https://codeium.com/windsurf",
+"official": false
+},
+{
+"t": "v0 by Vercel",
+"d": "ساخت رابط کاربری وب‌سایت‌ها (HTML/CSS/React) تنها با نوشتن توضیحات متنی است.",
+"u": "https://v0.app/",
+"official": false
+},
+{
+"t": "Bolt.new",
+"d": "ساخت و اجرای کامل اپلیکیشن‌های وب در مرورگر با کمک هوش مصنوعی است.",
+"u": "https://bolt.new/",
+"official": false
+}
+]
+},
+{
+"n": 2,
+"name": "دوره‌ها و پلتفرم‌های آموزشی آنلاین",
+"items": [
+{
+"t": "Coursera",
+"d": "دوره‌های آنلاین از دانشگاه‌های معتبری مانند استنفورد و ییل را با امکان مشاهده رایگان ارائه می‌دهد.",
+"u": "https://www.coursera.org/",
+"official": false
+},
+{
+"t": "edX",
+"d": "پلتفرم آموزشی مشترک دانشگاه‌های هاروارد و MIT برای یادگیری علوم، مهندسی و علوم انسانی است.",
+"u": "https://www.edx.org/",
+"official": false
+},
+{
+"t": "Khan Academy",
+"d": "بهترین سایت برای یادگیری رایگان و پایه‌ای ریاضیات، علوم، اقتصاد و برنامه‌نویسی است.",
+"u": "https://www.khanacademy.org/",
+"official": false
+},
+{
+"t": "MIT OpenCourseWare",
+"d": "تمام جزوات، ویدیوها و منابع درسی دانشگاه MIT را به صورت کاملاً رایگان منتشر می‌کند.",
+"u": "https://ocw.mit.edu/",
+"official": false
+},
+{
+"t": "freeCodeCamp",
+"d": "یک پلتفرم رایگان و جامع برای یادگیری برنامه‌نویسی، طراحی وب و علم داده از صفر است.",
+"u": "https://www.freecodecamp.org/",
+"official": false
+},
+{
+"t": "مکتب‌خونه",
+"d": "بزرگ‌ترین پلتفرم فارسی‌زبان برای دسترسی به فیلم‌های درسی دانشگاه‌های برتر ایران و دوره‌های مهارتی است.",
+"u": "https://maktabkhooneh.org/",
+"official": false
+},
+{
+"t": "Alison",
+"d": "یکی از بزرگ‌ترین پلتفرم‌های رایگان جهان است که صدها دوره مهارتی همراه با گواهینامه ارائه می‌دهد.",
+"u": "https://alison.com/",
+"official": false
+},
+{
+"t": "Saylor Academy",
+"d": "دوره‌های دانشگاهی کاملاً رایگان در رشته‌های علوم کامپیوتر و کسب‌وکار همراه با مدرک دارد.",
+"u": "https://www.saylor.org/",
+"official": false
+},
+{
+"t": "OpenLearn",
+"d": "پلتفرم رایگان دانشگاه آزاد بریتانیا است که برای تمام دوره‌های خود گواهینامه مشارکت صادر می‌کند.",
+"u": "https://www.open.edu/openlearn/",
+"official": false
+},
+{
+"t": "Cisco Networking Academy",
+"d": "بهترین مرجع برای یادگیری رایگان شبکه‌های کامپیوتری، امنیت سایبری و پایتون است.",
+"u": "https://www.netacad.com/",
+"official": false
+},
+{
+"t": "Google Digital Garage",
+"d": "دوره‌های رسمی و رایگان گوگل در زمینه بازاریابی دیجیتال و مهارت‌های شغلی را ارائه می‌دهد.",
+"u": "https://grow.google/intl/uk/certificate-validation/",
+"official": false
+},
+{
+"t": "Harvard Online Courses",
+"d": "فهرست دوره‌های رایگان دانشگاه هاروارد در حوزه‌های برنامه‌نویسی، هنر و علوم است.",
+"u": "https://pll.harvard.edu/catalog/free",
+"official": false
+},
+{
+"t": "Class Central",
+"d": "یک موتور جستجوی جامع برای پیدا کردن تمام دوره‌های رایگان و دارای مدرک از دانشگاه‌های دنیا است.",
+"u": "https://www.classcentral.com/",
+"official": false
+},
+{
+"t": "Sololearn",
+"d": "پلتفرمی تعاملی برای یادگیری زبان‌های برنامه‌نویسی مثل جاوا و پایتون از موبایل و کامپیوتر است.",
+"u": "https://www.sololearn.com/",
+"official": false
+},
+{
+"t": "LinkedIn Learning (Free Courses)",
+"d": "به صورت دوره‌ای صدها کورس مهارتی و تخصصی را به همراه گواهینامه رایگان در دسترس قرار می‌دهد.",
+"u": "https://www.linkedin.com/learning/",
+"official": false
+},
+{
+"t": "HP LIFE",
+"d": "پلتفرم رایگان شرکت HP است که بیش از ۳۰ دوره در زمینه فناوری اطلاعات و کسب‌وکار با مدرک رایگان ارائه می‌دهد.",
+"u": "https://auth.life-global.org/",
+"official": false
+},
+{
+"t": "IBM SkillsBuild",
+"d": "دوره‌های رایگان شرکت IBM در حوزه‌های هوش مصنوعی، امنیت سایبری و تحلیل داده با نشان و مدرک رسمی است.",
+"u": "https://skillsbuild.org/",
+"official": false
+},
+{
+"t": "Microsoft Learn",
+"d": "مرجع رسمی و رایگان مایکروسافت برای یادگیری برنامه‌نویسی، هوش مصنوعی و ابزارهای ابری همراه با گواهینامه است.",
+"u": "https://learn.microsoft.com/",
+"official": false
+},
+{
+"t": "edube.org (OpenEDG)",
+"d": "بهترین سایت برای یادگیری رایگان زبان‌های برنامه‌نویسی پایتون و C++ همراه با گواهینامه پایان دوره است.",
+"u": "https://openedg.org/edube-sandbox",
+"official": false
+},
+{
+"t": "FutureLearn",
+"d": "دوره‌های رایگان از دانشگاه‌های برتر اروپا و بریتانیا را در رشته‌های هنر، علوم و فناوری ارائه می‌دهد.",
+"u": "https://www.futurelearn.com/",
+"official": false
+},
+{
+"t": "UniAthena",
+"d": "دوره‌های کوتاه‌مدت رایگان در زمینه هوش مصنوعی، مدیریت و فناوری اطلاعات همراه با گواهینامه رایگان دارد.",
+"u": "https://uniathena.com/",
+"official": false
+},
+{
+"t": "Oxford Home Study Centre",
+"d": "مجموعه‌ای از دوره‌های رایگان آنلاین در رشته‌های مدیریتی و مهارتی همراه با مدرک الکترونیکی ارائه می‌دهد.",
+"u": "https://www.oxfordhomestudy.com/",
+"official": false
+},
+{
+"t": "Great Learning Academy",
+"d": "صدها دوره رایگان در زمینه هوش مصنوعی، علم داده و برنامه‌نویسی همراه با سرتیفیکیت دارد.",
+"u": "https://www.mygreatlearning.com/academy",
+"official": false
+},
+{
+"t": "Kaggle Learn",
+"d": "میکروکورس‌های بسیار سریع، عملی و رایگان در زمینه پایتون و یادگیری ماشین همراه با مدرک ارائه می‌دهد.",
+"u": "https://www.kaggle.com/learn",
+"official": false
+},
+{
+"t": "University of the People (UoPeople)",
+"d": "یک دانشگاه آنلاین و معتبر آمریکایی است که رشته‌هایی مانند علوم کامپیوتر و مدیریت را بدون شهریه ارائه می‌دهد.",
+"u": "https://www.uopeople.edu/",
+"official": false
+},
+{
+"t": "Kiron Open Higher Education",
+"d": "یک پلتفرم آموزش عالی رایگان است که به پناهجویان و دانشجویان در سراسر جهان امکان تحصیل آنلاین می‌دهد.",
+"u": "https://kiron.ngo/",
+"official": false
+},
+{
+"t": "Stanford Online",
+"d": "مجموعه‌ای از دوره‌های رایگان دانشگاه استنفورد در زمینه‌های هوش مصنوعی، مهندسی و علوم است.",
+"u": "https://online.stanford.edu/free-courses",
+"official": false
+},
+{
+"t": "TU Delft OpenCourseWare",
+"d": "پلتفرم آموزش آزاد دانشگاه صنعتی دلفت هلند برای دسترسی رایگان به دروس مهندسی و فناوری است.",
+"u": "https://ocw.tudelft.nl/",
+"official": false
+},
+{
+"t": "GCFGlobal",
+"d": "یک مرکز آموزشی رایگان برای یادگیری مهارت‌های کامپیوتر، زبان انگلیسی، ریاضی و سواد دیجیتال است.",
+"u": "https://edu.gcfglobal.org/",
+"official": false
+},
+{
+"t": "دیپلم آنلاین رایگان (Alison Diplomas)",
+"d": "مجموعه‌ای از دوره‌های جامع و رایگان که در پایان آن‌ها مدرک دیپلم مهارتی صادر می‌شود.",
+"u": "https://alison.com/diploma-courses",
+"official": false
+},
+{
+"t": "CK-12 Foundation",
+"d": "یک مکتب دیجیتال رایگان که کتاب‌های درسی تعاملی و تمرین‌های دروس مکتب را ارائه می‌دهد.",
+"u": "https://www.ck12.org/",
+"official": false
+},
+{
+"t": "edX High School Courses",
+"d": "دوره‌های رایگان سطح مکتب و آمادگی ورود به دانشگاه از برترین موسسات آموزشی جهان است.",
+"u": "https://www.edx.org/high-school",
+"official": false
+},
+{
+"t": "Modern States",
+"d": "دوره‌های رایگان آمادگی آزمون‌های کالج را ارائه می‌دهد و هزینه آزمون را نیز پوشش می‌دهد.",
+"u": "https://modernstates.org/",
+"official": false
+},
+{
+"t": "BBC Bitesize",
+"d": "منبع آموزشی رایگان شبکه بی‌بی‌سی برای دانش‌آموزان در تمام مقاطع تحصیلی و دروس علمی است.",
+"u": "https://www.bbc.co.uk/bitesize",
+"official": false
+},
+{
+"t": "British Council LearnEnglish",
+"d": "بهترین مرجع رسمی و رایگان برای یادگیری زبان انگلیسی در تمام سطوح است.",
+"u": "https://learnenglish.britishcouncil.org/",
+"official": false
+},
+{
+"t": "USA Learns",
+"d": "یک سایت کاملاً رایگان برای یادگیری زبان انگلیسی و آمادگی برای زندگی و کار در کشورهای انگلیسی‌زبان است.",
+"u": "https://www.usalearns.org/",
+"official": false
+},
+{
+"t": "Deutsche Welle (DW Learn German)",
+"d": "بهترین و کامل‌ترین سایت رایگان برای یادگیری زبان آلمانی از سطح مبتدی تا پیشرفته است.",
+"u": "https://learngerman.dw.com/",
+"official": false
+},
+{
+"t": "TV5MONDE Apprendre",
+"d": "پلتفرم رایگان و رسمی برای یادگیری زبان فرانسوی از طریق ویدیوهای آموزشی است.",
+"u": "https://apprendre.tv5monde.com/",
+"official": false
+},
+{
+"t": "Class Central",
+"d": "بزرگ‌ترین موتور جستجو برای یافتن هزاران دوره رایگان و دارای گواهینامه از دانشگاه‌ها و پلتفرم‌های معتبر جهان است.",
+"u": "https://www.classcentral.com/report/free-certificates/",
+"official": false
+},
+{
+"t": "Academic Earth",
+"d": "بیش از ۷۵۰ دوره آنلاین رایگان از دانشگاه‌های برتر مانند MIT، استنفورد، ییل و برکلی را در رشته‌های مختلف جمع‌آوری کرده است.",
+"u": "https://academicearth.org/",
+"official": false
+},
+{
+"t": "Coursera Free Courses",
+"d": "بخش دوره‌های رایگان سایت کورسرا است که آموزش‌های دانشگاه‌های بزرگ جهان را ارائه می‌دهد.",
+"u": "https://www.coursera.org/courses?query=free",
+"official": false
+},
+{
+"t": "دوره‌های مؤسسه هنر کالیفرنیا (CalArts on Coursera)",
+"d": "دوره‌های تخصصی و رایگان در زمینه طراحی گرافیک، تایپوگرافی و هنرهای تجسمی را ارائه می‌دهد.",
+"u": "https://www.coursera.org/calarts",
+"official": false
+},
+{
+"t": "CodeSignal Learn",
+"d": "بیش از ۲۰۰۰ مسیر آموزشی تعاملی و رایگان برای یادگیری زبان‌های برنامه‌نویسی و علوم داده همراه با مدرک دارد.",
+"u": "https://codesignal.com/learn/",
+"official": false
+},
+{
+"t": "HP LIFE",
+"d": "بیش از ۳۰ دوره رایگان در زمینه‌های کارآفرینی، بازاریابی، مدیریت مالی و هوش مصنوعی در کسب‌وکار (به چند زبان) همراه با گواهینامه رایگان ارائه می‌دهد.",
+"u": "https://www.life-global.org/",
+"official": true
+},
+{
+"t": "HubSpot Academy",
+"d": "معتبرترین دوره‌های رایگان جهان در زمینه بازاریابی دیجیتال، تولید محتوا، سئو و فروش همراه با مدرک بین‌المللی است.",
+"u": "https://academy.hubspot.com/",
+"official": false
+},
+{
+"t": "My Mooc",
+"d": "یکی از بزرگ‌ترین موتورهای جستجوی دوره‌های رایگان جهان است که بیش از ۱۱ هزار دوره دارای گواهینامه از ۵۵۰ دانشگاه و مؤسسه بین‌المللی را فهرست می‌کند.",
+"u": "https://www.my-mooc.com/en/",
+"official": false
+},
+{
+"t": "MOOC List",
+"d": "دایرکتوری کاملی برای یافتن دوره‌های آنلاین رایگان از دانشگاه‌های معتبر جهان در رشته‌های علوم، مهندسی و علوم انسانی است.",
+"u": "https://www.mooc-list.com/",
+"official": false
+},
+{
+"t": "Canvas Network",
+"d": "پلتفرم آموزشی باز است که دوره‌های رایگان کالج‌ها و دانشگاه‌های بین‌المللی را برای دانشجویان سراسر جهان ارائه می‌دهد.",
+"u": "https://www.instructure.com/canvas-network-about-us",
+"official": false
+},
+{
+"t": "Open Culture",
+"d": "بیش از ۱۷۰۰ دوره آنلاین رایگان، کتاب صوتی و فیلم آموزشی از دانشگاه‌های برتر مانند آکسفورد، ییل و استنفورد را یکجا جمع‌آوری کرده است.",
+"u": "https://www.openculture.com/",
+"official": false
+},
+{
+"t": "iversity",
+"d": "یک پلتفرم آموزشی اروپایی مستقر در آلمان است که دوره‌های رایگان دانشگاهی را به زبان‌های انگلیسی و آلمانی ارائه می‌دهد.",
+"u": "http://iversity.com/",
+"official": false
+},
+{
+"t": "openHPI",
+"d": "پلتفرم آموزش آزاد مؤسسه هاسو پلاتنر آلمان است که دوره‌های رایگان و معتبر فناوری اطلاعات و هوش مصنوعی را همراه با گواهینامه ارائه می‌دهد.",
+"u": "https://open.hpi.de/",
+"official": false
+},
+{
+"t": "Open Yale Courses",
+"d": "دسترسی کاملاً رایگان به ویدیوهای کامل کلاس‌ها و جزوات اساتید برجسته دانشگاه ییل آمریکا را فراهم می‌کند.",
+"u": "https://oyc.yale.edu/",
+"official": false
+},
+{
+"t": "Webcast Berkeley",
+"d": "کانال رسمی دانشگاه کالیفرنیا، برکلی است که صدها دوره درسی دانشگاهی را به صورت رایگان منتشر می‌کند.",
+"u": "https://www.youtube.com/user/UCBerkeley",
+"official": false
+},
+{
+"t": "Coddy.tech (Java Course)",
+"d": "یک دوره تعاملی و کاملاً رایگان برای یادگیری برنامه‌نویسی جاوا از صفر است که در پایان هر بخش گواهینامه رایگان صادر می‌کند.",
+"u": "https://coddy.tech/landing/java",
+"official": false
+},
+{
+"t": "Simplilearn (Free Full Stack Java Developer)",
+"d": "یک دوره جامع و رایگان برای یادگیری توسعه وب با جاوا از سطح مبتدی همراه با گواهینامه پایان دوره است.",
+"u": "https://www.simplilearn.com/free-full-stack-java-developer-course-skillup",
+"official": false
+},
+{
+"t": "Cursa (Free Java Courses + Certificate)",
+"d": "مجموعه‌ای از دوره‌های رایگان ویدیویی و متنی برای یادگیری جاوا، برنامه‌نویسی شی‌گرا و ساخت بازی همراه با مدرک رایگان است.",
+"u": "https://cursa.app/free-online-courses/java",
+"official": false
+},
+{
+"t": "Princeton Computer Science on Coursera",
+"d": "دوره‌های رایگان دانشگاه پرینستون برای یادگیری اصول علوم کامپیوتر، الگوریتم‌ها و برنامه‌نویسی با زبان جاوا است.",
+"u": "https://www.coursera.org/courses?query=free&skills=Java%20Programming",
+"official": false
+},
+{
+"t": "Codecademy (Free Coding Courses)",
+"d": "محیطی تعاملی در مرورگر برای یادگیری رایگان اصول HTML، CSS، جاوا و پایتون بدون نیاز به نصب برنامه است.",
+"u": "https://www.codecademy.com/catalog/all",
+"official": false
+},
+{
+"t": "Udacity Free Courses",
+"d": "دوره‌های رایگان تخصصی که با همکاری شرکت‌های بزرگ فناوری مانند گوگل در زمینه توسعه وب و موبایل ساخته شده‌اند.",
+"u": "https://www.udacity.com/catalog",
+"official": false
+},
+{
+"t": "Pluralsight Free Courses",
+"d": "مجموعه‌ای از دوره‌های مهارتی رایگان در زمینه توسعه نرم‌افزار، فناوری اطلاعات و امنیت سایبری است.",
+"u": "https://www.pluralsight.com/individuals/free-tech-courses",
+"official": false
+},
+{
+"t": "MDN Web Docs Learning Area",
+"d": "مسیر آموزشی رایگان و قدم‌به‌قدم موزیلا برای تبدیل شدن به طراح و توسعه‌دهنده حرفه‌ای وب از سطح مبتدی است.",
+"u": "https://developer.mozilla.org/en-US/docs/Learn",
+"official": false
+},
+{
+"t": "Kadenze",
+"d": "پلتفرم تخصصی دوره‌های آنلاین رایگان از دانشگاه‌های هنری برتر جهان در رشته‌های طراحی، موسیقی، هنر دیجیتال و فناوری خلاقانه است.",
+"u": "https://www.kadenze.com/",
+"official": false
+},
+{
+"t": "Cursa (Free Video Editing Courses)",
+"d": "دوره‌های کاملاً رایگان برای یادگیری تدوین با Adobe Premiere Pro، After Effects، DaVinci Resolve و CapCut همراه با گواهینامه رایگان است.",
+"u": "https://cursa.app/free-courses-video-edition-online",
+"official": false
+},
+{
+"t": "SkillWaala (Free Video Editing Course)",
+"d": "دوره رایگان آموزش تدوین ویدیو و داستان‌سرایی بصری با نرم‌افزارهای حرفه‌ای همراه با گواهینامه پایان دوره است.",
+"u": "https://www.skillwaala.com/video-editing-course",
+"official": false
+},
+{
+"t": "LearnTube (Graphic Design & Video Editing)",
+"d": "دوره رایگان ۶ بخشی برای یادگیری اصول طراحی گرافیک، بردارها و تدوین ویدیو همراه با دستیار هوش مصنوعی است.",
+"u": "لینک در فایل اصلی موجود نبود",
+"official": false
+},
+{
+"t": "Great Learning (Video Editing Basics)",
+"d": "آموزش رایگان اصول تدوین، اصلاح رنگ و کار با Adobe Premiere Pro است.",
+"u": "https://www.mygreatlearning.com/academy/learn-for-free/courses/video-editing-basics",
+"official": false
+},
+{
+"t": "Adobe Education Exchange",
+"d": "دوره‌های رایگان شرکت ادوبی برای یادگیری فتوشاپ، ایلاستریتور، پریمیر و طراحی گرافیک است.",
+"u": "https://edex.adobe.com/",
+"official": false
+},
+{
+"t": "DaVinci Resolve Official Training",
+"d": "آموزش‌های ویدیویی، کتاب‌ها و فایل‌های تمرینی کاملاً رایگان و رسمی برای یادگیری تدوین و اصلاح رنگ سینمایی است.",
+"u": "https://www.blackmagicdesign.com/products/davinciresolve/training",
+"official": false
+},
+{
+"t": "Blender Studio Free Tutorials",
+"d": "آموزش‌های رسمی و رایگان برای یادگیری مدل‌سازی سه‌بعدی، انیمیشن‌سازی و جلوه‌های ویژه با نرم‌افزار بلندر است.",
+"u": "https://studio.blender.org/training/",
+"official": false
+},
+{
+"t": "UN CC:e-Learn",
+"d": "پلتفرم آموزش الکترونیکی سازمان ملل متحد است که دوره‌های رایگان در زمینه محیط زیست و توسعه پایدار همراه با گواهینامه رسمی سازمان ملل ارائه می‌دهد.",
+"u": "https://unccelearn.org/",
+"official": false
+},
+{
+"t": "USIP Academy (United States Institute of Peace)",
+"d": "دوره‌های کوتاه‌مدت و کاملاً رایگان در زمینه حل منازعات، مذاکره و صلح‌سازی همراه با گواهینامه ارائه می‌دهد.",
+"u": "https://www.usipglobalcampus.org/",
+"official": false
+},
+{
+"t": "DisasterReady",
+"d": "بیش از ۱۰۰۰ دوره آموزشی رایگان در زمینه‌های مدیریت پروژه، کمک‌های بشردوستانه و مهارت‌های اداری همراه با گواهینامه دارد.",
+"u": "https://www.disasterready.org/",
+"official": false
+},
+{
+"t": "Philanthropy University",
+"d": "دوره‌های رایگان در زمینه مدیریت پروژه‌های اجتماعی، جمع‌آوری کمک‌های مالی و رهبری تیمی همراه با مدرک ارائه می‌دهد.",
+"u": "https://philanthropyu.org/",
+"official": false
+},
+{
+"t": "Great Learning (Effective Communication)",
+"d": "دوره رایگان برای تقویت مهارت‌های ارتباطی و سخنرانی حرفه‌ای همراه با گواهینامه پایان دوره است.",
+"u": "https://www.mygreatlearning.com/academy/learn-for-free/courses/effective-communication",
+"official": false
+},
+{
+"t": "Coursebox Free Project Management",
+"d": "دوره‌های رایگان برای یادگیری اصول مدیریت پروژه، برنامه‌ریزی و رهبری تیم همراه با مدرک الکترونیکی است.",
+"u": "https://www.classpedia.ai/",
+"official": false
+},
+{
+"t": "Gisma University (Free Online Courses)",
+"d": "دوره‌های کوتاه و رایگان دانشگاه گیسمای آلمان در زمینه‌های کسب‌وکار، مدیریت و فناوری همراه با گواهینامه است.",
+"u": "https://www.gisma.com/programmes/shortcourse",
+"official": false
+},
+{
+"t": "Accenture Digital Skills (FutureLearn)",
+"d": "دوره‌های رایگان شرکت اکسنچر برای یادگیری هوش مصنوعی، بازاریابی دیجیتال و تجربه کاربری (UX) همراه با مدرک است.",
+"u": "https://www.futurelearn.com/partners/accenture-uk",
+"official": false
+},
+{
+"t": "Salesforce Trailhead",
+"d": "پلتفرم آموزشی کاملاً رایگان و بازی‌وار شرکت سیلزفورس برای یادگیری مدیریت ارتباط با مشتری، تحلیل داده و هوش مصنوعی است.",
+"u": "https://trailhead.salesforce.com/",
+"official": false
+},
+{
+"t": "MongoDB University",
+"d": "مرجع رسمی و رایگان برای یادگیری پایگاه‌های داده مدرن (NoSQL) همراه با گواهینامه پایان دوره است.",
+"u": "https://learn.mongodb.com/",
+"official": false
+},
+{
+"t": "Linux Foundation Free Courses",
+"d": "دوره‌های رسمی و رایگان بنیاد لینوکس برای یادگیری سیستم‌عامل لینوکس، رایانش ابری و امنیت سایبری است.",
+"u": "https://training.linuxfoundation.org/resources/?_sft_content_type=free-course",
+"official": false
+},
+{
+"t": "Semrush Academy",
+"d": "بهترین مرجع رایگان برای یادگیری سئو (SEO)، بازاریابی محتوا و بهینه‌سازی وب‌سایت همراه با مدرک بین‌المللی است.",
+"u": "https://www.semrush.com/academy/",
+"official": false
+},
+{
+"t": "Meta Blueprint (Free Courses)",
+"d": "دوره‌های رسمی و رایگان شرکت متا برای یادگیری بازاریابی در شبکه‌های اجتماعی و تولید محتوای دیجیتال است.",
+"u": "https://www.facebook.com/business/learn",
+"official": false
+},
+{
+"t": "World Bank Open Learning Campus",
+"d": "پلتفرم آموزشی رایگان بانک جهانی در زمینه‌های اقتصاد، توسعه پایدار، مدیریت پروژه و فناوری است.",
+"u": "https://ppp.worldbank.org/library/world-bank-group-open-learning-campus-olc",
+"official": false
+},
+{
+"t": "UNICEF Agora",
+"d": "پورتال آموزش رایگان یونیسف با صدها دوره در زمینه‌های مهارت‌های ارتباطی، مدیریت و مسائل اجتماعی همراه با گواهینامه است.",
+"u": "https://agora.unicef.org/",
+"official": false
+},
+{
+"t": "France Université Numérique (FUN MOOC)",
+"d": "پلتفرم رسمی و رایگان دانشگاه‌های فرانسه است که صدها دوره در رشته‌های علوم، هنر، فناوری و زبان ارائه می‌دهد.",
+"u": "https://www.fun-mooc.fr/en/",
+"official": false
+},
+{
+"t": "SWAYAM (India National MOOCs)",
+"d": "بزرگ‌ترین پلتفرم آموزش عالی رایگان دولت هند با هزاران دوره دانشگاهی در مهندسی، علوم کامپیوتر و علوم انسانی است.",
+"u": "https://swayam.gov.in/",
+"official": false
+},
+{
+"t": "K-MOOC (Korean Massive Open Online Course)",
+"d": "پلتفرم رسمی دوره‌های رایگان از برترین دانشگاه‌های کره جنوبی در زمینه‌های فناوری، طراحی و فرهنگ است.",
+"u": "http://www.kmooc.kr/",
+"official": false
+},
+{
+"t": "JMOOC (Japan Open Online Education)",
+"d": "مرجع دوره‌های آنلاین رایگان از دانشگاه‌های معتبر ژاپن در حوزه‌های رباتیک، علوم و مدیریت است.",
+"u": "https://www.jmooc.jp/en/",
+"official": false
+},
+{
+"t": "Open2Study (Australia)",
+"d": "پلتفرم آموزشی رایگان از دانشگاه‌های استرالیا برای یادگیری دوره‌های کوتاه ۴ هفته‌ای همراه با گواهینامه است.",
+"u": "https://www.open2study.com/",
+"official": false
+},
+{
+"t": "European Schoolnet Academy",
+"d": "پلتفرم رایگان اتحادیه اروپا برای یادگیری مهارت‌های دیجیتال، تدریس آنلاین و فناوری‌های نوین آموزشی همراه با گواهینامه است.",
+"u": "https://www.europeanschoolnetacademy.eu/",
+"official": false
+},
+{
+"t": "edraak (ادراک)",
+"d": "بزرگ‌ترین پلتفرم رایگان جهان عرب (تأسیس شده توسط بنیاد ملکه رانیا) با صدها دوره رایگان و گواهینامه است.",
+"u": "https://www.edraak.org/",
+"official": true
+},
+{
+"t": "Atingi",
+"d": "پلتفرم آموزش دیجیتال رایگان دولت آلمان برای جوانان سراسر جهان در زمینه مهارت‌های شغلی، فناوری و کارآفرینی همراه با مدرک است.",
+"u": "https://www.atingi.org/",
+"official": false
+},
+{
+"t": "GCFGlobal (Free Tech & Career Courses)",
+"d": "مجموعه‌ای از دوره‌های رایگان و ساده برای یادگیری مهارت‌های کامپیوتر، اینترنت، طراحی دیجیتال و ریاضیات پایه است.",
+"u": "https://en.wikipedia.org/wiki/GCFGlobal.org",
+"official": false
+},
+{
+"t": "edX (Free Computer Science & AI Courses)",
+"d": "هزاران کورس رایگان در رشته کمپیوتر ساینس، هوش مصنوعی و مهندسی نرم‌افزار از دانشگاه‌های برتر جهان ارائه می‌دهد.",
+"u": "https://www.edx.org/learn/computer-science",
+"official": false
+},
+{
+"t": "OpenClassrooms (Free Courses)",
+"d": "پلتفرم آموزشی اروپایی با صدها کورس رایگان در زمینه‌های طراحی وب، برنامه‌نویسی، طراحی گرافیک و مدیریت پروژه است.",
+"u": "https://openclassrooms.com/en/courses",
+"official": false
+},
+{
+"t": "DigitalDefynd (Free Certificate Directory)",
+"d": "یکی از بزرگ‌ترین راهنماهای آنلاین برای پیدا کردن کورس‌های رایگان دارای گواهینامه از دانشگاه‌های سراسر دنیا است.",
+"u": "https://digitaldefynd.com/",
+"official": false
+},
+{
+"t": "University of Helsinki (MOOC.fi)",
+"d": "پلتفرم معروف دانشگاه هلسینکی فنلاند که دوره‌های کاملاً رایگان و بسیار معتبر در زمینه برنامه‌نویسی جاوا (Java)، پایتون و هوش مصنوعی ارائه می‌دهد.",
+"u": "https://www.mooc.fi/en/",
+"official": false
+},
+{
+"t": "Oracle University (Free Java & Cloud Training)",
+"d": "مرجع رسمی سازنده زبان جاوا برای دسترسی رایگان به آموزش‌های اصولی جاوا و پایگاه داده است.",
+"u": "https://mylearn.oracle.com/ou/home",
+"official": false
+},
+{
+"t": "Red Hat Free Technical Courses",
+"d": "دوره‌های رایگان برای یادگیری سیستم‌عامل لینوکس، مدیریت سرور و فناوری‌های متن‌باز است.",
+"u": "https://www.redhat.com/en/services/training/all-courses-exams",
+"official": false
+},
+{
+"t": "Unity Learn (Free Game & 3D Courses)",
+"d": "پلتفرم رسمی و رایگان برای یادگیری ساخت بازی‌های ویدیویی، انیمیشن‌سازی و طراحی محیط‌های سه‌بعدی است.",
+"u": "https://learn.unity.com/",
+"official": false
+},
+{
+"t": "Unreal Engine Online Learning",
+"d": "صدها کورس رایگان و حرفه‌ای برای یادگیری ساخت جلوه‌های ویژه سینمایی، انیمیشن و بازی با موتور آنریل است.",
+"u": "https://dev.epicgames.com/community/unreal-engine/learning",
+"official": false
+},
+{
+"t": "Khan Academy Computing",
+"d": "آموزش رایگان و قدم‌به‌قدم علوم کامپیوتر، انیمیشن‌سازی دیجیتال (با همکاری استودیو پیکسار) و طراحی وب است.",
+"u": "https://www.khanacademy.org/computing",
+"official": false
+},
+{
+"t": "Gisma University Free Courses",
+"d": "دوره‌های کوتاه‌مدت و رایگان دانشگاه گیسمای آلمان در زمینه‌های مدیریت، فناوری و کسب‌وکار همراه با گواهینامه است.",
+"u": "https://www.gisma.com/programmes",
+"official": false
+},
+{
+"t": "Saylor Academy (Computer Science)",
+"d": "کورس‌های دانشگاهی کاملاً رایگان در رشته علوم کامپیوتر، برنامه‌نویسی و ریاضیات همراه با مدرک رایگان است.",
+"u": "https://learn.saylor.org/course/index.php?categoryid=9",
+"official": false
+},
+{
+"t": "Gresham College (Free Public Lectures)",
+"d": "قدیمی‌ترین کالج لندن که صدها سخنرانی و کورس دانشگاهی رایگان در رشته‌های علوم، ریاضیات، هنر و تاریخ منتشر می‌کند.",
+"u": "https://www.gresham.ac.uk/",
+"official": false
+},
+{
+"t": "Polimi OPEN KNOWLEDGE (POK)",
+"d": "پلتفرم آموزش آزاد دانشگاه پلی‌تکنیک میلان ایتالیا برای دسترسی رایگان به دوره‌های طراحی، معماری، مهندسی و فناوری است.",
+"u": "https://www.pok.polimi.it/",
+"official": false
+},
+{
+"t": "EPFL Extension School / MOOCs",
+"d": "دوره‌های آنلاین رایگان از مؤسسه فناوری فدرال لوزان سوئیس در زمینه‌های علوم کامپیوتر، داده‌ها و علوم پایه است.",
+"u": "https://www.epfl.ch/education/continuing-education/",
+"official": false
+},
+{
+"t": "Miríadax",
+"d": "بزرگ‌ترین پلتفرم دوره‌های رایگان دانشگاه‌های اسپانیا و آمریکای لاتین در زمینه‌های فناوری، هنر و علوم انسانی است.",
+"u": "https://miriadax.net/",
+"official": true
+},
+{
+"t": "XuetangX (Tsinghua University)",
+"d": "پلتفرم دوره‌های آنلاین رایگان دانشگاه چینهوا (برترین دانشگاه چین) با هزاران دوره در علوم کامپیوتر و هوش مصنوعی است.",
+"u": "https://www.xuetangx.com/",
+"official": false
+},
+{
+"t": "Thai MOOC",
+"d": "پلتفرم ملی آموزش آزاد تایلند با صدها دوره رایگان در زمینه‌های فناوری دیجیتال، طراحی و مهارت‌های شغلی است.",
+"u": "https://thaimooc.org/",
+"official": false
+},
+{
+"t": "OpenSAP (SAP Learning)",
+"d": "پلتفرم رسمی و رایگان شرکت SAP برای یادگیری مدیریت کسب‌وکار، هوش مصنوعی سازمانی و تحلیل داده همراه با گواهینامه است.",
+"u": "https://learning.sap.com/",
+"official": false
+},
+{
+"t": "hub.docker / Play with Docker Classroom",
+"d": "آموزش‌های رایگان و تعاملی برای یادگیری فناوری داکر (Docker) و استقرار برنامه‌های وب در مرورگر است.",
+"u": "https://training.play-with-docker.com/",
+"official": false
+},
+{
+"t": "Scrimba (Free Interactive Courses)",
+"d": "پلتفرم تعاملی و رایگان برای یادگیری عملی طراحی وب (HTML، CSS و جاوااسکریپت) مستقیماً در محیط کدنویسی ویدیویی است.",
+"u": "https://scrimba.com/courses?price=free",
+"official": false
+},
+{
+"t": "Boot.dev (Free Audit Mode)",
+"d": "مسیر آموزشی رایگان برای یادگیری برنامه‌نویسی بک‌اند، پایتون و علوم کامپیوتر به صورت پروژه‌محور است.",
+"u": "https://www.boot.dev/",
+"official": false
+},
+{
+"t": "Brilliant.org (Free Daily Challenges)",
+"d": "پلتفرم یادگیری تعاملی ریاضیات، منطق، علوم کامپیوتر و هوش مصنوعی از طریق حل مسئله است.",
+"u": "https://brilliant.org/",
+"official": false
+},
+{
+"t": "PhET Interactive Simulations",
+"d": "شبیه‌سازی‌های علمی تعاملی و رایگان دانشگاه کلرادو برای یادگیری فیزیک، شیمی، ریاضی و زیست‌شناسی است.",
+"u": "https://phet.colorado.edu/",
+"official": false
+},
+{
+"t": "Desmos",
+"d": "بهترین ماشین‌حساب نموداری آنلاین و رایگان برای رسم توابع ریاضی و یادگیری هندسه است.",
+"u": "https://www.desmos.com/",
+"official": false
+},
+{
+"t": "GeoGebra",
+"d": "ابزار آموزشی رایگان برای یادگیری تعاملی ریاضیات، جبر، هندسه و حساب دیفرانسیل است.",
+"u": "https://www.geogebra.org/",
+"official": false
+},
+{
+"t": "Symbolab",
+"d": "حل‌کننده گام‌به‌گام مسائل ریاضی، معادلات و انتگرال‌ها همراه با توضیح مراحل حل است.",
+"u": "https://www.symbolab.com/",
+"official": false
+},
+{
+"t": "Mathway",
+"d": "دستیار آنلاین رایگان برای حل مسائل جبر، مثلثات و آمار است.",
+"u": "https://www.mathway.com/",
+"official": false
+},
+{
+"t": "Paul's Online Math Notes",
+"d": "جزوات آموزشی کامل و رایگان دانشگاهی در زمینه جبر و ریاضیات مهندسی است.",
+"u": "https://tutorial.math.lamar.edu/",
+"official": false
+},
+{
+"t": "TypingClub",
+"d": "بهترین و سرگرم‌کننده‌ترین سایت رایگان جهان برای یادگیری تایپ سریع ده‌انگشتی است.",
+"u": "https://www.typingclub.com/",
+"official": false
+},
+{
+"t": "Keybr.com",
+"d": "ابزار هوشمند و رایگان برای تمرین تایپ سریع و افزایش سرعت دست روی کیبورد است.",
+"u": "https://www.keybr.com/",
+"official": false
+},
+{
+"t": "Monkeytype",
+"d": "ساده، زیبا و محبوب‌ترین سایت تست و تمرین سرعت تایپ در جهان است.",
+"u": "https://monkeytype.com/",
+"official": false
+},
+{
+"t": "TryHackMe (Free Rooms)",
+"d": "پلتفرم تعاملی و رایگان برای یادگیری امنیت سایبری، شبکه‌های کامپیوتری و لینوکس به صورت عملی است.",
+"u": "https://tryhackme.com/",
+"official": false
+},
+{
+"t": "Hack The Box Academy (Free Modules)",
+"d": "دوره‌های رایگان و استاندارد برای یادگیری اصول امنیت اطلاعات و حفاظت از سیستم‌ها است.",
+"u": "https://academy.hackthebox.com/",
+"official": false
+},
+{
+"t": "OverTheWire (Bandit)",
+"d": "بازی آموزشی رایگان برای یادگیری دستورات خط فرمان لینوکس از سطح مبتدی است.",
+"u": "https://overthewire.org/wargames/bandit/",
+"official": false
+},
+{
+"t": "Linux Journey",
+"d": "ساده‌ترین و خوش‌ساخت‌ترین مرجع رایگان برای یادگیری سیستم‌عامل لینوکس از صفر تا پیشرفته است.",
+"u": "https://linuxjourney.com/",
+"official": false
+},
+{
+"t": "Command Line Challenge",
+"d": "چالش‌های عملی در مرورگر برای تمرین و یادگیری دستورات خط فرمان (Terminal / CMD) است.",
+"u": "https://cmdchallenge.com/",
+"official": false
+},
+{
+"t": "SQLBolt",
+"d": "آموزش تعاملی و بسیار سریع زبان پایگاه داده (SQL) همراه با تمرین‌های آنلاین در مرورگر است.",
+"u": "https://sqlbolt.com/",
+"official": false
+},
+{
+"t": "Learn Git Branching",
+"d": "بهترین آموزش تصویری و تعاملی رایگان برای یادگیری کامل سیستم کنترل نسخه Git و GitHub است.",
+"u": "https://learngitbranching.js.org/",
+"official": false
+},
+{
+"t": "Flexbox Defense",
+"d": "بازی دفاع از قلعه رایگان برای تمرین و یادگیری چیدمان عناصر در طراحی وب (CSS) است.",
+"u": "http://www.flexboxdefense.com/",
+"official": false
+},
+{
+"t": "CSS Diner",
+"d": "بازی آموزشی کوتاه و رایگان برای یادگیری انتخاب‌گرهای (Selectors) در زبان CSS است.",
+"u": "https://flukeout.github.io/",
+"official": false
+},
+{
+"t": "JavaScript.info",
+"d": "کامل‌ترین و مدرن‌ترین کتاب آموزشی آنلاین و رایگان برای یادگیری زبان جاوااسکریپت از صفر است.",
+"u": "https://javascript.info/",
+"official": false
+},
+{
+"t": "Python.org Official Tutorial",
+"d": "راهنمای رسمی و رایگان برای یادگیری اصول زبان برنامه‌نویسی پایتون است.",
+"u": "https://docs.python.org/3/tutorial/",
+"official": false
+},
+{
+"t": "Oracle Java Tutorials",
+"d": "مرجع رسمی و کامل شرکت اوراکل برای یادگیری عمیق تمام بخش‌های زبان",
+"u": "https://docs.oracle.com/javase/tutorial/",
+"official": false
+},
+{
+"t": "Scrimba",
+"d": "آموزش تعاملی طراحی وب که می‌توانید کدها را مستقیماً روی ویدیوی آموزشی تغییر دهید.",
+"u": "https://scrimba.com/",
+"official": false
+},
+{
+"t": "School of Motion",
+"d": "آموزش‌های تخصصی رایگان برای یادگیری موشن گرافیک و افتر افکت است.",
+"u": "https://schoolofmotion.com/courses",
+"official": false
+},
+{
+"t": "Video Copilot",
+"d": "بهترین آموزش‌های رایگان جلوه‌های ویژه سینمایی در افتر افکت است.",
+"u": "https://www.videocopilot.net/",
+"official": true
+}
+]
+},
+{
+"n": 3,
+"name": "بورسیه‌های تحصیلی و فرصت‌های بین‌المللی",
+"items": [
+{
+"t": "DAAD Scholarship Database",
+"d": "بزرگ‌ترین پایگاه رسمی بورسیه‌های تحصیلی دولت آلمان برای دانشجویان بین‌المللی در تمام مقاطع است.",
+"u": "https://www.daad.de/en/",
+"official": false
+},
+{
+"t": "Chevening Scholarships",
+"d": "بورسیه کامل دولت بریتانیا برای تحصیل در مقطع کارشناسی ارشد به همراه تمام هزینه‌های زندگی است.",
+"u": "https://www.chevening.org/",
+"official": false
+},
+{
+"t": "Erasmus Mundus Catalogue",
+"d": "فهرست برنامه‌های مشترک کارشناسی ارشد اتحادیه اروپا با بورسیه کامل در چند کشور اروپایی است.",
+"u": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en?f%5B0%5D=oe_project_locations_country%3ADK",
+"official": false
+},
+{
+"t": "Open Doors Russian Scholarship",
+"d": "بورسیه بین‌المللی دولت روسیه برای تحصیل رایگان در مقاطع کارشناسی ارشد و دکتری در رشته‌های مختلف است.",
+"u": "https://opendoors.spbstu.ru/en",
+"official": false
+},
+{
+"t": "Fulbright Foreign Student Program",
+"d": "یکی از معتبرترین برنامه‌های تبادل دانشجو و بورسیه تحصیلی در آمریکا است.",
+"u": "https://foreign.fulbrightonline.org/",
+"official": false
+},
+{
+"t": "Türkiye Bursları",
+"d": "پورتال رسمی بورسیه کامل دولت ترکیه شامل شهریه، خوابگاه، بیمه و حقوق ماهانه است.",
+"u": "https://www.turkiyeburslari.gov.tr/",
+"official": false
+},
+{
+"t": "Opportunities Corners",
+"d": "یکی از به‌روزترین سایت‌ها برای اطلاع از جدیدترین بورسیه‌ها، کنفرانس‌ها و دوره‌های کارآموزی رایگان جهان است.",
+"u": "https://opportunitiescorners.com/",
+"official": false
+},
+{
+"t": "Scholars4Dev",
+"d": "فهرستی جامع از بورسیه‌های تحصیلی بین‌المللی برای دانشجویان کشورهای در حال توسعه است.",
+"u": "https://www.scholars4dev.com/",
+"official": false
+}
+]
+},
+{
+"n": 4,
+"name": "علوم، مقالات علمی و پژوهش",
+"items": [
+{
+"t": "Google Scholar",
+"d": "موتور جستجوی تخصصی گوگل برای یافتن مقالات علمی، پایان‌نامه‌ها و کتاب‌های دانشگاهی است.",
+"u": "https://scholar.google.com/",
+"official": false
+},
+{
+"t": "arXiv",
+"d": "بزرگ‌ترین آرشیو مقالات پیش‌چاپ در رشته‌های فیزیک، ریاضیات، علوم کامپیوتر و زیست‌شناسی است.",
+"u": "https://arxiv.org/",
+"official": false
+},
+{
+"t": "ResearchGate",
+"d": "یک شبکه اجتماعی برای پژوهشگران است که امکان دانلود رایگان بسیاری از مقالات را فراهم می‌کند.",
+"u": "https://www.researchgate.net/",
+"official": false
+},
+{
+"t": "ScienceDirect",
+"d": "یکی از معتبرترین پایگاه‌های داده برای دسترسی به مجلات علمی و کتاب‌های مرجع در تمام علوم است.",
+"u": "https://www.sciencedirect.com/",
+"official": false
+},
+{
+"t": "PubMed",
+"d": "مرجع اصلی و رایگان مقالات علمی در حوزه‌های پزشکی، زیست‌شناسی و علوم سلامت است.",
+"u": "https://pubmed.ncbi.nlm.nih.gov/",
+"official": false
+},
+{
+"t": "DOAJ",
+"d": "دایرکتوری مجلات علمی با دسترسی آزاد (رایگان) در تمام رشته‌های دانشگاهی به زبان‌های مختلف است.",
+"u": "https://doaj.org/",
+"official": false
+},
+{
+"t": "Semantic Scholar",
+"d": "موتور جستجوی رایگان مبتنی بر هوش مصنوعی برای یافتن و خلاصه‌سازی مقالات علمی است.",
+"u": "https://www.semanticscholar.org/",
+"official": false
+},
+{
+"t": "CORE",
+"d": "بزرگ‌ترین مجموعه مقالات پژوهشی با دسترسی آزاد و رایگان در جهان است.",
+"u": "https://core.ac.uk/",
+"official": false
+},
+{
+"t": "JSTOR",
+"d": "کتابخانه دیجیتال عظیمی شامل مجلات دانشگاهی، کتاب‌ها و منابع دست‌اول در علوم انسانی و اجتماعی است.",
+"u": "https://www.jstor.org/",
+"official": false
+},
+{
+"t": "IEEE Xplore",
+"d": "مرجع اصلی مقالات و استانداردهای علمی در مهندسی برق، الکترونیک و علوم کامپیوتر است.",
+"u": "https://ieeexplore.ieee.org/",
+"official": false
+},
+{
+"t": "Science.gov",
+"d": "دروازه ورود به اطلاعات علمی و نتایج تحقیقات بیش از ۱۵ آژانس علمی دولت آمریکا است.",
+"u": "https://www.science.gov/",
+"official": false
+},
+{
+"t": "پایگاه اطلاعات علمی جهاد دانشگاهی (SID)",
+"d": "معتبرترین مرجع رایگان برای دانلود مقالات علمی و پژوهشی به زبان فارسی است.",
+"u": "https://www.sid.ir/",
+"official": false
+},
+{
+"t": "PLOS ONE",
+"d": "یک مجله علمی بسیار معتبر با دسترسی کاملاً آزاد در تمام زمینه‌های علوم و پزشکی است.",
+"u": "https://journals.plos.org/plosone/",
+"official": false
+},
+{
+"t": "bioRxiv",
+"d": "آرشیو رایگان مقالات جدید پژوهشی در زمینه علوم زیستی است.",
+"u": "https://www.biorxiv.org/",
+"official": false
+},
+{
+"t": "Wolfram MathWorld",
+"d": "جامع‌ترین دانشنامه آنلاین جهان در زمینه فرمول‌ها و مفاهیم ریاضی است.",
+"u": "https://mathworld.wolfram.com/",
+"official": false
+},
+{
+"t": "NASA Science",
+"d": "مرجع رسمی مقالات، تصاویر و داده‌های علمی سازمان فضایی ناسا است.",
+"u": "https://science.nasa.gov/",
+"official": false
+},
+{
+"t": "Statista",
+"d": "یکی از بزرگ‌ترین پایگاه‌های داده برای دسترسی به آمارها و نمودارهای علمی و اقتصادی است.",
+"u": "https://www.statista.com/",
+"official": false
+},
+{
+"t": "Our World in Data",
+"d": "داده‌های پژوهشی و نمودارهای دقیق درباره تغییرات جهانی، جمعیت، فناوری و محیط زیست را منتشر می‌کند.",
+"u": "https://ourworldindata.org/",
+"official": false
+},
+{
+"t": "پرتال جامع علوم انسانی",
+"d": "بزرگ‌ترین بانک مقالات علمی و پژوهشی فارسی در رشته‌های علوم انسانی و هنر است.",
+"u": "https://ensani.ir/",
+"official": false
+},
+{
+"t": "مگیران (Magiran)",
+"d": "بانک اطلاعات نشریات کشور برای جستجو در مجلات علمی و تخصصی فارسی است.",
+"u": "https://www.magiran.com/",
+"official": false
+},
+{
+"t": "BASE (Bielefeld Academic Search Engine)",
+"d": "یکی از بزرگ‌ترین موتورهای جستجوی جهان برای یافتن منابع علمی با دسترسی آزاد است.",
+"u": "https://www.base-search.net/",
+"official": false
+},
+{
+"t": "Dimensions",
+"d": "پایگاه داده‌ای جامع برای جستجوی رایگان میلیون‌ها مقاله علمی، ثبت اختراع و طرح‌های پژوهشی است.",
+"u": "https://app.dimensions.ai/",
+"official": false
+},
+{
+"t": "SSRN",
+"d": "مخزن پیش‌چاپ مقالات پژوهشی در علوم اجتماعی، اقتصاد، حقوق و علوم انسانی است.",
+"u": "https://www.ssrn.com/",
+"official": false
+},
+{
+"t": "PubMed Central (PMC)",
+"d": "آرشیو کامل و رایگان مقالات علوم زیستی و پزشکی در کتابخانه ملی پزشکی آمریکا است.",
+"u": "https://www.ncbi.nlm.nih.gov/pmc/",
+"official": false
+},
+{
+"t": "ScienceOpen",
+"d": "شبکه‌ای تعاملی برای کشف و مطالعه رایگان ده‌ها میلیون مقاله علمی در تمام رشته‌ها است.",
+"u": "https://www.scienceopen.com/",
+"official": false
+},
+{
+"t": "ایرانداک (گنج)",
+"d": "بزرگ‌ترین پایگاه اطلاعاتی برای جستجوی عنوان و چکیده پایان‌نامه‌ها و رساله‌های دانشگاهی فارسی است.",
+"u": "https://irandoc.ac.ir/service-product/94",
+"official": false
+},
+{
+"t": "سیویلیکا (Civilica)",
+"d": "مرجع جامع مقالات کنفرانس‌ها و همایش‌های علمی برگزار شده در ایران است.",
+"u": "https://civilica.com/",
+"official": false
+},
+{
+"t": "OpenAlex",
+"d": "یک فهرست کاملاً باز و رایگان از صدها میلیون مقاله علمی، نویسنده و مجله دانشگاهی در سراسر جهان است.",
+"u": "https://openalex.org/",
+"official": false
+},
+{
+"t": "Lens.org",
+"d": "پلتفرم رایگان برای جستجوی میلیون‌ها مقاله علمی و ثبت اختراع جهانی همراه با ابزارهای تحلیلی است.",
+"u": "https://www.lens.org/",
+"official": true
+},
+{
+"t": "Europe PMC",
+"d": "مخزن عظیم اروپایی برای دسترسی رایگان به میلیون‌ها مقاله علمی در رشته‌های علوم زیستی، پزشکی و فناوری است.",
+"u": "https://europepmc.org/",
+"official": false
+},
+{
+"t": "HAL Open Science",
+"d": "آرشیو ملی و رایگان فرانسه برای دسترسی به مقالات پژوهشی، پایان‌نامه‌ها و گزارش‌های علمی بین‌المللی است.",
+"u": "https://hal.science/",
+"official": false
+},
+{
+"t": "SciELO",
+"d": "کتابخانه الکترونیکی علمی آنلاین که دسترسی رایگان به هزاران مجله علمی معتبر در رشته‌های مختلف را فراهم می‌کند.",
+"u": "https://www.scielo.org/",
+"official": false
+},
+{
+"t": "Zenodo",
+"d": "مخزن علمی با دسترسی آزاد (ساخته شده توسط سازمان CERN) برای دانلود مقالات، داده‌ها و نرم‌افزارهای پژوهشی است.",
+"u": "https://zenodo.org/",
+"official": false
+},
+{
+"t": "OSF Preprints",
+"d": "شبکه‌ای بزرگ برای دسترسی رایگان به جدیدترین مقالات پژوهشی در رشته‌های مهندسی، علوم اجتماعی و هنر است.",
+"u": "https://osf.io/preprints",
+"official": false
+},
+{
+"t": "Paperity",
+"d": "موتور جستجوی تخصصی برای یافتن مقالات علمی با متن کامل و رایگان از مجلات معتبر جهانی است.",
+"u": "https://paperity.org/",
+"official": false
+},
+{
+"t": "OATD (Open Access Theses and Dissertations)",
+"d": "بزرگ‌ترین موتور جستجوی جهانی برای دانلود رایگان بیش از ۶ میلیون پایان‌نامه کارشناسی ارشد و دکتری است.",
+"u": "https://oatd.org/",
+"official": false
+},
+{
+"t": "NDLTD (Networked Digital Library of Theses and Dissertations)",
+"d": "کتابخانه دیجیتال جهانی برای جستجو و دسترسی رایگان به پایان‌نامه‌های دانشگاهی از سراسر دنیا است.",
+"u": "https://ndltd.org/home/",
+"official": false
+},
+{
+"t": "ERIC (Education Resources Information Center)",
+"d": "بزرگ‌ترین پایگاه رایگان مقالات علمی و پژوهشی در زمینه آموزش، تدریس و علوم تربیتی است.",
+"u": "https://eric.ed.gov/",
+"official": false
+},
+{
+"t": "CogPrints",
+"d": "آرشیو الکترونیکی رایگان برای مقالات علوم شناختی، هوش مصنوعی، زبان‌شناسی و روانشناسی است.",
+"u": "http://cogprints.org/",
+"official": false
+},
+{
+"t": "RePEc (Research Papers in Economics)",
+"d": "بزرگ‌ترین پایگاه رایگان مقالات پژوهشی در زمینه اقتصاد، مدیریت و علوم مالی است.",
+"u": "http://repec.org/",
+"official": false
+},
+{
+"t": "bioRxiv / medRxiv",
+"d": "مخزن رایگان جدیدترین مقالات پژوهشی در حوزه علوم پزشکی و سلامت پیش از چاپ رسمی است.",
+"u": "https://www.medrxiv.org/",
+"official": false
+},
+{
+"t": "J-STAGE",
+"d": "پلتفرم رسمی ژاپن برای دسترسی رایگان به هزاران مجله علمی و مقالات پژوهشی در مهندسی، فناوری و علوم است.",
+"u": "https://www.jstage.jst.go.jp/",
+"official": false
+},
+{
+"t": "کیشمهر / پایگاه استنادی علوم (ISC)",
+"d": "مرجع رسمی رتبه‌بندی و دسترسی به اطلاعات مجلات علمی معتبر در جهان اسلام و ایران است.",
+"u": "https://isc.ac/",
+"official": false
+}
+]
+},
+{
+"n": 5,
+"name": "کتاب و کتابخانه‌های دیجیتال",
+"items": [
+{
+"t": "Project Gutenberg",
+"d": "قدیمی‌ترین کتابخانه دیجیتال است که بیش از ۷۰ هزار کتاب رایگان و کلاسیک جهان را ارائه می‌دهد.",
+"u": "https://www.gutenberg.org/",
+"official": false
+},
+{
+"t": "Open Library",
+"d": "یک پروژه غیرانتفاعی است که هدف آن ایجاد یک صفحه وب برای هر کتاب منتشر شده در جهان است.",
+"u": "https://openlibrary.org/",
+"official": false
+},
+{
+"t": "Internet Archive",
+"d": "یک کتابخانه عظیم اینترنتی شامل میلیون‌ها کتاب، فیلم، موسیقی و آرشیو صفحات وب قدیمی است.",
+"u": "https://archive.org/",
+"official": false
+},
+{
+"t": "LibriVox",
+"d": "مرجع دانلود رایگان کتاب‌های صوتی در حوزه عمومی است که توسط داوطلبان خوانده شده‌اند.",
+"u": "https://librivox.org/",
+"official": false
+},
+{
+"t": "PDF Drive",
+"d": "یک موتور جستجوی تخصصی برای یافتن و دانلود رایگان میلیون‌ها فایل PDF کتاب در موضوعات گوناگون است.",
+"u": "https://pdfdrive.pw/",
+"official": false
+},
+{
+"t": "Wikisource",
+"d": "کتابخانه آزاد ویکی‌مدیا است که متون اصیل و کتاب‌های فارسی و جهانی را به رایگان در اختیار می‌گذارد.",
+"u": "https://fa.wikisource.org/",
+"official": false
+},
+{
+"t": "Standard Ebooks",
+"d": "نسخه‌های رایگان، ویراستاری شده و بسیار خوش‌ساخت از کتاب‌های کلاسیک جهان را ارائه می‌دهد.",
+"u": "https://standardebooks.org/",
+"official": false
+},
+{
+"t": "ManyBooks",
+"d": "آرشیوی شامل بیش از ۵۰ هزار کتاب الکترونیکی رایگان در ژانرهای مختلف برای دانلود است.",
+"u": "https://manybooks.net/",
+"official": false
+},
+{
+"t": "Library of Congress",
+"d": "کتابخانه کنگره آمریکا است که میلیون‌ها کتاب، نقشه، عکس و سند تاریخی دیجیتال را رایگان منتشر می‌کند.",
+"u": "https://www.loc.gov/",
+"official": false
+},
+{
+"t": "World Digital Library",
+"d": "گنجینه‌ای از نسخه‌های خطی، نقشه‌ها و کتاب‌های نادر از فرهنگ‌های مختلف جهان است.",
+"u": "https://www.loc.gov/item/lcwaN0018836/",
+"official": false
+},
+{
+"t": "Bookboon",
+"d": "کتابخانه آنلاین برای دانلود رایگان کتاب‌های درسی دانشگاهی و کتاب‌های کسب‌وکار به فرمت PDF است.",
+"u": "https://bookboon.com/",
+"official": false
+},
+{
+"t": "کتابخانه دیجیتال نور (نورمگز)",
+"d": "بزرگ‌ترین بانک مجلات تخصصی علوم انسانی و اسلامی به زبان فارسی است.",
+"u": "https://www.noormags.ir/",
+"official": false
+},
+{
+"t": "Z-Library",
+"d": "یکی از گسترده‌ترین کتابخانه‌های دیجیتال جهان برای یافتن کتاب‌های علمی و عمومی است.",
+"u": "https://en.wikipedia.org/wiki/Z-Library",
+"official": false
+},
+{
+"t": "Anna's Archive",
+"d": "بزرگ‌ترین موتور جستجوی کتابخانه‌های آزاد جهان برای دسترسی به میلیون‌ها کتاب و مقاله است.",
+"u": "https://annas-archive.cc/s",
+"official": false
+},
+{
+"t": "Directory of Open Access Books",
+"d": "مرجع دانلود رایگان کتاب‌های دانشگاهی و علمی معتبر با دسترسی آزاد است.",
+"u": "https://www.doabooks.org/",
+"official": false
+},
+{
+"t": "OAPEN",
+"d": "کتابخانه آنلاین برای دانلود رایگان کتاب‌های پژوهشی در حوزه‌های علوم انسانی و اجتماعی است.",
+"u": "https://www.oapen.org/",
+"official": false
+},
+{
+"t": "Free-eBooks.net",
+"d": "آرشیوی متنوع از کتاب‌های رایگان در زمینه‌های داستان، علمی و آموزشی است.",
+"u": "https://www.free-ebooks.net/",
+"official": false
+},
+{
+"t": "Loyal Books",
+"d": "منبعی عالی برای دانلود رایگان کتاب‌های صوتی و الکترونیکی کلاسیک جهان است.",
+"u": "http://www.loyalbooks.com/",
+"official": false
+},
+{
+"t": "کتابخانه دیجیتال تبیان",
+"d": "مجموعه‌ای بزرگ از کتاب‌های الکترونیکی رایگان به زبان فارسی در موضوعات مختلف است.",
+"u": "https://www.ghbook.ir/index.php?option=com_dbook&task=searchby&cf_id=34&value=%D9%85%D9%88%D8%B3%D8%B3%D9%87%20%D9%81%D8%B1%D9%87%D9%86%DA%AF%DB%8C%20%D8%AA%D8%A8%DB%8C%D8%A7%D9%86&Itemid=222&lang=fa",
+"official": false
+},
+{
+"t": "کتابراه",
+"d": "پلتفرم قانونی برای دانلود هزاران کتاب الکترونیکی و صوتی رایگان و پولی فارسی است.",
+"u": "https://ketabrah.com/",
+"official": false
+},
+{
+"t": "OpenStax",
+"d": "کتابخانه دانشگاه رایس است که کتاب‌های درسی دانشگاهی را با بالاترین کیفیت و کاملاً رایگان منتشر می‌کند.",
+"u": "https://openstax.org/",
+"official": false
+},
+{
+"t": "LibreTexts",
+"d": "بزرگ‌ترین کتابخانه آنلاین کتاب‌های درسی رایگان در رشته‌های ریاضی، فیزیک، شیمی و علوم کامپیوتر است.",
+"u": "https://libretexts.org/",
+"official": false
+},
+{
+"t": "Wikibooks",
+"d": "مجموعه‌ای از کتاب‌های آموزشی و درسی رایگان است که توسط جامعه جهانی نوشته و ویرایش می‌شوند.",
+"u": "https://en.wikibooks.org/",
+"official": false
+},
+{
+"t": "HathiTrust Digital Library",
+"d": "مشارکتی از کتابخانه‌های دانشگاهی جهان که میلیون‌ها کتاب دیجیتال را در دسترس قرار می‌دهد.",
+"u": "https://www.hathitrust.org/",
+"official": false
+},
+{
+"t": "Europeana",
+"d": "پورتال میراث فرهنگی اروپا شامل میلیون‌ها کتاب، نقاشی، عکس و فایل صوتی تاریخی رایگان است.",
+"u": "https://www.europeana.eu/",
+"official": false
+},
+{
+"t": "B-OK / Z-Lib Mirrors",
+"d": "درگاه ورود به یکی از بزرگ‌ترین آرشیوهای کتاب‌های علمی و دانشگاهی در سراسر جهان است.",
+"u": "https://z-lib.id/categories/mirrors",
+"official": false
+},
+{
+"t": "Bartleby",
+"d": "آرشیوی غنی از کتاب‌های مرجع، دایرةالمعارف‌ها و آثار ادبی کلاسیک جهان به صورت رایگان است.",
+"u": "https://www.bartleby.com/",
+"official": false
+},
+{
+"t": "کتابخانه دیجیتال مجلس",
+"d": "منبعی ارزشمند برای دسترسی رایگان به نسخه‌های خطی، اسناد تاریخی و کتاب‌های نادر فارسی است.",
+"u": "https://ical.ir/",
+"official": false
+},
+{
+"t": "Internet Archive Scholar",
+"d": "موتور جستجوی رایگان برای دسترسی به بیش از ۲۵ میلیون مقاله علمی و کتاب دیجیتال که در آرشیو اینترنت نگهداری می‌شوند.",
+"u": "https://scholar.archive.org/",
+"official": false
+},
+{
+"t": "Directory of Open Access Repositories (OpenDOAR)",
+"d": "فهرست جهانی مخازن علمی دانشگاه‌ها برای دانلود رایگان پایان‌نامه‌ها و مقالات پژوهشی است.",
+"u": "https://opendoar.ac.uk/",
+"official": false
+},
+{
+"t": "LibriVox Audiobooks",
+"d": "آرشیو هزاران کتاب صوتی رایگان به زبان انگلیسی و سایر زبان‌ها برای تقویت مهارت شنیداری (Listening) است.",
+"u": "https://librivox.org/search",
+"official": false
+},
+{
+"t": "ESL Fast",
+"d": "صدها داستان کوتاه و مکالمه روزمره زبان انگلیسی همراه با فایل صوتی و متن برای یادگیری رایگان زبان است.",
+"u": "https://www.eslfast.com/",
+"official": false
+},
+{
+"t": "ELLLO (English Listening Lesson Library Online)",
+"d": "بیش از ۳۰۰۰ درس شنیداری رایگان زبان انگلیسی با لهجه‌های مختلف از سراسر جهان همراه با متن و آزمون است.",
+"u": "https://www.elllo.org/",
+"official": false
+},
+{
+"t": "Cambridge Dictionary Free",
+"d": "معتبرترین فرهنگ لغت آنلاین رایگان برای یادگیری معنی دقیق کلمات، تلفظ و مثال‌های کاربردی انگلیسی است.",
+"u": "https://dictionary.cambridge.org/",
+"official": false
+},
+{
+"t": "Wikiversity",
+"d": "پروژه‌ای از بنیاد ویکی‌مدیا برای دسترسی رایگان به منابع آموزشی، جزوات و پروژه‌های پژوهشی در تمام سطوح است.",
+"u": "https://en.wikiversity.org/",
+"official": false
+},
+{
+"t": "Global Text Project / Free Tech Books",
+"d": "مجموعه‌ای از کتاب‌های رایگان علوم کامپیوتر، برنامه‌نویسی، مهندسی و ریاضیات با لینک دانلود مستقیم است.",
+"u": "https://www.freetechbooks.com/",
+"official": false
+},
+{
+"t": "Green Tea Press",
+"d": "کتاب‌های درسی بسیار معروف و رایگان (مانند Think Java و Think Python) را برای یادگیری برنامه‌نویسی منتشر می‌کند.",
+"u": "https://greenteapress.com/wp/",
+"official": false
+},
+{
+"t": "GoalKicker (Free Programming Books)",
+"d": "مجموعه کتاب‌های خلاصه، کاربردی و کاملاً رایگان (PDF) برای یادگیری سریع زبان‌هایی مانند جاوا، HTML5، CSS3 و پایتون است.",
+"u": "https://books.goalkicker.com/",
+"official": false
+},
+{
+"t": "IntechOpen",
+"d": "بزرگ‌ترین ناشر کتاب‌های علمی و دانشگاهی با دسترسی آزاد که هزاران کتاب در رشته‌های مهندسی، هوش مصنوعی و علوم را رایگان ارائه می‌دهد.",
+"u": "https://www.intechopen.com/books",
+"official": false
+},
+{
+"t": "Feedbooks (Public Domain)",
+"d": "آرشیو مرتب و باکیفیت برای دانلود رایگان هزاران کتاب کلاسیک ادبی، فلسفی و تاریخی به زبان‌های مختلف است.",
+"u": "https://market.feedbooks.com/recent",
+"official": false
+},
+{
+"t": "Digital Book Index",
+"d": "راهنمای جامع بیش از ۱۶۵ هزار کتاب الکترونیکی رایگان از دانشگاه‌ها و کتابخانه‌های معتبر جهان است.",
+"u": "http://www.digitalbookindex.org/search001a.htm",
+"official": false
+},
+{
+"t": "Open Textbook Library",
+"d": "کتابخانه دانشگاه مینه سوتا با بیش از هزار کتاب درسی دانشگاهی کاملاً رایگان که توسط اساتید بررسی شده‌اند.",
+"u": "https://open.umn.edu/opentextbooks",
+"official": false
+},
+{
+"t": "کتابخانه دیجیتال قائمیه",
+"d": "یکی از بزرگ‌ترین مخازن رایگان برای دانلود کتاب‌های الکترونیکی فارسی و عربی در موضوعات متنوع است.",
+"u": "https://www.ghbook.ir/",
+"official": false
+},
+{
+"t": "Smashwords (Free Ebooks)",
+"d": "یکی از بزرگ‌ترین مخازن کتاب‌های الکترونیکی رایگان از نویسندگان مستقل در تمام ژانرها است.",
+"u": "https://www.smashwords.com/shelves/home/1/free/any",
+"official": false
+},
+{
+"t": "Authorama",
+"d": "مجموعه‌ای از کتاب‌های کلاسیک و تاریخی رایگان که به صورت صفحات وب ساده و قابل مطالعه در موبایل منتشر شده‌اند.",
+"u": "http://www.authorama.com/",
+"official": false
+},
+{
+"t": "Online Books Page (University of Pennsylvania)",
+"d": "فهرست دانشگاه پنسیلوانیا شامل بیش از ۳ میلیون کتاب رایگان قابل مطالعه در اینترنت است.",
+"u": "https://onlinebooks.library.upenn.edu/",
+"official": false
+},
+{
+"t": "National Academies Press (Free PDFs)",
+"d": "بیش از ۱۰ هزار کتاب و گزارش علمی معتبر آکادمی ملی علوم آمریکا را به صورت PDF کاملاً رایگان ارائه می‌دهد.",
+"u": "https://nap.nationalacademies.org/ebook/",
+"official": false
+},
+{
+"t": "RAND Corporation Publications",
+"d": "هزاران کتاب، گزارش پژوهشی و تحلیل علمی رایگان در زمینه‌های سیاست، فناوری، امنیت و اقتصاد منتشر می‌کند.",
+"u": "https://www.rand.org/pubs.html",
+"official": false
+},
+{
+"t": "University of California Press (Luminos)",
+"d": "مجموعه کتاب‌های دانشگاهی با دسترسی آزاد انتشارات دانشگاه کالیفرنیا برای دانلود رایگان PDF است.",
+"u": "https://www.luminosoa.org/",
+"official": false
+},
+{
+"t": "کتابخانه دیجیتال نور (تخصصی ادبیات و تاریخ)",
+"d": "دسترسی رایگان به هزاران مقاله و کتاب تخصصی در حوزه ادبیات فارسی و تاریخ است.",
+"u": "https://www.noormags.ir/view/fa/default",
+"official": false
+}
+]
+},
+{
+"n": 6,
+"name": "برنامه‌نویسی و طراحی وب",
+"items": [
+{
+"t": "W3Schools",
+"d": "ساده‌ترین و کاربردی‌ترین مرجع برای یادگیری قدم‌به‌قدم زبان‌های طراحی وب مثل HTML، CSS و Python است.",
+"u": "https://www.w3schools.com/",
+"official": false
+},
+{
+"t": "MDN Web Docs",
+"d": "کامل‌ترین و رسمی‌ترین مستندات آموزشی برای توسعه‌دهندگان وب در جهان است.",
+"u": "https://developer.mozilla.org/",
+"official": false
+},
+{
+"t": "Stack Overflow",
+"d": "بزرگ‌ترین انجمن پرسش و پاسخ برنامه‌نویسان برای رفع خطاها و مشکلات کدنویسی است.",
+"u": "https://stackoverflow.com/",
+"official": false
+},
+{
+"t": "GeeksforGeeks",
+"d": "پورتالی جامع برای یادگیری علوم کامپیوتر، الگوریتم‌ها و آمادگی برای مصاحبه‌های شغلی است.",
+"u": "https://www.geeksforgeeks.org/",
+"official": false
+},
+{
+"t": "Kaggle",
+"d": "بهترین پلتفرم برای یادگیری علم داده، یادگیری ماشین و دسترسی به مجموعه‌داده‌های (Datasets) رایگان است.",
+"u": "https://www.kaggle.com/",
+"official": false
+},
+{
+"t": "فرادرس (FMovies/Faradars)",
+"d": "بزرگ‌ترین پلتفرم آموزش آنلاین فارسی با هزاران دوره در زمینه‌های دانشگاهی، نرم‌افزار و مهارتی است.",
+"u": "https://faradars.org/",
+"official": false
+},
+{
+"t": "LeetCode",
+"d": "بهترین سایت برای تمرین الگوریتم‌ها و آمادگی برای آزمون‌های فنی برنامه‌نویسی است.",
+"u": "https://leetcode.com/",
+"official": false
+},
+{
+"t": "HackerRank",
+"d": "پلتفرمی عالی برای تمرین کدنویسی در زبان‌های مختلف و دریافت گواهینامه مهارت است.",
+"u": "https://www.hackerrank.com/",
+"official": false
+},
+{
+"t": "CodePen",
+"d": "محیطی آنلاین برای نوشتن، تست و نمایش کدهای HTML، CSS و JavaScript است.",
+"u": "https://codepen.io/",
+"official": false
+},
+{
+"t": "Netlify",
+"d": "سرویسی رایگان و بسیار سریع برای میزبانی و آنلاین کردن وب‌سایت‌های شخصی و پورتفولیو است.",
+"u": "https://www.netlify.com/",
+"official": false
+},
+{
+"t": "Vercel",
+"d": "یکی از محبوب‌ترین پلتفرم‌های رایگان برای انتشار پروژه‌های وب مدرن است.",
+"u": "https://vercel.com/",
+"official": false
+},
+{
+"t": "Cloudflare",
+"d": "خدمات رایگان امنیت وب، افزایش سرعت سایت و میزبانی صفحات را ارائه می‌دهد.",
+"u": "https://www.cloudflare.com/",
+"official": false
+},
+{
+"t": "Supabase",
+"d": "یک جایگزین متن‌باز و رایگان برای ساخت پایگاه داده و بخش بک‌اند سایت‌ها است.",
+"u": "https://supabase.com/",
+"official": false
+},
+{
+"t": "Roadmap.sh",
+"d": "نقشه‌های راه تصویری و قدم‌به‌قدم برای یادگیری تمام شاخه‌های برنامه‌نویسی را نمایش می‌دهد.",
+"u": "https://roadmap.sh/",
+"official": false
+},
+{
+"t": "The Odin Project",
+"d": "یکی از بهترین دوره‌های کاملاً رایگان و پروژه‌محور برای یادگیری طراحی وب از صفر است.",
+"u": "https://www.theodinproject.com/",
+"official": false
+},
+{
+"t": "CS50 by Harvard",
+"d": "مشهورترین دوره رایگان علوم کامپیوتر و برنامه‌نویسی جهان از دانشگاه هاروارد است.",
+"u": "https://cs50.harvard.edu/",
+"official": false
+},
+{
+"t": "Replit",
+"d": "محیط کدنویسی آنلاین که به شما اجازه می‌دهد بدون نیاز به نصب هیچ برنامه‌ای در مرورگر کد بنویسید و اجرا کنید.",
+"u": "https://replit.com/",
+"official": false
+},
+{
+"t": "JSFiddle",
+"d": "ابزار آنلاین سریع برای تست و اشتراک‌گذاری کدهای HTML، CSS و JavaScript است.",
+"u": "https://jsfiddle.net/",
+"official": false
+},
+{
+"t": "Can I use",
+"d": "به طراحان وب نشان می‌دهد کدام ویژگی‌های HTML و CSS در مرورگرهای مختلف پشتیبانی می‌شوند.",
+"u": "https://caniuse.com/",
+"official": false
+},
+{
+"t": "JSONPlaceholder",
+"d": "یک API آنلاین و رایگان برای تست و تمرین برنامه‌نویسان هنگام ساخت وب‌سایت است.",
+"u": "https://jsonplaceholder.typicode.com/",
+"official": false
+},
+{
+"t": "DevDocs",
+"d": "تمام مستندات زبان‌های برنامه‌نویسی را در یک رابط کاربری سریع و قابل استفاده به صورت آفلاین جمع‌آوری کرده است.",
+"u": "https://devdocs.io/",
+"official": false
+},
+{
+"t": "GitLab",
+"d": "یک پلتفرم کامل و رایگان برای مدیریت کدها و همکاری تیمی در پروژه‌های نرم‌افزاری است.",
+"u": "https://about.gitlab.com/",
+"official": false
+},
+{
+"t": "JavaPoint (Javatpoint)",
+"d": "یکی از کامل‌ترین و ساده‌ترین مراجع متنی برای یادگیری زبان برنامه‌نویسی جاوا از صفر تا پیشرفته همراه با مثال‌های زیاد است.",
+"u": "https://javapoint.sourceforge.net/",
+"official": false
+},
+{
+"t": "Programiz (Learn Java)",
+"d": "آموزش قدم‌به‌قدم زبان جاوا همراه با کامپایلر آنلاین برای اجرای مستقیم کدها در مرورگر است.",
+"u": "https://www.programiz.com/java-programming",
+"official": false
+},
+{
+"t": "Baeldung",
+"d": "معتبرترین مرجع تخصصی برای توسعه‌دهندگان جاوا و فریم‌ورک اسپرینگ (Spring) جهت یادگیری مفاهیم عمیق است.",
+"u": "https://www.baeldung.com/",
+"official": false
+},
+{
+"t": "Frontend Mentor",
+"d": "چالش‌های واقعی طراحی وب (HTML و CSS) را در اختیار شما می‌گذارد تا با ساخت پروژه‌های واقعی، مهارت خود را تقویت کنید.",
+"u": "https://www.frontendmentor.io/",
+"official": false
+},
+{
+"t": "CSS-Tricks",
+"d": "بهترین مجله آموزشی برای یادگیری ترفندهای طراحی وب مدرن، انیمیشن‌های CSS و واکنش‌گرا کردن سایت‌ها (Responsive Design) است.",
+"u": "https://css-tricks.com/",
+"official": false
+},
+{
+"t": "Flexbox Froggy",
+"d": "یک بازی آنلاین و سرگرم‌کننده برای یادگیری کامل چیدمان عناصر در طراحی وب (CSS Flexbox) است.",
+"u": "https://flexboxfroggy.com/",
+"official": false
+},
+{
+"t": "Grid Garden",
+"d": "یک بازی آموزشی رایگان برای تسلط بر سیستم شبکه‌بندی مدرن در طراحی صفحات وب (CSS Grid) است.",
+"u": "https://cssgridgarden.com/",
+"official": false
+},
+{
+"t": "Exercism",
+"d": "پلتفرمی کاملاً رایگان با بیش از ۶۰ زبان برنامه‌نویسی (از جمله جاوا و پایتون) که تمرین‌های کدنویسی همراه با راهنمایی منتورها را ارائه می‌دهد.",
+"u": "https://exercism.org/",
+"official": false
+},
+{
+"t": "HTML5 UP",
+"d": "مجموعه‌ای از زیباترین قالب‌های رایگان و واکنش‌گرا (Responsive) با HTML5 و CSS3 برای ساخت سایت پورتفولیو است.",
+"u": "https://html5up.net/",
+"official": false
+},
+{
+"t": "Start Bootstrap",
+"d": "مخزن قالب‌های رایگان و آماده بوت‌استرپ برای طراحی سریع وب‌سایت‌های شخصی و شرکتی است.",
+"u": "https://startbootstrap.com/",
+"official": false
+},
+{
+"t": "Colorlib Free Templates",
+"d": "صدها قالب وب‌سایت رایگان و مدرن در موضوعات مختلف (عکاسی، پورتفولیو، آموزشی) برای دانلود مستقیم است.",
+"u": "https://colorlib.com/wp/templates/",
+"official": false
+},
+{
+"t": "ThemeWagon (Free HTML Templates)",
+"d": "مرجع دانلود قالب‌های رایگان و حرفه‌ای HTML و CSS برای پروژه‌های دانشجویی و تجاری است.",
+"u": "https://themewagon.com/theme-price/free/",
+"official": false
+},
+{
+"t": "BootstrapMade",
+"d": "قالب‌های تمیز و استاندارد وب که روی موبایل، تبلت و کامپیوتر به بهترین شکل نمایش داده می‌شوند.",
+"u": "https://bootstrapmade.com/",
+"official": false
+},
+{
+"t": "Templated.co",
+"d": "آرشیو بزرگی از قالب‌های ساده، سبک و کاملاً رایگان CSS و HTML است.",
+"u": "https://templated.co/",
+"official": false
+},
+{
+"t": "Tooplate",
+"d": "مجموعه‌ای از قالب‌های رایگان HTML برای ساخت سریع وب‌سایت‌های شخصی و رزومه است.",
+"u": "https://www.tooplate.com/",
+"official": false
+},
+{
+"t": "Free CSS",
+"d": "یکی از بزرگ‌ترین دایرکتوری‌های اینترنتی با بیش از ۳۰۰۰ قالب رایگان HTML و CSS است.",
+"u": "https://www.free-css.com/",
+"official": false
+},
+{
+"t": "CodePen Trending",
+"d": "مخزن میلیون‌ها پروژه کوچک و خلاقانه HTML، CSS و جاوااسکریپت همراه با کد منبع قابل کپی است.",
+"u": "https://codepen.io/trending",
+"official": false
+},
+{
+"t": "GitHub Explore (Trending Repositories)",
+"d": "بخش کشف محبوب‌ترین پروژه‌های رایگان و متن‌باز روز دنیا در تمام زبان‌های برنامه‌نویسی است.",
+"u": "https://github.com/trending",
+"official": false
+},
+{
+"t": "Awesome Lists (GitHub)",
+"d": "بزرگ‌ترین فهرست دسته‌بندی‌شده جهان از بهترین منابع، کتابخانه‌ها و ابزارهای رایگان هر رشته است.",
+"u": "https://github.com/sindresorhus/awesome",
+"official": false
+},
+{
+"t": "Public APIs (GitHub)",
+"d": "فهرست جامع هزاران API رایگان برای استفاده در پروژه‌های برنامه‌نویسی و طراحی وب است.",
+"u": "https://github.com/public-apis/public-apis",
+"official": false
+},
+{
+"t": "Tailwind Components",
+"d": "مخزن قطعات آماده طراحی وب مدرن برای سرعت بخشیدن به ساخت صفحات اینترنتی است.",
+"u": "https://github.com/tailwindcomponents",
+"official": false
+},
+{
+"t": "Uiverse.io",
+"d": "بزرگ‌ترین کتابخانه رایگان و متن‌باز دکمه‌ها، کارت‌ها و انیمیشن‌های آماده CSS و HTML برای کپی کردن در سایت است.",
+"u": "https://uiverse.io/",
+"official": false
+},
+{
+"t": "Animista",
+"d": "ابزار آنلاین رایگان برای ساخت انیمیشن‌های CSS و دریافت مستقیم کد آماده آن‌ها است.",
+"u": "https://animista.net/",
+"official": false
+},
+{
+"t": "CSS Gradient",
+"d": "ابزار رایگان برای ساخت طیف‌های رنگی زیبا و دریافت کد آماده CSS برای پس‌زمینه وب‌سایت‌ها است.",
+"u": "https://cssgradient.io/",
+"official": false
+},
+{
+"t": "Neumorphism.io",
+"d": "تولیدکننده کدهای آماده CSS برای طراحی مدرن دکمه‌ها و کارت‌های رابط کاربری است.",
+"u": "https://neumorphism.io/",
+"official": false
+},
+{
+"t": "Glassmorphism Generator",
+"d": "ابزار آنلاین برای ساخت افکت شیشه‌ای مدرن در طراحی وب و دریافت کد آن است.",
+"u": "https://hype4.academy/tools/glassmorphism-generator",
+"official": false
+},
+{
+"t": "Heroicons",
+"d": "مجموعه آیکون‌های زیبا و کاملاً رایگان در فرمت SVG برای طراحان وب است.",
+"u": "https://heroicons.com/",
+"official": false
+},
+{
+"t": "Lucide Icons",
+"d": "کتابخانه آیکون‌های سبک، مدرن و متن‌باز با بیش از ۱۰۰۰ آیکون کاربردی برای وب و اپلیکیشن است.",
+"u": "https://lucide.dev/",
+"official": false
+},
+{
+"t": "Phosphor Icons",
+"d": "مجموعه آیکون‌های انعطاف‌پذیر و رایگان در ۶ وزن مختلف برای طراحی رابط کاربری است.",
+"u": "https://phosphoricons.com/",
+"official": false
+},
+{
+"t": "Tabler Icons",
+"d": "بیش از ۵۰۰۰ آیکون برداری کاملاً رایگان برای استفاده در پروژه‌های وب و گرافیک است.",
+"u": "https://tabler.io/icons",
+"official": false
+},
+{
+"t": "LottieFiles (Free Animations)",
+"d": "بزرگ‌ترین مخزن انیمیشن‌های سبک و برداری رایگان برای استفاده در وب‌سایت‌ها، اپلیکیشن‌ها و ویدیوها است.",
+"u": "https://lottiefiles.com/featured",
+"official": false
+},
+{
+"t": "Humaaans",
+"d": "کتابخانه رایگان تصویرسازی‌های ترکیبی از انسان‌ها برای طراحی صفحات وب و ارائه‌ها است.",
+"u": "https://www.humaaans.com/",
+"official": false
+},
+{
+"t": "Open Peeps",
+"d": "مجموعه تصویرسازی‌های دست‌ساز و رایگان برای طراحی کاراکترهای گرافیکی و وب است.",
+"u": "https://www.openpeeps.com/",
+"official": false
+},
+{
+"t": "Blush Design",
+"d": "پلتفرم رایگان برای ساخت و شخصی‌سازی تصویرسازی‌های هنری هنرمندان جهان در مرورگر است.",
+"u": "https://blush.design/",
+"official": false
+},
+{
+"t": "Cool Backgrounds",
+"d": "ابزار رایگان برای ساخت تصاویر پس‌زمینه هندسی و انتزاعی برای وب‌سایت و دسکتاپ است.",
+"u": "https://coolbackgrounds.io/",
+"official": false
+},
+{
+"t": "Haikei",
+"d": "ابزار آنلاین رایگان برای تولید اشکال هندسی و موج‌های وکتور (SVG) جهت طراحی وب و پوستر است.",
+"u": "https://app.haikei.app/",
+"official": false
+},
+{
+"t": "Remove.bg / Pixian.ai",
+"d": "ابزار آنلاین رایگان با دقت بسیار بالا برای حذف پس‌زمینه عکس‌ها بدون افت کیفیت است.",
+"u": "https://pixian.ai/",
+"official": false
+},
+{
+"t": "TinyJPG",
+"d": "فشرده‌سازی هوشمند تصاویر JPEG برای افزایش سرعت بارگذاری صفحات وب است.",
+"u": "https://tinyjpg.com/",
+"official": false
+},
+{
+"t": "GitHub Explore",
+"d": "ویترین کشف محبوب‌ترین پروژه‌های متن‌باز، کدهای آماده و مخازن برنامه‌نویسی جهان است.",
+"u": "https://github.com/explore",
+"official": false
+},
+{
+"t": "GitLab Explore",
+"d": "مخزن پروژه‌های نرم‌افزاری باز و ابزارهای توسعه وب و اپلیکیشن است.",
+"u": "https://gitlab.com/explore",
+"official": false
+},
+{
+"t": "ThemeWagon",
+"d": "آرشیوی بزرگ از قالب‌های آماده وب‌سایت برای پورتفولیو، فروشگاه و شرکت‌ها به صورت رایگان است.",
+"u": "https://themewagon.com/",
+"official": false
+},
+{
+"t": "CSS Buttons",
+"d": "مجموعه‌ای از دکمه‌های متحرک و مدرن آماده برای کپی کردن در طراحی وب است.",
+"u": "https://cssbuttons.app/",
+"official": false
+},
+{
+"t": "Font Awesome",
+"d": "محبوب‌ترین کتابخانه آیکون‌ها و فونت‌های تصویری برای طراحی وب در جهان است.",
+"u": "https://fontawesome.com/",
+"official": false
+},
+{
+"t": "Motion Array Free",
+"d": "بخش رایگان دانلود پروژه‌های آماده افتر افکت، پریمیر و موشن گرافیک است.",
+"u": "https://motionarray.com/motion-graphics-templates/free/",
+"official": false
+}
+]
+},
+{
+"n": 7,
+"name": "هنر، گرافیک، سینما، صدا و موسیقی",
+"items": [
+{
+"t": "Behance",
+"d": "بزرگ‌ترین پلتفرم جهانی برای نمایش نمونه کارهای طراحان گرافیک، تصویرسازان و هنرمندان دیجیتال است.",
+"u": "https://www.behance.net/",
+"official": false
+},
+{
+"t": "Dribbble",
+"d": "جامعه‌ای از طراحان رابط کاربری (UI/UX) و گرافیست‌ها برای اشتراک‌گذاری ایده‌ها و پروژه‌ها است.",
+"u": "https://dribbble.com/",
+"official": false
+},
+{
+"t": "Unsplash",
+"d": "بهترین منبع برای دانلود رایگان عکس‌های بسیار باکیفیت و بدون کپی‌رایت از عکاسان حرفه‌ای است.",
+"u": "https://unsplash.com/",
+"official": false
+},
+{
+"t": "Pexels",
+"d": "آرشیوی غنی از عکس‌ها و ویدیوهای رایگان و باکیفیت برای استفاده در پروژه‌های هنری و تجاری است.",
+"u": "https://www.pexels.com/",
+"official": false
+},
+{
+"t": "Google Arts & Culture",
+"d": "امکان بازدید مجازی از موزه‌های بزرگ جهان و بررسی دقیق آثار هنری مشهور را فراهم می‌کند.",
+"u": "https://artsandculture.google.com/",
+"official": false
+},
+{
+"t": "Canva",
+"d": "یک ابزار طراحی گرافیک آنلاین و ساده است که هزاران قالب آماده رایگان برای پوستر و محتوا دارد.",
+"u": "https://www.canva.com/",
+"official": false
+},
+{
+"t": "DeviantArt",
+"d": "بزرگ‌ترین جامعه آنلاین برای هنرمندان دیجیتال، نقاشان و طراحان کاراکتر است.",
+"u": "https://www.deviantart.com/?page=2",
+"official": false
+},
+{
+"t": "ArtStation",
+"d": "پلتفرم حرفه‌ای برای نمایش آثار هنرمندان بازی‌های ویدیویی، انیمیشن و جلوه‌های ویژه است.",
+"u": "https://www.artstation.com/",
+"official": false
+},
+{
+"t": "Google Fonts",
+"d": "کتابخانه عظیم و رایگان گوگل برای دانلود فونت‌های استاندارد در زبان‌های مختلف از جمله فارسی و عربی است.",
+"u": "https://fonts.google.com/",
+"official": false
+},
+{
+"t": "Pixabay",
+"d": "منبعی عالی برای دانلود رایگان عکس، تصویرسازی، وکتور و جلوه‌های صوتی بدون کپی‌رایت است.",
+"u": "https://pixabay.com/",
+"official": false
+},
+{
+"t": "Freepik",
+"d": "بزرگ‌ترین مرجع برای دانلود فایل‌های لایه‌باز گرافیکی، آیکون‌ها و وکتورهای رایگان است.",
+"u": "https://www.freepik.com/",
+"official": false
+},
+{
+"t": "Bensound",
+"d": "سایتی عالی برای دانلود موسیقی‌های بی‌کلام و رایگان جهت استفاده در ویدیوها و پادکست‌ها است.",
+"u": "https://www.bensound.com/",
+"official": false
+},
+{
+"t": "Awwwards",
+"d": "مرجع معرفی خلاقانه‌ترین و زیباترین طراحی‌های وب در جهان برای الهام گرفتن است.",
+"u": "https://www.awwwards.com/",
+"official": false
+},
+{
+"t": "Figma",
+"d": "محبوب‌ترین ابزار آنلاین و رایگان برای طراحی رابط کاربری وب‌سایت و اپلیکیشن است.",
+"u": "https://www.figma.com/",
+"official": false
+},
+{
+"t": "Blender",
+"d": "قدرتمندترین نرم‌افزار رایگان و متن‌باز جهان برای مدل‌سازی سه‌بعدی و انیمیشن‌سازی است.",
+"u": "https://www.blender.org/",
+"official": false
+},
+{
+"t": "DaVinci Resolve",
+"d": "یک نرم‌افزار حرفه‌ای و رایگان در سطح سینمای هالیوود برای تدوین ویدیو و اصلاح رنگ است.",
+"u": "https://www.blackmagicdesign.com/products/davinciresolve",
+"official": false
+},
+{
+"t": "Krita",
+"d": "یک برنامه نقاشی دیجیتال و تصویرسازی حرفه‌ای و کاملاً رایگان است.",
+"u": "https://krita.org/",
+"official": false
+},
+{
+"t": "GIMP",
+"d": "بهترین جایگزین رایگان و متن‌باز برای ویرایش حرفه‌ای تصاویر و طراحی گرافیک است.",
+"u": "https://www.gimp.org/",
+"official": false
+},
+{
+"t": "No Film School",
+"d": "مجله‌ای جامع و رایگان برای یادگیری فیلم‌سازی، فیلم‌نامه‌نویسی، کارگردانی و صدابرداری است.",
+"u": "https://nofilmschool.com/",
+"official": false
+},
+{
+"t": "IMSDB",
+"d": "بزرگ‌ترین آرشیو آنلاین برای خواندن رایگان فیلم‌نامه‌های مشهورترین فیلم‌های سینمایی جهان است.",
+"u": "https://imsdb.com/",
+"official": false
+},
+{
+"t": "Audacity",
+"d": "معروف‌ترین نرم‌افزار رایگان و متن‌باز برای ضبط، ویرایش و حذف نویز صدا است.",
+"u": "https://www.audacityteam.org/",
+"official": false
+},
+{
+"t": "Freesound",
+"d": "بزرگ‌ترین بانک آنلاین برای دانلود رایگان جلوه‌های صوتی (Sound Effects) برای فیلم و بازی است.",
+"u": "https://freesound.org/",
+"official": false
+},
+{
+"t": "Notion",
+"d": "یک فضای کاری همه‌کاره و رایگان برای یادداشت‌برداری، برنامه‌ریزی درسی و مدیریت پروژه‌ها است.",
+"u": "https://www.notion.com/",
+"official": false
+},
+{
+"t": "Trello",
+"d": "ابزاری بصری و ساده برای مدیریت کارها و پروژه‌های تیمی و شخصی است.",
+"u": "https://trello.com/",
+"official": false
+},
+{
+"t": "iLovePDF",
+"d": "مجموعه‌ای کامل از ابزارهای آنلاین و رایگان برای ادغام، تقسیم، فشرده‌سازی و تبدیل فایل‌های PDF است.",
+"u": "https://www.ilovepdf.com/",
+"official": false
+},
+{
+"t": "Convertio",
+"d": "یک مبدل آنلاین قدرتمند برای تبدیل بیش از ۳۰۰ فرمت مختلف فایل، عکس، صوت و ویدیو به یکدیگر است.",
+"u": "https://convertio.co/",
+"official": false
+},
+{
+"t": "Archive.today",
+"d": "ابزاری برای ذخیره دائمی یک نسخه از صفحات وب حتی در صورت حذف شدن سایت اصلی است.",
+"u": "https://en.wikipedia.org/wiki/Archive.today",
+"official": false
+},
+{
+"t": "Speedtest",
+"d": "دقیق‌ترین ابزار آنلاین برای سنجش سرعت دانلود، آپلود و پینگ اینترنت است.",
+"u": "https://www.speedtest.net/",
+"official": false
+},
+{
+"t": "MUBI Notebook",
+"d": "مجله تخصصی نقد فیلم، تحلیل سینما و مصاحبه با کارگردانان بزرگ جهان است.",
+"u": "https://mubi.com/en/notebook",
+"official": false
+},
+{
+"t": "StudioBinder Blog",
+"d": "بهترین منبع آموزشی رایگان برای یادگیری فیلم‌نامه‌نویسی، کارگردانی، نورپردازی و تولید فیلم است.",
+"u": "https://www.studiobinder.com/blog/",
+"official": false
+},
+{
+"t": "Poly Haven",
+"d": "کتابخانه‌ای کاملاً رایگان برای دانلود بافت‌ها (Textures)، مدل‌های سه‌بعدی و نورپردازی HDRI است.",
+"u": "https://polyhaven.com/",
+"official": false
+},
+{
+"t": "Mixkit",
+"d": "آرشیوی فوق‌العاده از ویدیوهای آماده، موسیقی، جلوه‌های صوتی و قالب‌های تدوین رایگان بدون کپی‌رایت است.",
+"u": "https://mixkit.co/",
+"official": false
+},
+{
+"t": "Coolors",
+"d": "سریع‌ترین ابزار آنلاین برای ساخت و الهام گرفتن از پالت‌های رنگی حرفه‌ای در طراحی گرافیک است.",
+"u": "https://coolors.co/",
+"official": false
+},
+{
+"t": "SVG Repo",
+"d": "مخزنی شامل بیش از ۵۰۰ هزار آیکون و وکتور رایگان با فرمت SVG برای طراحان وب و گرافیک است.",
+"u": "https://www.svgrepo.com/",
+"official": false
+},
+{
+"t": "Cinefex / VFX Voice",
+"d": "مجله تخصصی بررسی پشت صحنه جلوه‌های ویژه بصری در فیلم‌های سینمایی است.",
+"u": "https://www.vfxvoice.com/",
+"official": false
+},
+{
+"t": "FilmFreeway",
+"d": "بزرگ‌ترین پلتفرم جهانی برای ارسال فیلم‌های کوتاه و مستند به هزاران جشنواره سینمایی دنیا است.",
+"u": "https://filmfreeway.com/",
+"official": false
+},
+{
+"t": "ShotDeck",
+"d": "بزرگ‌ترین پایگاه داده جستجوی پلان‌ها و فریم‌های سینمایی بر اساس رنگ، نورپردازی و زاویه دوربین است.",
+"u": "https://shotdeck.com/",
+"official": false
+},
+{
+"t": "Celtx",
+"d": "ابزار آنلاین و رایگان برای نوشتن فیلم‌نامه استاندارد، استوری‌بورد و برنامه‌ریزی تولید فیلم است.",
+"u": "https://www.celtx.com/",
+"official": false
+},
+{
+"t": "OpenToonz",
+"d": "نرم‌افزار متن‌باز و رایگان ساخت انیمیشن دوبعدی که توسط استودیو جیبلی نیز استفاده شده است.",
+"u": "https://opentoonz.github.io/e/",
+"official": false
+},
+{
+"t": "Natron",
+"d": "نرم‌افزار رایگان و متن‌باز برای جلوه‌های ویژه بصری (VFX) و کامپوزیت ویدیو است.",
+"u": "https://natrongithub.github.io/",
+"official": false
+},
+{
+"t": "Shotcut",
+"d": "یک نرم‌افزار تدوین ویدیو رایگان، سبک و متن‌باز برای سیستم‌های مختلف است.",
+"u": "https://www.shotcut.org/",
+"official": false
+},
+{
+"t": "Videvo",
+"d": "منبعی عالی برای دانلود رایگان فوتیج‌های ویدیویی، موشن گرافیک و افکت‌های صوتی است.",
+"u": "https://www.videvo.net/",
+"official": false
+},
+{
+"t": "MUBI",
+"d": "پلتفرم تخصصی تماشای فیلم‌های هنری، کلاسیک و سینمای مستقل جهان است.",
+"u": "https://mubi.com/",
+"official": false
+},
+{
+"t": "Rawpixel",
+"d": "آرشیوی غنی از عکس‌های باکیفیت، وکتورها، موکاپ‌ها و آثار هنری کلاسیک رایگان است.",
+"u": "https://www.rawpixel.com/",
+"official": false
+},
+{
+"t": "Pexels Videos",
+"d": "کتابخانه‌ای بزرگ از ویدیوهای باکیفیت 4K رایگان برای استفاده در تدوین و تولید محتوا است.",
+"u": "https://www.pexels.com/videos/",
+"official": false
+},
+{
+"t": "Font Squirrel",
+"d": "مرجع دانلود فونت‌های رایگان و باکیفیت که مجوز استفاده تجاری دارند.",
+"u": "https://www.fontsquirrel.com/",
+"official": false
+},
+{
+"t": "DaFont",
+"d": "یکی از بزرگ‌ترین آرشیوهای جهان برای دانلود فونت‌های فانتزی، هنری و نمایشی است.",
+"u": "https://www.dafont.com/",
+"official": false
+},
+{
+"t": "Color Hunt",
+"d": "مجموعه‌ای از هزاران پالت رنگی زیبا و آماده برای طراحان گرافیک و وب است.",
+"u": "https://colorhunt.co/",
+"official": false
+},
+{
+"t": "Darktable",
+"d": "بهترین جایگزین رایگان و متن‌باز برای نرم‌افزار Adobe Lightroom جهت ویرایش حرفه‌ای عکس‌های خام (RAW) است.",
+"u": "https://www.darktable.org/",
+"official": false
+},
+{
+"t": "Inkscape",
+"d": "قدرتمندترین نرم‌افزار رایگان و متن‌باز برای طراحی وکتور و جایگزین Adobe Illustrator است.",
+"u": "https://inkscape.org/release/inkscape-1.4.2/windows/64-bit/msi/dl/",
+"official": false
+},
+{
+"t": "Mockup World",
+"d": "مرجعی عالی برای دانلود رایگان موکاپ‌های لایه‌باز فتوشاپ جهت نمایش حرفه‌ای طرح‌های گرافیکی است.",
+"u": "https://www.mockupworld.co/",
+"official": false
+},
+{
+"t": "Cinefex / Art of VFX",
+"d": "مرجع بررسی پشت صحنه، مصاحبه با طراحان جلوه‌های ویژه و تحلیل فنی فیلم‌های بزرگ جهان است.",
+"u": "https://www.artofvfx.com/",
+"official": false
+},
+{
+"t": "Script Slug",
+"d": "آرشیو رایگان و باکیفیت برای دانلود فیلم‌نامه‌های رسمی (PDF) جدیدترین و مشهورترین فیلم‌های سینمایی است.",
+"u": "https://www.scriptslug.com/",
+"official": false
+},
+{
+"t": "Every Frame a Painting (YouTube)",
+"d": "یکی از تحسین‌شده‌ترین مجموعه‌های ویدیویی رایگان در جهان برای یادگیری زبان سینما، تدوین و کارگردانی است.",
+"u": "https://www.youtube.com/@everyframeapainting",
+"official": false
+},
+{
+"t": "IndieWire",
+"d": "مجله معتبر بین‌المللی برای دنبال کردن اخبار سینمای مستقل، جشنواره‌ها و نقد فیلم است.",
+"u": "https://www.indiewire.com/",
+"official": false
+},
+{
+"t": "A Sound Effect",
+"d": "مجله و مرجع تخصصی برای یادگیری طراحی صدا، صدابرداری صحنه و میکس صدای فیلم است.",
+"u": "https://www.asoundeffect.com/",
+"official": false
+},
+{
+"t": "Camerimage / American Cinematographer",
+"d": "مجله انجمن فیلم‌برداران آمریکا برای یادگیری تکنیک‌های نورپردازی و فیلم‌برداری سینمایی است.",
+"u": "https://theasc.com/",
+"official": false
+},
+{
+"t": "Pexels Music & Sound",
+"d": "آرشیو بزرگ و رایگان موسیقی‌های بی‌کلام و افکت‌های صوتی برای استفاده در فیلم‌های کوتاه و ویدیوها بدون مشکل کپی‌رایت است.",
+"u": "https://pixabay.com/music/search/pexels/?pagi=2",
+"official": false
+},
+{
+"t": "Blender Cloud / Demo Files",
+"d": "مجموعه فایل‌های پروژه آماده و رایگان نرم‌افزار بلندر برای تمرین انیمیشن‌سازی و نورپردازی سه‌بعدی است.",
+"u": "https://www.blender.org/download/demo-files/",
+"official": false
+},
+{
+"t": "Laws of UX",
+"d": "مجموعه‌ای از اصول روانشناسی و قوانین طلایی برای طراحی رابط کاربری زیبا و کاربرپسند در وب و موبایل است.",
+"u": "https://lawsofux.com/",
+"official": false
+},
+{
+"t": "Mobbin",
+"d": "بزرگ‌ترین کتابخانه مرجع از اسکرین‌شات‌های واقعی اپلیکیشن‌ها و وب‌سایت‌های برتر جهان برای الهام گرفتن در طراحی UI است.",
+"u": "https://mobbin.com/",
+"official": false
+},
+{
+"t": "UnDraw",
+"d": "مجموعه‌ای از تصویرسازی‌های وکتور (SVG) مدرن و کاملاً رایگان با امکان تغییر رنگ آنلاین برای استفاده در وب‌سایت‌ها و ارائه‌ها است.",
+"u": "https://undraw.co/",
+"official": false
+},
+{
+"t": "Storyset",
+"d": "پلتفرم رایگان برای دانلود و متحرک‌سازی تصویرسازی‌های گرافیکی جهت استفاده در ویدیوها و صفحات وب است.",
+"u": "https://storyset.com/",
+"official": false
+},
+{
+"t": "Pexels / Unsplash Collections",
+"d": "آرشیو عکس‌های هنری و باکیفیت بالا برای استفاده به عنوان پس‌زمینه و بافت در پروژه‌های گرافیکی است.",
+"u": "https://unsplash.com/t/wallpapers",
+"official": false
+},
+{
+"t": "Fontshare",
+"d": "سرویسی کاملاً رایگان با مجموعه‌ای از فونت‌های حرفه‌ای و مدرن برای استفاده شخصی و تجاری است.",
+"u": "https://www.fontshare.com/",
+"official": false
+},
+{
+"t": "Photopea Templates",
+"d": "هزاران قالب لایه‌باز رایگان (PSD) برای طراحی پوستر، کارت ویزیت، کاور یوتیوب و بنر در محیط مرورگر است.",
+"u": "https://www.photopea.com/templates/",
+"official": false
+},
+{
+"t": "Canva Design School",
+"d": "دوره‌های آموزشی کوتاه و رایگان برای یادگیری اصول ترکیب‌بندی، رنگ‌شناسی و طراحی گرافیک است.",
+"u": "https://www.canva.com/designschool/",
+"official": false
+},
+{
+"t": "BlenderKit (Free Assets)",
+"d": "کتابخانه‌ای عظیم از مدل‌های سه‌بعدی، متریال‌ها و براش‌های رایگان برای نرم‌افزار بلندر است.",
+"u": "https://www.blenderkit.com/",
+"official": false
+},
+{
+"t": "GIMP Tutorials (Official)",
+"d": "آموزش‌های رسمی و رایگان برای ویرایش حرفه‌ای عکس و طراحی گرافیک با نرم‌افزار متن‌باز GIMP است.",
+"u": "https://www.gimp.org/tutorials/",
+"official": false
+},
+{
+"t": "Inkscape Tutorials",
+"d": "آموزش‌های قدم‌به‌قدم و رایگان برای طراحی لوگو، پوستر و آثار وکتور است.",
+"u": "https://wiki.inkscape.org/wiki/Tutorials_and_help",
+"official": false
+},
+{
+"t": "Audacity Manual & Tutorials",
+"d": "راهنمای کامل و رایگان برای یادگیری صدابرداری، تدوین صدا و حذف نویز با نرم‌افزار Audacity است.",
+"u": "https://manual.audacityteam.org/",
+"official": false
+},
+{
+"t": "Pexels / Pixabay Sound Effects",
+"d": "هزاران افکت صوتی رایگان (صدای طبیعت، شهر، جلوه‌های سینمایی) برای استفاده در فیلم‌سازی و تدوین است.",
+"u": "https://pixabay.com/sound-effects/",
+"official": false
+},
+{
+"t": "Cinematography Database / Shot.cafe",
+"d": "یک آرشیو آنلاین رایگان برای جستجوی فریم‌های سینمایی و بررسی ترکیب‌بندی و رنگ در فیلم‌ها است.",
+"u": "https://shot.cafe/",
+"official": false
+},
+{
+"t": "SimplyScripts",
+"d": "یکی از قدیمی‌ترین مخازن رایگان برای دانلود فیلم‌نامه‌های سینمایی، تلویزیونی و نمایشنامه‌ها است.",
+"u": "https://www.simplyscripts.com/",
+"official": false
+},
+{
+"t": "OpenGameArt.org",
+"d": "کتابخانه‌ای رایگان برای دانلود طراحی‌های دوبعدی، مدل‌های سه‌بعدی، بافت‌ها و موسیقی برای بازی‌سازی و انیمیشن است.",
+"u": "https://opengameart.org/",
+"official": false
+},
+{
+"t": "Texture Haven / AmbientCG",
+"d": "آرشیو عظیم و کاملاً رایگان بافت‌های باکیفیت (PBR Materials) برای طراحی سه‌بعدی و جلوه‌های ویژه است.",
+"u": "https://ambientcg.com/",
+"official": false
+},
+{
+"t": "Flaticon (Free Icons)",
+"d": "بزرگ‌ترین پایگاه دانلود رایگان آیکون‌های گرافیکی در فرمت‌های PNG و SVG برای طراحی وب و پوستر است.",
+"u": "https://www.flaticon.com/",
+"official": false
+},
+{
+"t": "Lunacy (Icons8)",
+"d": "یک نرم‌افزار طراحی گرافیک و رابط کاربری (UI/UX) کاملاً رایگان و آفلاین با دسترسی داخلی به هزاران آیکون و عکس است.",
+"u": "https://icons8.com/lunacy",
+"official": false
+},
+{
+"t": "Gravit Designer / Corel Vector",
+"d": "ابزار طراحی وکتور تحت وب و دسکتاپ برای ساخت لوگو، آیکون و طراحی‌های وب است.",
+"u": "https://www.designer.io/",
+"official": false
+},
+{
+"t": "Paint.NET",
+"d": "یک نرم‌افزار ویرایش تصویر بسیار سبک، سریع و رایگان برای ویندوز با پشتیبانی از لایه‌ها و افزونه‌ها است.",
+"u": "https://www.getpaint.net/",
+"official": false
+},
+{
+"t": "Scribus",
+"d": "بهترین جایگزین رایگان و متن‌باز برای Adobe InDesign جهت صفحه‌آرایی کتاب، مجله و بروشور است.",
+"u": "https://www.scribus.org/",
+"official": false
+},
+{
+"t": "RawTherapee",
+"d": "نرم‌افزار حرفه‌ای و رایگان برای پردازش و اصلاح رنگ عکس‌های خام (RAW) دوربین‌های عکاسی است.",
+"u": "https://www.rawtherapee.com/",
+"official": false
+},
+{
+"t": "Vectr",
+"d": "ویرایشگر گرافیک برداری آنلاین و ساده برای ساخت سریع طرح‌های وکتور در مرورگر است.",
+"u": "https://vectr.com/",
+"official": false
+},
+{
+"t": "SVG-Edit",
+"d": "یک ابزار متن‌باز و تحت وب برای ساخت و ویرایش مستقیم فایل‌های وکتور SVG در محیط مرورگر است.",
+"u": "https://github.com/svg-edit/svgedit",
+"official": false
+},
+{
+"t": "Adobe Express (Free Plan)",
+"d": "نسخه رایگان و آنلاین ادوبی با هزاران قالب آماده برای طراحی پوستر، پست شبکه‌های اجتماعی و ویرایش سریع است.",
+"u": "https://www.adobe.com/express/",
+"official": false
+},
+{
+"t": "VistaCreate",
+"d": "پلتفرم طراحی گرافیک آنلاین با مجموعه‌ای از قالب‌های آماده و ابزارهای ویرایش تصویر رایگان است.",
+"u": "https://create.vista.com/",
+"official": false
+},
+{
+"t": "Snappa",
+"d": "ابزاری سریع برای ساخت بنرهای وب، کاورهای ویدیو و گرافیک‌های تبلیغاتی بدون نیاز به دانش پیچیده است.",
+"u": "https://snappa.com/",
+"official": false
+},
+{
+"t": "Desygner",
+"d": "برنامه طراحی گرافیک برای موبایل و وب جهت ساخت بروشور، کارت ویزیت و محتوای بصری است.",
+"u": "https://desygner.com/",
+"official": false
+},
+{
+"t": "Pixlr E & X",
+"d": "ویرایشگر عکس قدرتمند تحت وب با پشتیبانی از لایه‌ها و ابزارهای رتوش سریع تصویر است.",
+"u": "https://pixlr.com/",
+"official": false
+},
+{
+"t": "GIMP Plugins & Scripts Registry",
+"d": "مخزن گیت‌هاب برای دانلود افزونه‌ها و ابزارهای اضافی جهت ارتقای امکانات نرم‌افزار GIMP است.",
+"u": "https://gimp.cc/plugins.html",
+"official": false
+},
+{
+"t": "Webflow (Free Starter)",
+"d": "ابزار بصری طراحی وب واکنش‌گرا که کدهای تمیز HTML و CSS تولید می‌کند.",
+"u": "https://webflow.com/",
+"official": false
+},
+{
+"t": "Bootstrap (Official Repository)",
+"d": "محبوب‌ترین مخزن رایگان قالب‌ها و کدهای آماده HTML/CSS برای ساخت سریع سایت‌های سازگار با موبایل و تبلت است.",
+"u": "https://getbootstrap.com/",
+"official": false
+},
+{
+"t": "Motion Array (Free Assets)",
+"d": "یکی از بزرگ‌ترین مراجع جهان برای دانلود رایگان پروژه‌های آماده افتر افکت، پریمیر پرو، داوینچی و افکت‌های صوتی است.",
+"u": "https://motionarray.com/",
+"official": false
+},
+{
+"t": "Mixkit Premiere Pro & After Effects",
+"d": "آرشیو کاملاً رایگان و بدون نیاز به ثبت‌نام برای دانلود قالب‌های آماده پریمیر، افتر افکت و فاینال کات است.",
+"u": "https://mixkit.co/free-premiere-pro-templates/",
+"official": false
+},
+{
+"t": "Motion Elements (Free Templates)",
+"d": "مجموعه‌ای بزرگ از پروژه‌های رایگان افتر افکت و موشن گرافیک با بروزرسانی هفتگی است.",
+"u": "https://www.motionelements.com/free/after-effects-templates",
+"official": false
+},
+{
+"t": "RocketStock (Freebies)",
+"d": "بسته‌های بسیار باکیفیت و سینمایی رایگان شامل ترنزیشن‌ها، افکت‌های نوری (Lens Flares) و قالب‌های افتر افکت است.",
+"u": "https://www.rocketstock.com/free-after-effects-templates/",
+"official": false
+},
+{
+"t": "Cinecom.net (Free Downloads)",
+"d": "منبع عالی برای دانلود رایگان پریست‌های اصلاح رنگ، افکت‌های جلوه‌های ویژه و قالب‌های پریمیر است.",
+"u": "https://www.cinecom.net/tag/free-preset-pack/",
+"official": false
+},
+{
+"t": "ActionVFX (Free VFX Stock)",
+"d": "معتبرترین مرجع دانلود رایگان فوتیج‌های جلوه‌های ویژه واقعی (آتش، دود، انفجار و باران) برای افتر افکت است.",
+"u": "https://www.actionvfx.com/collections/free-for-subscribers",
+"official": false
+},
+{
+"t": "ProductionCrate (Free VFX & Motion)",
+"d": "آرشیوی غنی از افکت‌های ویدیویی، مدل‌های سه‌بعدی، جلوه‌های صوتی و قالب‌های موشن گرافیک رایگان است.",
+"u": "https://www.productioncrate.com/",
+"official": false
+},
+{
+"t": "PremiumBeat Blog (Freebies)",
+"d": "بسته‌های رایگان حرفه‌ای شامل LUTs سینمایی، تایتل‌های متحرک و صداهای پس‌زمینه برای تدوین‌گران است.",
+"u": "https://www.premiumbeat.com/blog/category/free-for-video/",
+"official": false
+},
+{
+"t": "Orange83 (Free Presets)",
+"d": "مجموعه‌ای از پریست‌های کاربردی ترنزیشن و انیمیشن متن برای نرم‌افزار پریمیر پرو است.",
+"u": "لینک در فایل اصلی موجود نبود",
+"official": false
+},
+{
+"t": "Mister Horse (Animation Composer)",
+"d": "محبوب‌ترین پلاگین رایگان برای افتر افکت و پریمیر که صدها انیمیشن آماده متن، صدا و ترنزیشن را در اختیار شما می‌گذارد.",
+"u": "https://misterhorse.com/animation-composer",
+"official": false
+},
+{
+"t": "AEJuice (Free Plugins & Packs)",
+"d": "مجموعه‌ای از اسکریپت‌ها و پک‌های انیمیشن رایگان برای سرعت بخشیدن به کار در افتر افکت و پریمیر است.",
+"u": "https://aejuice.com/free-plugins/",
+"official": false
+},
+{
+"t": "Video Copilot (Free Tutorials & Presets)",
+"d": "مرجع افسانه‌ای آموزش جلوه‌های ویژه افتر افکت به همراه پلاگین‌های رایگان مشهوری مانند Saber و Orb است.",
+"u": "https://www.videocopilot.net/presets/",
+"official": false
+},
+{
+"t": "ShareAE",
+"d": "یکی از بزرگ‌ترین دایرکتوری‌های اینترنتی برای جستجو و بررسی پروژه‌های آماده افتر افکت و موشن گرافیک است.",
+"u": "https://shareae.com/",
+"official": true
+},
+{
+"t": "GFXDownload",
+"d": "آرشیو گسترده‌ای از قالب‌های گرافیکی، پروژه‌های تدوین، فونت‌ها و ابزارهای طراحی است.",
+"u": "https://gfxdownload.net/",
+"official": false
+},
+{
+"t": "پارس‌موشن (ParsMotion)",
+"d": "مرجع تخصصی فارسی برای دانلود پروژه‌های آماده افتر افکت، پریمیر پرو، تیزرهای تبلیغاتی و پلاگین‌ها است.",
+"u": "لینک در فایل اصلی موجود نبود",
+"official": false
+},
+{
+"t": "Adobe Exchange (Creative Cloud)",
+"d": "فروشگاه رسمی ادوبی برای دانلود هزاران افزونه (Plugin)، اسکریپت و پنل رایگان برای فتوشاپ، ایلاستریتور، پریمیر و افتر افکت است.",
+"u": "https://exchange.adobe.com/",
+"official": false
+},
+{
+"t": "Adobe Color",
+"d": "ابزار رسمی و رایگان ادوبی برای ساخت هارمونی‌های رنگی، استخراج رنگ از عکس و بررسی کنتراست طراحی است.",
+"u": "https://color.adobe.com/",
+"official": false
+},
+{
+"t": "Adobe Fonts",
+"d": "کتابخانه عظیم فونت‌های استاندارد و حرفه‌ای ادوبی برای استفاده در پروژه‌های گرافیکی و ویدیویی است.",
+"u": "https://fonts.adobe.com/",
+"official": false
+},
+{
+"t": "Adobe Mixamo",
+"d": "سرویس کاملاً رایگان ادوبی برای دانلود کاراکترهای سه‌بعدی و اعمال انیمیشن‌های آماده حرکتی (Motion Capture) روی آن‌ها است.",
+"u": "https://helpx.adobe.com/au/creative-cloud/faq/mixamo-faq.html",
+"official": false
+},
+{
+"t": "Brusheezy",
+"d": "بزرگ‌ترین مخزن رایگان برای دانلود براش‌ها، پترن‌ها، اکشن‌ها و گرادینت‌های نرم‌افزار فتوشاپ است.",
+"u": "https://www.brusheezy.com/",
+"official": false
+},
+{
+"t": "Vecteezy",
+"d": "آرشیو گسترده‌ای از فایل‌های وکتور رایگان (AI و EPS) برای ویرایش در نرم‌افزار Adobe Illustrator است.",
+"u": "https://www.vecteezy.com/",
+"official": false
+},
+{
+"t": "FreePik PSD & Vectors",
+"d": "هزاران فایل لایه‌باز فتوشاپ (PSD) برای طراحی پوستر، بنر، کارت ویزیت و رابط کاربری است.",
+"u": "https://www.freepik.com/psd",
+"official": false
+},
+{
+"t": "Duik Ángela (Rainbox Lab)",
+"d": "قدرتمندترین اسکریپت رایگان و متن‌باز جهان برای ریگ‌بندی و انیمیشن‌سازی کاراکترها در افتر افکت است.",
+"u": "https://rxlaboratory.org/tools/duik-angela/",
+"official": false
+},
+{
+"t": "aescripts + aeplugins",
+"d": "بزرگ‌ترین مرجع تخصصی اسکریپت‌ها و افزونه‌های حرفه‌ای برای افتر افکت و پریمیر (دارای ده‌ها ابزار رایگان و Name Your Own Price) است.",
+"u": "https://aescripts.com/",
+"official": false
+},
+{
+"t": "پلاگین‌فا / ادوبی‌فا (CGPersia / Persian GFX)",
+"d": "منابع فارسی برای پیگیری اخبار، آموزش‌ها و معرفی جدیدترین پلاگین‌های دنیای گرافیک و جلوه‌های ویژه است.",
+"u": "https://cgpersia.theproxy.ws/",
+"official": false
+},
+{
+"t": "Sketchfab (Free 3D Models)",
+"d": "بزرگ‌ترین پلتفرم نمایش و دانلود رایگان صدها هزار مدل سه‌بعدی برای انیمیشن، بازی‌سازی و افتر افکت است.",
+"u": "https://sketchfab.com/features/free-3d-models",
+"official": false
+},
+{
+"t": "TurboSquid (Free 3D Models)",
+"d": "آرشیو حرفه‌ای مدل‌های سه‌بعدی رایگان در فرمت‌های مختلف (OBJ, FBX, Blender, 3ds Max) است.",
+"u": "https://www.turbosquid.com/Search/3D-Models/free",
+"official": false
+},
+{
+"t": "CGTrader (Free 3D Models)",
+"d": "مخزن بزرگ طراحان سه‌بعدی با هزاران مدل رایگان باکیفیت برای پروژه‌های سینمایی و گرافیکی است.",
+"u": "https://www.cgtrader.com/free-3d-models",
+"official": false
+},
+{
+"t": "Free3D",
+"d": "سایتی سریع برای جستجو و دانلود مستقیم مدل‌های سه‌بعدی رایگان معماری، کاراکتر و وسایل نقلیه است.",
+"u": "https://free3d.com/",
+"official": false
+},
+{
+"t": "Ollama",
+"d": "بهترین برنامه رایگان برای دانلود و اجرای مدل‌های هوش مصنوعی (مانند Llama و DeepSeek) به صورت آفلاین روی کامپیوتر شخصی است.",
+"u": "https://ollama.com/",
+"official": false
+},
+{
+"t": "LM Studio",
+"d": "نرم‌افزاری با رابط کاربری گرافیکی زیبا برای دانلود و اجرای رایگان مدل‌های هوش مصنوعی متن‌باز روی سیستم خودتان است.",
+"u": "https://lmstudio.ai/",
+"official": false
+},
+{
+"t": "Civitai",
+"d": "بزرگ‌ترین مخزن رایگان برای دانلود مدل‌ها و سبک‌های هوش مصنوعی تولید تصویر (Stable Diffusion و Flux) است.",
+"u": "https://civitai.com/",
+"official": false
+},
+{
+"t": "ComfyUI",
+"d": "قدرتمندترین محیط گرافیکی و متن‌باز برای ساخت جریان‌های کاری حرفه‌ای تولید تصویر و ویدیو با هوش مصنوعی است.",
+"u": "https://github.com/comfyanonymous/ComfyUI",
+"official": false
+},
+{
+"t": "Godot Engine",
+"d": "یک موتور بازی‌سازی دوبعدی و سه‌بعدی کاملاً رایگان، سبک و متن‌باز بدون هیچ‌گونه محدودیت تجاری است.",
+"u": "https://godotengine.org/",
+"official": false
+},
+{
+"t": "MuseScore",
+"d": "بهترین نرم‌افزار رایگان و متن‌باز جهان برای نت‌نویسی موسیقی، آهنگ‌سازی و ساخت موسیقی متن فیلم است.",
+"u": "https://musescore.org/",
+"official": false
+},
+{
+"t": "digiKam",
+"d": "قدرتمندترین برنامه متن‌باز و رایگان برای آرشیو کردن، دسته‌بندی و ویرایش هزاران عکس عکاسی است.",
+"u": "https://www.digikam.org/",
+"official": false
+},
+{
+"t": "VirtualBox",
+"d": "نرم‌افزار رایگان اوراکل برای نصب و اجرای همزمان چند سیستم‌عامل (مثل لینوکس در کنار ویندوز) روی یک کامپیوتر است.",
+"u": "https://www.virtualbox.org/",
+"official": false
+},
+{
+"t": "Ventoy",
+"d": "ابزاری شگفت‌انگیز و رایگان برای ساخت فلش مولتی‌بوت که می‌توانید چندین فایل نصب ویندوز و لینوکس را همزمان در آن قرار دهید.",
+"u": "https://www.ventoy.net/",
+"official": false
+},
+{
+"t": "Everything (Voidtools)",
+"d": "سریع‌ترین موتور جستجوی فایل و پوشه در ویندوز که در کسری از ثانیه هر فایلی را در هارد دیسک پیدا می‌کند.",
+"u": "https://www.voidtools.com/",
+"official": false
+}
+]
+},
+{
+"n": 8,
+"name": "آموزش نرم‌افزارهای طراحی، تدوین و آفیس",
+"items": [
+{
+"t": "Adobe After Effects Learn & Support",
+"d": "آموزش‌های رسمی، رایگان و قدم‌به‌قدم شرکت ادوبی برای یادگیری افتر افکت از سطح صفر تا پیشرفته است.",
+"u": "https://helpx.adobe.com/after-effects/tutorials.html",
+"official": false
+},
+{
+"t": "Adobe Premiere Pro Tutorials",
+"d": "مرجع رسمی آموزش تدوین، اصلاح رنگ و صدابرداری در پریمیر پرو همراه با فایل‌های تمرینی رایگان است.",
+"u": "https://helpx.adobe.com/premiere-pro/tutorials.html",
+"official": false
+},
+{
+"t": "Video Copilot Tutorials",
+"d": "مشهورترین منبع رایگان جهان (ساخته اندرو کرامر) برای یادگیری جلوه‌های ویژه سینمایی و انیمیشن در افتر افکت است.",
+"u": "https://www.videocopilot.net/tutorials",
+"official": false
+},
+{
+"t": "School of Motion (Free Tutorials & Blog)",
+"d": "یکی از برترین مدارس آنلاین جهان برای یادگیری حرفه‌ای موشن گرافیک، انیمیشن و طراحی حرکت است.",
+"u": "https://schoolofmotion.com/free",
+"official": false
+},
+{
+"t": "Ben Marriott (YouTube Channel)",
+"d": "بهترین کانال آموزشی رایگان برای یادگیری تکنیک‌های مدرن موشن گرافیک و انیمیشن دوبعدی در افتر افکت است.",
+"u": "https://www.youtube.com/@BenMarriott",
+"official": false
+},
+{
+"t": "Premiere Gal (YouTube & Blog)",
+"d": "آموزش‌های کاربردی، ترفندهای تدوین، ساخت زیرنویس و افکت‌های خلاقانه برای پریمیر پرو و افتر افکت است.",
+"u": "https://premieregal.com/",
+"official": false
+},
+{
+"t": "Cinecom.net Tutorials",
+"d": "آموزش‌های سرگرم‌کننده و عملی برای ساخت جلوه‌های ویژه سینمایی، تدوین ویدیو و فیلم‌برداری است.",
+"u": "https://www.cinecom.net/tutorials/",
+"official": false
+},
+{
+"t": "Motion Design School (Free Courses)",
+"d": "دارای دوره‌های رایگان مقدماتی بسیار باکیفیت برای یادگیری اصول انیمیشن و افتر افکت است.",
+"u": "https://motiondesign.school/",
+"official": true
+},
+{
+"t": "Jake In Motion (YouTube)",
+"d": "آموزش کامل و رایگان تک‌تک افکت‌های داخلی افتر افکت به زبان ساده و کاربردی است.",
+"u": "https://www.youtube.com/@JakeInMotion",
+"official": false
+},
+{
+"t": "Peter McKinnon (YouTube)",
+"d": "آموزش‌های الهام‌بخش در زمینه تدوین ویدیو، سرعت بخشیدن به کار در پریمیر، عکاسی و داستان‌سرایی بصری است.",
+"u": "https://www.youtube.com/@PeterMcKinnon",
+"official": false
+},
+{
+"t": "Mt. Mograph (YouTube)",
+"d": "آموزش‌های تخصصی برای ساخت انیمیشن‌های دقیق، طراحی کاراکتر و موشن گرافیک پیشرفته است.",
+"u": "https://www.youtube.com/user/mtmograph",
+"official": false
+},
+{
+"t": "Tuts+ Video & Motion Graphics",
+"d": "صدها آموزش متنی و تصویری رایگان برای یادگیری اصول تدوین و ساخت تیزرهای تبلیغاتی است.",
+"u": "https://photography.tutsplus.com/video",
+"official": false
+},
+{
+"t": "فرادرس - آموزش رایگان پریمیر و افتر افکت",
+"d": "مجموعه دوره‌های آموزشی به زبان فارسی برای یادگیری ابزارها و محیط کار پریمیر و افتر افکت است.",
+"u": "https://faradars.org/how-to-learn/after-effects",
+"official": false
+},
+{
+"t": "مکتب‌خونه - آموزش تدوین و موشن گرافیک",
+"d": "دوره‌های دسته‌بندی‌شده فارسی برای یادگیری تدوین فیلم و جلوه‌های بصری است.",
+"u": "https://maktabkhooneh.org/learn/motion-graphic/",
+"official": false
+},
+{
+"t": "باشگاه فیلم‌سازان / تدوین‌گران (YouTube فارسی)",
+"d": "دسترسی به هزاران ویدیوی آموزشی رایگان فارسی از مدرسان مجرب تدوین و سینما است.",
+"u": "لینک در فایل اصلی موجود نبود",
+"official": false
+},
+{
+"t": "Adobe Photoshop Official Tutorials",
+"d": "آموزش‌های رسمی ادوبی برای یادگیری لایه‌ها، ماسک‌ها، رتوش عکس و ترکیب تصاویر در فتوشاپ است.",
+"u": "https://helpx.adobe.com/photoshop/tutorials.html",
+"official": false
+},
+{
+"t": "Adobe Illustrator Official Tutorials",
+"d": "آموزش‌های قدم‌به‌قدم رسمی برای یادگیری ابزار Pen، طراحی وکتور، لوگو و تایپوگرافی است.",
+"u": "https://helpx.adobe.com/illustrator/tutorials.html",
+"official": false
+},
+{
+"t": "PHLEARN (Free Photoshop Tutorials)",
+"d": "یکی از محبوب‌ترین سایت‌های جهان برای یادگیری حرفه‌ای رتوش عکس، اصلاح نور و فتوشاپ از صفر است.",
+"u": "https://phlearn.com/free-tutorials/",
+"official": false
+},
+{
+"t": "PiXimperfect (YouTube)",
+"d": "برترین کانال رایگان جهان برای یادگیری تمام ترفندها، ابزارها و تکنیک‌های پیشرفته فتوشاپ به زبان ساده است.",
+"u": "https://www.youtube.com/@PiXimperfect",
+"official": false
+},
+{
+"t": "Envato Tuts+ Design & Illustration",
+"d": "هزاران آموزش متنی رایگان همراه با تصویر برای یادگیری فتوشاپ، ایلاستریتور و ایندیزاین است.",
+"u": "https://design.tutsplus.com/",
+"official": false
+},
+{
+"t": "Spoon Graphics",
+"d": "آموزش‌های خلاقانه برای ساخت پوسترهای گرافیکی، افکت‌های متنی و طراحی‌های رترو در فتوشاپ و ایلاستریتور است.",
+"u": "https://blog.spoongraphics.co.uk/",
+"official": false
+},
+{
+"t": "Dansky (YouTube)",
+"d": "آموزش‌های کوتاه، سریع و بسیار کاربردی برای یادگیری طراحی لوگو و رابط کاربری در ایلاستریتور و فیگما است.",
+"u": "https://www.youtube.com/dansky",
+"official": false
+},
+{
+"t": "Photoshop Essentials",
+"d": "آموزش‌های متنی بسیار دقیق و پایه‌ای برای درک کامل ابزارهای فتوشاپ برای مبتدیان است.",
+"u": "https://www.photoshopessentials.com/",
+"official": false
+},
+{
+"t": "Satori Graphics (YouTube)",
+"d": "بهترین مرجع رایگان برای یادگیری اصول طراحی گرافیک، ترکیب‌بندی و ترفندهای ایلاستریتور است.",
+"u": "https://www.youtube.com/@SatoriGraphics",
+"official": false
+},
+{
+"t": "GFXMentor (YouTube)",
+"d": "دوره‌های کامل، رایگان و بسیار روان (به زبان اردو/هندی که برای فارسی‌زبانان بسیار قابل فهم است) برای یادگیری کامل تمام نرم‌افزارهای ادوبی است.",
+"u": "https://www.youtube.com/@GFXMentor",
+"official": false
+},
+{
+"t": "Microsoft 365 Training Center",
+"d": "مرکز آموزش رسمی و رایگان مایکروسافت شامل ویدیوها و راهنماهای کامل برای Word، Excel و PowerPoint است.",
+"u": "https://learn.microsoft.com/en-us/training/",
+"official": false
+},
+{
+"t": "GCFGlobal Office Tutorials",
+"d": "یکی از ساده‌ترین و کامل‌ترین سایت‌های رایگان برای یادگیری قدم‌به‌قدم تمام نسخه‌های آفیس از مبتدی تا پیشرفته است.",
+"u": "https://edu.gcfglobal.org/en/",
+"official": true
+},
+{
+"t": "Excel Easy",
+"d": "بهترین و سرراست‌ترین مرجع رایگان برای یادگیری فرمول‌ها، توابع، نمودارها و برنامه‌نویسی VBA در اکسل است.",
+"u": "https://www.excel-easy.com/",
+"official": false
+},
+{
+"t": "Chandoo.org",
+"d": "سایت تخصصی برای تبدیل شدن به یک حرفه‌ای در اکسل، ساخت داشبوردهای مدیریتی و تحلیل داده‌ها است.",
+"u": "https://chandoo.org/",
+"official": false
+},
+{
+"t": "ExcelJet",
+"d": "مرجع سریع برای یادگیری بیش از ۵۰۰ فرمول اکسل و کلیدهای میانبر کاربردی همراه با مثال‌های کوتاه است.",
+"u": "https://exceljet.net/",
+"official": false
+},
+{
+"t": "Leila Gharani (YouTube)",
+"d": "برترین کانال آموزشی رایگان برای یادگیری اکسل پیشرفته، پاورپوینت مدرن و ابزارهای هوشمند آفیس است.",
+"u": "https://www.youtube.com/@LeilaGharani",
+"official": false
+},
+{
+"t": "Kevin Stratvert (YouTube)",
+"d": "آموزش‌های بسیار واضح و جامع (ساخته کارمند سابق مایکروسافت) برای تمام برنامه‌های آفیس و ویندوز است.",
+"u": "https://www.youtube.com/@KevinStratvert",
+"official": false
+},
+{
+"t": "Presentation Process",
+"d": "آموزش‌های رایگان برای طراحی اسلایدهای پاورپوینت خلاقانه، اینفوگرافیک‌ها و انیمیشن‌های ارائه است.",
+"u": "https://www.presentation-process.com/",
+"official": false
+},
+{
+"t": "Alison Free Microsoft Office Courses",
+"d": "دوره‌های رایگان آفیس همراه با آزمون و گواهینامه پایان دوره است.",
+"u": "https://alison.com/tag/microsoft-office",
+"official": false
+},
+{
+"t": "فرادرس - آموزش‌های رایگان مجموعه آفیس",
+"d": "آموزش‌های جامع فارسی برای یادگیری تایپ حرفه‌ای در ورد، فرمول‌نویسی در اکسل و ساخت اسلاید در پاورپوینت است.",
+"u": "https://faradars.org/how-to-learn/free-office",
+"official": false
+},
+{
+"t": "Blender Guru (YouTube - Donut Tutorial)",
+"d": "مشهورترین دوره رایگان جهان برای یادگیری مدل‌سازی سه‌بعدی و انیمیشن‌سازی با نرم‌افزار بلندر از صفر است.",
+"u": "https://www.youtube.com/@blenderguru",
+"official": false
+},
+{
+"t": "CG Cookie (Free Blender Basics)",
+"d": "دوره‌های رایگان و استاندارد برای یادگیری اصول طراحی سه‌بعدی، نورپردازی و رندرینگ است.",
+"u": "https://cgcookie.com/",
+"official": false
+},
+{
+"t": "Grant Abbitt (YouTube)",
+"d": "آموزش‌های بسیار آرام، قدم‌به‌قدم و عالی برای مبتدیان در زمینه مدل‌سازی سه‌بعدی و مجسمه‌سازی دیجیتال است.",
+"u": "https://www.youtube.com/@grantabbitt",
+"official": true
+},
+{
+"t": "Greyscalegorilla (Free C4D Tutorials)",
+"d": "برترین مرجع آموزشی برای یادگیری نرم‌افزار سه‌بعدی Cinema 4D و موشن گرافیک سه‌بعدی است.",
+"u": "https://greyscalegorilla.com/",
+"official": false
+},
+{
+"t": "Maxon Training Team (YouTube)",
+"d": "کانال رسمی آموزش نرم‌افزارهای Cinema 4D، ZBrush و Redshift به صورت رایگان است.",
+"u": "https://www.youtube.com/@MaxonTrainingTeam",
+"official": false
+},
+{
+"t": "FlippedNormals (YouTube)",
+"d": "آموزش‌های تخصصی در زمینه طراحی کاراکتر سه‌بعدی، ZBrush و استانداردهای صنعت فیلم و بازی است.",
+"u": "https://www.youtube.com/@FlippedNormals",
+"official": false
+},
+{
+"t": "Autodesk Area (Free Tutorials)",
+"d": "مرکز آموزش رسمی شرکت اتودسک برای یادگیری نرم‌افزارهای Maya، 3ds Max و AutoCAD است.",
+"u": "https://www.autodesk.com/solutions/aec/autocad-tutorials",
+"official": false
+},
+{
+"t": "Music Radio Creative (YouTube)",
+"d": "بهترین مرجع رایگان برای یادگیری نرم‌افزارهای صدابرداری و ویرایش صدا مانند Adobe Audition و Audacity است.",
+"u": "https://music.youtube.com/@musicrcreative",
+"official": false
+},
+{
+"t": "Booth Junkie (YouTube)",
+"d": "آموزش‌های تخصصی برای ضبط صدای باکیفیت، حذف نویز و میکس صدا برای ویدیوها و پادکست‌ها است.",
+"u": "https://www.youtube.com/@BoothJunkie",
+"official": false
+},
+{
+"t": "Cursa - Free Design & 3D Courses",
+"d": "دوره‌های رایگان همراه با گواهینامه برای یادگیری نرم‌افزارهای گرافیکی، سه‌بعدی و تدوین است.",
+"u": "https://cursa.app/free-courses-video-animations-online",
+"official": false
+}
+]
+},
+{
+"n": 9,
+"name": "دانلود نرم‌افزار و ابزارهای سیستمی",
+"items": [
+{
+"t": "GitHub",
+"d": "بزرگ‌ترین مخزن کد و نرم‌افزارهای متن‌باز و رایگان در جهان است.",
+"u": "https://github.com/",
+"official": false
+},
+{
+"t": "SourceForge",
+"d": "یکی از قدیمی‌ترین و معتبرترین مراجع برای دانلود نرم‌افزارهای رایگان و متن‌باز است.",
+"u": "https://sourceforge.net/",
+"official": false
+},
+{
+"t": "Ninite",
+"d": "ابزاری فوق‌العاده برای دانلود و نصب همزمان و خودکار نرم‌افزارهای ضروری ویندوز بدون تبلیغات است.",
+"u": "https://ninite.com/",
+"official": false
+},
+{
+"t": "F-Droid",
+"d": "یک فروشگاه اپلیکیشن امن برای سیستم‌عامل اندروید است که فقط برنامه‌های رایگان و متن‌باز را ارائه می‌دهد.",
+"u": "https://f-droid.org/",
+"official": false
+},
+{
+"t": "AlternativeTo",
+"d": "به شما کمک می‌کند جایگزین‌های رایگان و بهتر برای نرم‌افزارهای پولی و معروف را پیدا کنید.",
+"u": "https://alternativeto.net/",
+"official": false
+},
+{
+"t": "سافت ۹۸ (Soft98)",
+"d": "یکی از جامع‌ترین و به‌روزترین مراجع فارسی برای دانلود نرم‌افزارهای کامپیوتر و موبایل است.",
+"u": "https://soft98.ir/",
+"official": false
+},
+{
+"t": "FileHippo",
+"d": "یکی از معتبرترین سایت‌ها برای دانلود رایگان و سریع نرم‌افزارهای ویندوز و مک است.",
+"u": "https://filehippo.com/",
+"official": false
+},
+{
+"t": "MajorGeeks",
+"d": "مرجعی امن برای دانلود ابزارهای تخصصی تعمیر، بهینه‌سازی و مدیریت سیستم‌عامل ویندوز است.",
+"u": "https://www.majorgeeks.com/",
+"official": false
+},
+{
+"t": "Uptodown",
+"d": "یک فروشگاه جهانی و رایگان برای دانلود مستقیم فایل‌های نصبی (APK) اپلیکیشن‌های اندروید و نرم‌افزارهای دسکتاپ است.",
+"u": "https://en.uptodown.com/",
+"official": false
+},
+{
+"t": "DistroWatch",
+"d": "مرجع اصلی برای آشنایی و دانلود تمام توزیع‌های رایگان سیستم‌عامل لینوکس است.",
+"u": "https://distrowatch.com/",
+"official": false
+},
+{
+"t": "Photopea",
+"d": "یک ویرایشگر تصویر آنلاین و کاملاً رایگان است که دقیقاً شبیه به فتوشاپ عمل می‌کند.",
+"u": "https://www.photopea.com/",
+"official": false
+},
+{
+"t": "TinyWow",
+"d": "مجموعه‌ای از ده‌ها ابزار آنلاین رایگان برای تبدیل فرمت، ویرایش PDF، حذف پس‌زمینه عکس و کار با ویدیو است.",
+"u": "https://tinywow.com/",
+"official": false
+},
+{
+"t": "PortableApps",
+"d": "مرجع دانلود نسخه‌های پرتابل (بدون نیاز به نصب) برای صدها نرم‌افزار کاربردی ویندوز است.",
+"u": "https://portableapps.com/",
+"official": false
+},
+{
+"t": "Chocolatey",
+"d": "یک مدیر بسته حرفه‌ای برای نصب سریع و خودکار برنامه‌ها در محیط ویندوز است.",
+"u": "https://chocolatey.org/",
+"official": false
+},
+{
+"t": "Ubuntu",
+"d": "سایت رسمی محبوب‌ترین توزیع رایگان سیستم‌عامل لینوکس برای کامپیوترهای شخصی و سرورها است.",
+"u": "https://ubuntu.com/",
+"official": false
+},
+{
+"t": "Rufus",
+"d": "بهترین و سبک‌ترین ابزار رایگان برای ساخت فلش بوتیبل و نصب ویندوز یا لینوکس است.",
+"u": "https://rufus.ie/",
+"official": false
+},
+{
+"t": "7-Zip",
+"d": "قدرتمندترین نرم‌افزار رایگان و متن‌باز برای فشرده‌سازی و باز کردن فایل‌های زیپ است.",
+"u": "https://www.7-zip.org/",
+"official": false
+},
+{
+"t": "VLC Media Player",
+"d": "پخش‌کننده ویدیو و صوتی رایگان که تقریباً تمام فرمت‌های رسانه‌ای جهان را اجرا می‌کند.",
+"u": "https://www.videolan.org/",
+"official": false
+},
+{
+"t": "OBS Studio",
+"d": "بهترین نرم‌افزار رایگان و حرفه‌ای جهان برای ضبط صفحه نمایش و پخش زنده (استریم) است.",
+"u": "https://obsproject.com/",
+"official": false
+},
+{
+"t": "یاس دانلود",
+"d": "یکی از سایت‌های قدیمی و معتبر فارسی برای دانلود نرم‌افزارهای کامپیوتر و ابزارهای گرافیکی است.",
+"u": "https://www.yasdl.com/",
+"official": false
+},
+{
+"t": "VirusTotal",
+"d": "ابزاری رایگان از گوگل که هر فایل یا لینک مشکوک را با بیش از ۷۰ آنتی‌ویروس بررسی می‌کند.",
+"u": "https://www.virustotal.com/",
+"official": false
+},
+{
+"t": "Have I Been Pwned",
+"d": "بررسی می‌کند که آیا ایمیل یا رمز عبور شما در نشت‌های اطلاعاتی اینترنتی لو رفته است یا خیر.",
+"u": "https://haveibeenpwned.com/",
+"official": false
+},
+{
+"t": "Temp Mail",
+"d": "یک ایمیل موقت و رایگان در اختیار شما می‌گذارد تا بدون وارد کردن ایمیل شخصی در سایت‌ها ثبت‌نام کنید.",
+"u": "https://temp-mail.org/",
+"official": false
+},
+{
+"t": "Bitwarden",
+"d": "بهترین و امن‌ترین نرم‌افزار رایگان و متن‌باز برای ذخیره و مدیریت رمزهای عبور است.",
+"u": "https://bitwarden.com/",
+"official": false
+},
+{
+"t": "Send Anywhere",
+"d": "راهی سریع و رایگان برای انتقال فایل‌های حجیم بین موبایل و کامپیوتر بدون افت کیفیت است.",
+"u": "https://send-anywhere.com/",
+"official": false
+},
+{
+"t": "Snapdrop",
+"d": "ابزاری تحت وب برای اشتراک‌گذاری فوری فایل بین دستگاه‌های متصل به یک شبکه وای‌فای است.",
+"u": "https://snapdrop.net/",
+"official": false
+},
+{
+"t": "ArchiveBox",
+"d": "به شما کمک می‌کند یک آرشیو آفلاین و شخصی از صفحات وب، مقالات و ویدیوهای مورد علاقه‌تان بسازید.",
+"u": "https://archivebox.io/",
+"official": false
+},
+{
+"t": "Chocolatey Community Packages",
+"d": "هزاران نرم‌افزار رایگان و به‌روز ویندوز را در یک مخزن امن و قابل اعتماد جمع‌آوری کرده است.",
+"u": "https://community.chocolatey.org/packages",
+"official": false
+},
+{
+"t": "Winget.run",
+"d": "دایرکتوری رسمی و رایگان برای جستجو و نصب برنامه‌های معتبر ویندوز بدون تبلیغات و بدافزار است.",
+"u": "https://winget.run/",
+"official": false
+},
+{
+"t": "LibreOffice",
+"d": "بهترین و کامل‌ترین مجموعه نرم‌افزاری رایگان و متن‌باز برای تایپ، ساخت جدول و ارائه اسلاید (جایگزین مایکروسافت آفیس) است.",
+"u": "https://www.libreoffice.org/",
+"official": false
+},
+{
+"t": "Notepad++",
+"d": "یکی از سبک‌ترین، سریع‌ترین و بهترین ویرایشگرهای متن و کدنویسی رایگان برای ویندوز است.",
+"u": "https://notepad-plus-plus.org/",
+"official": false
+},
+{
+"t": "Apache NetBeans",
+"d": "محیط برنامه‌نویسی رایگان و قدرتمند برای نوشتن و اجرای کدهای جاوا (Java)، HTML و CSS است.",
+"u": "https://netbeans.apache.org/",
+"official": false
+},
+{
+"t": "Visual Studio Code (VS Code)",
+"d": "محبوب‌ترین ویرایشگر کد رایگان در جهان با هزاران افزونه برای تمام زبان‌های برنامه‌نویسی و طراحی وب است.",
+"u": "https://code.visualstudio.com/",
+"official": false
+},
+{
+"t": "Kdenlive",
+"d": "یک نرم‌افزار تدوین ویدیو حرفه‌ای، سبک و کاملاً رایگان (متن‌باز) برای کامپیوترهای شخصی است.",
+"u": "https://kdenlive.org/",
+"official": false
+},
+{
+"t": "HandBrake",
+"d": "بهترین نرم‌افزار رایگان برای کاهش حجم ویدیوها بدون افت محسوس کیفیت و تبدیل فرمت‌های ویدیویی است.",
+"u": "https://handbrake.fr/",
+"official": false
+},
+{
+"t": "ShareX",
+"d": "ابزاری رایگان و بسیار پیشرفته برای گرفتن اسکرین‌شات، ضبط فیلم از صفحه نمایش و ویرایش سریع تصاویر در ویندوز است.",
+"u": "https://getsharex.com/",
+"official": false
+},
+{
+"t": "F-Droid Archive",
+"d": "مخزن بزرگ اپلیکیشن‌های کاملاً رایگان، بدون تبلیغات و امن برای گوشی‌های اندروید است.",
+"u": "https://f-droid.org/en/packages/",
+"official": false
+},
+{
+"t": "ONLYOFFICE",
+"d": "یک مجموعه اداری رایگان و بسیار زیبا برای ویرایش اسناد، جدول‌ها و ارائه‌ها با سازگاری کامل با فایل‌های مایکروسافت است.",
+"u": "https://www.onlyoffice.com/",
+"official": false
+},
+{
+"t": "Inkscape",
+"d": "قدرتمندترین برنامه رایگان برای طراحی لوگو، پوستر و گرافیک برداری (Vector) است.",
+"u": "https://en.wikipedia.org/wiki/Inkscape",
+"official": false
+},
+{
+"t": "LocalSend",
+"d": "برنامه‌ای رایگان و سریع برای انتقال فایل و عکس بین گوشی و کامپیوتر از طریق وای‌فای بدون نیاز به اینترنت است.",
+"u": "https://localsend.org/",
+"official": false
+},
+{
+"t": "SumatraPDF",
+"d": "سبک‌ترین و سریع‌ترین برنامه رایگان برای باز کردن فایل‌های PDF، EPUB و کتاب‌های الکترونیکی در ویندوز است.",
+"u": "https://www.sumatrapdfreader.org/",
+"official": false
+},
+{
+"t": "Calibre",
+"d": "بهترین و کامل‌ترین نرم‌افزار رایگان برای مدیریت کتابخانه دیجیتال، مطالعه کتاب‌ها و تبدیل فرمت‌های کتاب الکترونیکی است.",
+"u": "https://calibre-ebook.com/",
+"official": false
+},
+{
+"t": "Anki",
+"d": "قدرتمندترین برنامه رایگان فلش‌کارت هوشمند برای حفظ کردن لغات زبان، فرمول‌ها و دروس دانشگاهی است.",
+"u": "https://apps.ankiweb.net/",
+"official": false
+},
+{
+"t": "Obsidian",
+"d": "یک نرم‌افزار رایگان و حرفه‌ای برای یادداشت‌برداری، خلاصه‌سازی دروس و اتصال ایده‌ها به یکدیگر بدون نیاز به اینترنت است.",
+"u": "https://obsidian.md/",
+"official": false
+},
+{
+"t": "Zotero",
+"d": "بهترین برنامه رایگان برای جمع‌آوری، دسته‌بندی و استناددهی (رفرنس‌نویسی) به مقالات علمی و کتاب‌ها است.",
+"u": "https://www.zotero.org/",
+"official": false
+},
+{
+"t": "qBittorrent",
+"d": "سبک‌ترین، امن‌ترین و بدون تبلیغات‌ترین نرم‌افزار رایگان برای دانلود فایل‌های حجیم و تورنت است.",
+"u": "https://www.qbittorrent.org/",
+"official": false
+},
+{
+"t": "BleachBit",
+"d": "برنامه‌ای رایگان و متن‌باز برای پاک‌سازی فایل‌های اضافی، آزاد کردن فضای هارد و افزایش سرعت ویندوز است.",
+"u": "https://www.bleachbit.org/",
+"official": false
+},
+{
+"t": "Greenshot",
+"d": "یک ابزار بسیار سبک و رایگان برای گرفتن اسکرین‌شات سریع و اضافه کردن متن و فلش روی عکس‌ها در ویندوز است.",
+"u": "https://getgreenshot.org/",
+"official": false
+},
+{
+"t": "Pencil2D",
+"d": "نرم‌افزاری بسیار سبک، ساده و رایگان برای ساخت انیمیشن‌های دوبعدی فریم‌به‌فریم است.",
+"u": "https://www.pencil2d.org/",
+"official": false
+},
+{
+"t": "LMMS",
+"d": "یک استودیوی آهنگ‌سازی و ساخت موسیقی کاملاً رایگان و متن‌باز برای کامپیوتر است.",
+"u": "https://lmms.io/",
+"official": false
+},
+{
+"t": "Softpedia",
+"d": "یکی از بزرگ‌ترین و قدیمی‌ترین دایرکتوری‌های دانلود نرم‌افزار برای ویندوز، مک و لینوکس است که تمام فایل‌ها را از نظر امنیت بررسی می‌کند.",
+"u": "https://www.softpedia.com/",
+"official": false
+},
+{
+"t": "FileHorse",
+"d": "مخزنی سریع و منظم که تنها بر روی محبوب‌ترین و کاربردی‌ترین برنامه‌های روزمره ویندوز و مک تمرکز دارد.",
+"u": "https://www.filehorse.com/",
+"official": false
+},
+{
+"t": "FilePuma",
+"d": "سایتی سبک برای دانلود جدیدترین و قدیمی‌ترین نسخه‌های نرم‌افزارهای ویندوز همراه با ابزار تشخیص آپدیت برنامه‌ها است.",
+"u": "https://www.filepuma.com/",
+"official": false
+},
+{
+"t": "SnapFiles",
+"d": "مرجعی معتبر با تمرکز بر نرم‌افزارهای رایگان و نسخه‌های پرتابل (بدون نیاز به نصب) برای سیستم‌عامل ویندوز است.",
+"u": "https://www.snapfiles.com/",
+"official": false
+},
+{
+"t": "Download Crew",
+"d": "پایگاه دانلود نرم‌افزارهای رایگان و تجاری برای ویندوز و مک که نقد و بررسی‌های دقیق کاربران را منتشر می‌کند.",
+"u": "https://www.downloadcrew.com/",
+"official": false
+},
+{
+"t": "CNET Download",
+"d": "یکی از شناخته‌شده‌ترین آرشیوهای آنلاین برای یافتن نرم‌افزارهای دسکتاپ و اپلیکیشن‌های موبایل است.",
+"u": "https://download.cnet.com/",
+"official": false
+},
+{
+"t": "MacUpdate",
+"d": "جامع‌ترین مخزن تخصصی برای کشف، دانلود و به‌روزرسانی نرم‌افزارهای سیستم‌عامل مک (macOS) است.",
+"u": "https://www.macupdate.com/",
+"official": false
+},
+{
+"t": "Homebrew (macOS)",
+"d": "محبوب‌ترین مدیر بسته و مخزن متن‌باز برای نصب سریع برنامه‌ها و ابزارهای توسعه روی مک است.",
+"u": "https://brew.sh/",
+"official": false
+},
+{
+"t": "Microsoft Store",
+"d": "فروشگاه رسمی مایکروسافت برای دانلود امن برنامه‌های ویندوز در محیط ایزوله و بدون خطر بدافزار است.",
+"u": "https://apps.microsoft.com/",
+"official": false
+},
+{
+"t": "NirSoft",
+"d": "مجموعه‌ای بی‌نظیر از ده‌ها ابزار بسیار کم‌حجم و رایگان برای مدیریت شبکه، بازیابی اطلاعات و عیب‌یابی ویندوز است.",
+"u": "https://www.nirsoft.net/",
+"official": false
+},
+{
+"t": "Sysinternals (Microsoft)",
+"d": "مجموعه ابزارهای رسمی و پیشرفته مایکروسافت برای نظارت و مدیریت حرفه‌ای سیستم‌عامل ویندوز است.",
+"u": "https://learn.microsoft.com/en-us/sysinternals/",
+"official": false
+},
+{
+"t": "TechSpot Downloads",
+"d": "بخش دانلود یکی از معتبرترین مجلات فناوری که درایورها و برنامه‌های ضروری را قرار می‌دهد.",
+"u": "https://www.techspot.com/downloads/",
+"official": false
+},
+{
+"t": "Neowin Software",
+"d": "مرجع دنبال کردن جدیدترین نسخه‌های منتشرشده برنامه‌های ویندوز و دریافت لینک مستقیم آن‌ها است.",
+"u": "https://www.neowin.net/software/",
+"official": false
+},
+{
+"t": "Lo4d.com",
+"d": "پایگاه دانلود نرم‌افزارهای رایگان ویندوز که گزارش تست آنتی‌ویروس را برای هر فایل نمایش می‌دهد.",
+"u": "https://www.lo4d.com/",
+"official": false
+},
+{
+"t": "OpenSourceAlternative.to",
+"d": "مخزن معرفی و دانلود مستقیم جایگزین‌های رایگان و متن‌باز برای نرم‌افزارهای پولی و معروف است.",
+"u": "https://www.opensourcealternative.to/",
+"official": false
+},
+{
+"t": "Microsoft Create (Free Templates)",
+"d": "مرجع رسمی و رایگان مایکروسافت برای دانلود هزاران قالب آماده و حرفه‌ای PowerPoint، Word و Excel است.",
+"u": "https://create.microsoft.com/",
+"official": false
+},
+{
+"t": "SlidesCarnival",
+"d": "بهترین منبع برای دانلود کاملاً رایگان قالب‌های خلاقانه و مدرن پاورپوینت و Google Slides است.",
+"u": "https://www.slidescarnival.com/",
+"official": false
+},
+{
+"t": "Slidesgo",
+"d": "آرشیوی عظیم از قالب‌های آماده ارائه برای دانشگاه، کسب‌وکار و پروژه‌های آموزشی با امکان دانلود رایگان است.",
+"u": "https://slidesgo.com/",
+"official": false
+},
+{
+"t": "Canva Presentations",
+"d": "ابزار آنلاین با هزاران قالب اسلاید آماده که خروجی مستقیم پاورپوینت (PPTX) نیز می‌دهد.",
+"u": "https://www.canva.com/presentations/",
+"official": false
+},
+{
+"t": "WPS Office (Free Suite)",
+"d": "یک مجموعه نرم‌افزار آفیس سبک، رایگان و مدرن با پشتیبانی کامل از PDF و قالب‌های آماده برای ویندوز و موبایل است.",
+"u": "https://www.wps.com/",
+"official": false
+},
+{
+"t": "Google Workspace (Docs, Sheets, Slides)",
+"d": "ابزارهای آفیس ابری و رایگان گوگل برای ساخت سند، جدول و اسلاید بدون نیاز به نصب هیچ برنامه‌ای است.",
+"u": "https://workspace.google.com/",
+"official": false
+},
+{
+"t": "Vertex42",
+"d": "بزرگ‌ترین مخزن رایگان برای دانلود قالب‌های آماده و فرمول‌نویسی‌شده اکسل (حسابداری، برنامه‌ریزی و مدیریت پروژه) است.",
+"u": "https://www.vertex42.com/",
+"official": false
+},
+{
+"t": "PDFgear",
+"d": "یک نرم‌افزار کاملاً رایگان و قدرتمند برای ویرایش، تبدیل، امضا و خلاصه‌سازی فایل‌های PDF با هوش مصنوعی است.",
+"u": "https://www.pdfgear.com/",
+"official": false
+},
+{
+"t": "Stirling-PDF",
+"d": "مجموعه ابزارهای رایگان و متن‌باز برای انجام هر نوع تغییر روی فایل‌های PDF به صورت آفلاین است.",
+"u": "https://github.com/Stirling-Tools/Stirling-PDF",
+"official": false
+},
+{
+"t": "Smallpdf",
+"d": "یکی از ساده‌ترین ابزارهای تحت وب برای تبدیل فایل‌های ورد و پاورپوینت به PDF و برعکس است.",
+"u": "https://smallpdf.com/",
+"official": false
+},
+{
+"t": "Patch My PC",
+"d": "ابزار رایگان و سبک برای آپدیت خودکار بیش از ۳۰۰ برنامه پرکاربرد ویندوز با یک کلیک است.",
+"u": "https://patchmypc.com/home-updater",
+"official": false
+},
+{
+"t": "Chocolatey GUI",
+"d": "رابط گرافیکی رایگان برای جستجو و نصب هزاران برنامه ویندوز بدون نیاز به رفتن به سایت‌های مختلف است.",
+"u": "https://github.com/chocolatey/ChocolateyGUI",
+"official": false
+},
+{
+"t": "Scoop (Windows Installer)",
+"d": "یک مخزن سریع و تمیز برای نصب برنامه‌های برنامه‌نویسی و ابزارهای خط فرمان در ویندوز است.",
+"u": "https://scoop.sh/",
+"official": false
+},
+{
+"t": "UUP dump",
+"d": "مرجع رسمی و مستقیم برای دانلود فایل‌های ISO جدیدترین نسخه‌های ویندوز از سرورهای مایکروسافت است.",
+"u": "https://uupdump.net/",
+"official": false
+},
+{
+"t": "Rufus GitHub",
+"d": "مخزن رسمی دانلود آخرین نسخه ابزار ساخت فلش بوتیبل برای نصب سیستم‌عامل‌ها است.",
+"u": "https://github.com/pbatard/rufus",
+"official": false
+},
+{
+"t": "Etcher (balenaEtcher)",
+"d": "نرم‌افزار رایگان و ساده با رابط گرافیکی زیبا برای رایت فایل‌های سیستم‌عامل روی فلش و کارت حافظه است.",
+"u": "https://etcher.balena.io/",
+"official": false
+},
+{
+"t": "AutoHotkey",
+"d": "ابزار رایگان و قدرتمند برای ساخت کلیدهای میانبر اختصاصی و خودکارسازی کارهای تکراری در ویندوز است.",
+"u": "https://www.autohotkey.com/",
+"official": false
+},
+{
+"t": "PowerToys (Microsoft)",
+"d": "مجموعه ابزارهای رسمی و رایگان مایکروسافت برای افزایش امکانات ویندوز (تغییر اندازه دسته‌جمعی عکس، استخراج متن از تصویر و غیره) است.",
+"u": "https://learn.microsoft.com/en-us/windows/powertoys/",
+"official": false
+},
+{
+"t": "WizTree",
+"d": "سریع‌ترین برنامه رایگان برای اسکن هارد دیسک و پیدا کردن فایل‌های حجیمی که فضای کامپیوتر را پر کرده‌اند است.",
+"u": "https://diskanalyzer.com/",
+"official": false
+},
+{
+"t": "TreeSize Free",
+"d": "ابزار کاربردی و رایگان برای مدیریت فضای حافظه و مشاهده حجم دقیق پوشه‌ها است.",
+"u": "https://www.jam-software.com/treesize_free",
+"official": false
+},
+{
+"t": "CrystalDiskInfo",
+"d": "بهترین برنامه رایگان برای بررسی سلامت و دمای هارد دیسک و حافظه SSD کامپیوتر است.",
+"u": "https://crystalmark.info/en/software/crystaldiskinfo/",
+"official": false
+},
+{
+"t": "CPU-Z",
+"d": "نرم‌افزار رایگان برای مشاهده مشخصات دقیق قطعات سخت‌افزاری کامپیوتر (پردازنده، رم و مادربرد) است.",
+"u": "https://www.cpuid.com/softwares/cpu-z.html",
+"official": false
+},
+{
+"t": "GPU-Z",
+"d": "ابزار تخصصی و رایگان برای بررسی مشخصات و عملکرد کارت گرافیک سیستم است.",
+"u": "https://www.techpowerup.com/gpuz/",
+"official": false
+},
+{
+"t": "HWiNFO",
+"d": "جامع‌ترین نرم‌افزار رایگان برای نمایش اطلاعات کامل سخت‌افزار و سنسورهای دمای سیستم است.",
+"u": "https://www.hwinfo.com/",
+"official": false
+},
+{
+"t": "Recuva",
+"d": "برنامه رایگان و معتبر برای بازیابی فایل‌ها و عکس‌های حذف‌شده از هارد دیسک و فلش مموری است.",
+"u": "https://www.ccleaner.com/recuva",
+"official": false
+},
+{
+"t": "TestDisk & PhotoRec",
+"d": "ابزارهای رایگان و متن‌باز بسیار قدرتمند برای بازیابی پارتیشن‌های گم‌شده و فایل‌های آسیب‌دیده است.",
+"u": "https://www.cgsecurity.org/wiki/TestDisk",
+"official": false
+},
+{
+"t": "KeePassXC",
+"d": "نرم‌افزار آفلاین، امن و رایگان برای نگهداری رمزهای عبور روی کامپیوتر شخصی است.",
+"u": "https://keepassxc.org/",
+"official": false
+},
+{
+"t": "VeraCrypt",
+"d": "بهترین برنامه رایگان برای رمزگذاری و قفل‌گذاری امن روی فایل‌ها و فلش مموری‌ها است.",
+"u": "https://www.veracrypt.fr/",
+"official": false
+},
+{
+"t": "Proton VPN (Free Plan)",
+"d": "یکی از معتبرترین سرویس‌های امنیتی رایگان بدون محدودیت حجم برای حفاظت از حریم خصوصی در اینترنت است.",
+"u": "https://protonvpn.com/",
+"official": false
+},
+{
+"t": "Windscribe (Free Plan)",
+"d": "ابزار امنیتی رایگان برای مرور امن وب و دسترسی آزاد به منابع آموزشی است.",
+"u": "https://windscribe.com/",
+"official": false
+},
+{
+"t": "Tor Browser",
+"d": "مرورگر رایگان و متن‌باز برای حفظ کامل ناشناس ماندن و امنیت بالا در فضای وب است.",
+"u": "https://www.torproject.org/",
+"official": false
+},
+{
+"t": "Brave Browser",
+"d": "مرورگر سریع و رایگان با قابلیت مسدودسازی خودکار تبلیغات و ردیاب‌های اینترنتی است.",
+"u": "https://brave.com/",
+"official": false
+},
+{
+"t": "Mozilla Firefox",
+"d": "مرورگر متن‌باز، امن و قابل اعتماد با افزونه‌های فراوان برای طراحان وب و دانشجویان است.",
+"u": "https://www.firefox.com/en-US/",
+"official": false
+},
+{
+"t": "Thunderbird",
+"d": "بهترین برنامه رایگان و متن‌باز برای مدیریت همزمان چندین حساب ایمیل در کامپیوتر است.",
+"u": "https://www.thunderbird.net/",
+"official": false
+},
+{
+"t": "JDownloader 2",
+"d": "نرم‌افزار رایگان و متن‌باز برای مدیریت دانلودهای سنگین و دانلود دسته‌جمعی لینک‌ها است.",
+"u": "https://jdownloader.org/",
+"official": false
+},
+{
+"t": "Snapcraft",
+"d": "فروشگاه و مخزن رسمی نرم‌افزارهای لینوکس برای توزیع‌های اوبونتو و سایر سیستم‌ها است.",
+"u": "https://snapcraft.io/store",
+"official": false
+},
+{
+"t": "Flathub",
+"d": "بزرگ‌ترین مخزن اپلیکیشن‌های مدرن و امن برای تمام توزیع‌های سیستم‌عامل لینوکس است.",
+"u": "https://flathub.org/",
+"official": false
+},
+{
+"t": "AppImageHub",
+"d": "دایرکتوری برنامه‌های پرتابل لینوکس که بدون نیاز به نصب اجرا می‌شوند.",
+"u": "https://www.appimagehub.com/",
+"official": false
+},
+{
+"t": "APKMirror",
+"d": "معتبرترین آرشیو برای دانلود فایل‌های نصبی رسمی و امضاشده برنامه‌های اندروید است.",
+"u": "https://www.apkmirror.com/",
+"official": false
+},
+{
+"t": "FossHub",
+"d": "مرجع سریع و بدون تبلیغات برای دانلود نسخه‌های رسمی نرم‌افزارهای رایگان و آزاد است.",
+"u": "https://www.fosshub.com/",
+"official": false
+}
+]
+},
+{
+"n": 10,
+"name": "ابزارهای آنلاین کاربردی",
+"items": [
+{
+"t": "CodeSandbox",
+"d": "محیط کدنویسی آنلاین کامل برای ساخت پروژه‌های وب در مرورگر است.",
+"u": "https://codesandbox.io/",
+"official": false
+},
+{
+"t": "StackBlitz",
+"d": "اجرای پروژه‌های برنامه‌نویسی وب به صورت آنی در محیط مرورگر بدون نیاز به نصب است.",
+"u": "https://stackblitz.com/",
+"official": false
+},
+{
+"t": "Glitch",
+"d": "پلتفرم رایگان برای ساخت، میزبانی و اشتراک‌گذاری سریع وب‌سایت‌ها و اپلیکیشن‌ها است.",
+"u": "https://glitch.com/",
+"official": false
+},
+{
+"t": "Render",
+"d": "سرویس میزبانی رایگان برای وب‌سایت‌ها، پایگاه‌های داده و کدهای بک‌اند است.",
+"u": "https://render.com/",
+"official": false
+},
+{
+"t": "Railway",
+"d": "پلتفرم مدرن برای اجرای سریع پروژه‌های برنامه‌نویسی روی سرورهای ابری است.",
+"u": "https://railway.com/",
+"official": false
+},
+{
+"t": "InfinityFree",
+"d": "ارائه هاست و فضای میزبانی وب کاملاً رایگان برای تمرین طراحی سایت با HTML و PHP است.",
+"u": "https://www.infinityfree.com/",
+"official": false
+},
+{
+"t": "000webhost",
+"d": "یکی از قدیمی‌ترین سرویس‌های میزبانی رایگان وب‌سایت برای دانشجویان است.",
+"u": "https://www.000webhost.com/",
+"official": false
+},
+{
+"t": "Figma Community",
+"d": "هزاران قالب رایگان رابط کاربری، آیکون و کیت طراحی آماده برای کپی و استفاده است.",
+"u": "https://www.figma.com/community",
+"official": false
+},
+{
+"t": "Penpot",
+"d": "بهترین جایگزین متن‌باز و کاملاً رایگان برای نرم‌افزار طراحی رابط کاربری فیگما است.",
+"u": "https://penpot.app/",
+"official": false
+},
+{
+"t": "Whimsical",
+"d": "ابزار سریع آنلاین برای رسم فلوچارت، نقشه ذهنی (Mind Map) و وایرفریم است.",
+"u": "https://whimsical.com/",
+"official": false
+},
+{
+"t": "Miro",
+"d": "تخته سفید آنلاین تعاملی برای طوفان فکری و کارهای گروهی است.",
+"u": "https://miro.com/",
+"official": false
+},
+{
+"t": "draw.io (diagrams.net)",
+"d": "بهترین ابزار کاملاً رایگان و بدون محدودیت برای رسم هر نوع نمودار مهندسی و علمی است.",
+"u": "https://app.diagrams.net/",
+"official": false
+},
+{
+"t": "Carbon",
+"d": "تبدیل کدهای برنامه‌نویسی به تصاویر زیبا و حرفه‌ای برای اشتراک‌گذاری در شبکه‌های اجتماعی است.",
+"u": "https://carbon.now.sh/",
+"official": false
+},
+{
+"t": "Ray.so",
+"d": "ابزار رایگان برای ساخت اسکرین‌شات‌های جذاب از کدهای برنامه‌نویسی است.",
+"u": "https://ray.so/",
+"official": false
+},
+{
+"t": "Regex101",
+"d": "ابزار آنلاین برای تست و یادگیری عبارات باقاعده (Regular Expressions) در برنامه‌نویسی است.",
+"u": "https://regex101.com/",
+"official": false
+},
+{
+"t": "JSON Formatter",
+"d": "مرتب‌سازی، بررسی خطا و تبدیل فایل‌های داده‌ای JSON به فرمت‌های دیگر است.",
+"u": "https://jsonformatter.org/",
+"official": false
+},
+{
+"t": "Diffchecker",
+"d": "مقایسه دو متن یا دو فایل کد برای پیدا کردن کوچک‌ترین تفاوت‌ها بین آن‌ها است.",
+"u": "https://www.diffchecker.com/",
+"official": false
+},
+{
+"t": "Pomofocus",
+"d": "تایمر آنلاین رایگان بر اساس تکنیک پومودورو برای افزایش تمرکز هنگام درس خواندن است.",
+"u": "https://pomofocus.io/",
+"official": false
+},
+{
+"t": "Habitica",
+"d": "تبدیل کارهای روزانه و عادت‌های مطالعه به یک بازی نقش‌آفرینی سرگرم‌کننده است.",
+"u": "https://habitica.com/",
+"official": false
+},
+{
+"t": "Forest App",
+"d": "اپلیکیشن محبوب برای دوری از گوشی و حفظ تمرکز در زمان مطالعه است.",
+"u": "https://www.forestapp.cc/",
+"official": false
+},
+{
+"t": "draw.io",
+"d": "بهترین ابزار رایگان برای رسم انواع فلوچارت‌ها و نمودارهای مهندسی است.",
+"u": "https://www.drawio.com/",
+"official": true
+},
+{
+"t": "CloudConvert",
+"d": "مبدل آنلاین قدرتمند برای تبدیل بیش از ۲۰۰ فرمت مختلف فایل به یکدیگر است.",
+"u": "https://cloudconvert.com/",
+"official": false
+},
+{
+"t": "Squoosh",
+"d": "ابزار رایگان گوگل برای فشرده‌سازی تصاویر وب بدون افت کیفیت است.",
+"u": "https://squoosh.app/",
+"official": false
+},
+{
+"t": "PageSpeed Insights",
+"d": "ابزار رسمی گوگل برای سنجش سرعت و بهینه‌سازی عملکرد وب‌سایت‌ها است.",
+"u": "https://pagespeed.web.dev/",
+"official": false
+},
+{
+"t": "Wappalyzer",
+"d": "تشخیص فناوری‌ها و زبان‌های برنامه‌نویسی به‌کاررفته در هر وب‌سایت است.",
+"u": "https://www.wappalyzer.com/",
+"official": false
+}
+]
+},
+{
+"n": 11,
+"name": "یادگیری زبان‌های خارجی",
+"items": [
+{
+"t": "BBC Learning English",
+"d": "بهترین منبع رایگان برای یادگیری زبان انگلیسی از طریق اخبار، پادکست و ویدیوهای کوتاه است.",
+"u": "https://www.bbc.co.uk/learningenglish",
+"official": false
+},
+{
+"t": "VOA Learning English",
+"d": "آموزش رایگان زبان انگلیسی با اخبار و داستان‌هایی که با سرعت آهسته خوانده می‌شوند.",
+"u": "https://learningenglish.voanews.com/",
+"official": false
+},
+{
+"t": "British Council LearnEnglish Teens",
+"d": "منابع تعاملی، بازی‌ها و تمرین‌های رایگان برای تقویت گرامر و مکالمه انگلیسی است.",
+"u": "https://learnenglishteens.britishcouncil.org/",
+"official": false
+},
+{
+"t": "Busuu (Free Tier)",
+"d": "پلتفرم یادگیری زبان با تمرین‌های مکالمه و تصحیح توسط افراد بومی هر زبان است.",
+"u": "https://www.busuu.com/",
+"official": false
+},
+{
+"t": "Memrise (Free Courses)",
+"d": "یادگیری لغات و عبارات روزمره زبان‌های مختلف از طریق ویدیوهای افراد بومی است.",
+"u": "https://www.memrise.com/",
+"official": false
+},
+{
+"t": "Drops",
+"d": "یادگیری بصری و بازی‌وار لغات بیش از ۴۵ زبان زنده دنیا در ۵ دقیقه در روز است.",
+"u": "https://languagedrops.com/",
+"official": false
+},
+{
+"t": "Loecsen",
+"d": "آموزش رایگان عبارات ضروری و مکالمات سفر به بیش از ۴۰ زبان با فایل صوتی و تصویر است.",
+"u": "https://www.loecsen.com/",
+"official": false
+},
+{
+"t": "Language Transfer",
+"d": "دوره‌های صوتی کاملاً رایگان برای یادگیری منطقی زبان‌هایی مثل اسپانیایی، فرانسوی و آلمانی است.",
+"u": "https://www.languagetransfer.org/",
+"official": false
+},
+{
+"t": "Deutsch Welle - Nicos Weg",
+"d": "یک فیلم آموزشی تعاملی و رایگان برای یادگیری زبان آلمانی از سطح A1 تا B1 است.",
+"u": "https://learngerman.dw.com/en/nicos-weg/c-36519789",
+"official": false
+},
+{
+"t": "Goethe-Institut Free Practice",
+"d": "تمرین‌ها و آزمون‌های رایگان مؤسسه گوته برای آمادگی امتحانات زبان آلمانی است.",
+"u": "https://www.goethe.de/en/spr/ueb.html",
+"official": false
+},
+{
+"t": "Bonjour de France",
+"d": "مجله آنلاین رایگان برای یادگیری گرامر، واژگان و درک مطلب زبان فرانسوی است.",
+"u": "https://www.bonjourdefrance.com/",
+"official": false
+},
+{
+"t": "NHK World - Easy Japanese",
+"d": "دوره رسمی و رایگان رادیو تلویزیون ژاپن برای یادگیری زبان ژاپنی از صفر است.",
+"u": "https://www.nhk.or.jp/lesson/en/",
+"official": false
+},
+{
+"t": "Talk To Me In Korean (Free Lessons)",
+"d": "محبوب‌ترین منبع رایگان برای یادگیری زبان کره‌ای به زبان ساده و کاربردی است.",
+"u": "https://talktomeinkorean.com/",
+"official": false
+},
+{
+"t": "SpanishDict",
+"d": "کامل‌ترین فرهنگ لغت، صرف فعل و آموزش گرامر رایگان زبان اسپانیایی است.",
+"u": "https://www.spanishdict.com/",
+"official": false
+},
+{
+"t": "Reverso Context",
+"d": "نمایش معنی کلمات و اصطلاحات در جملات واقعی به ده‌ها زبان مختلف است.",
+"u": "https://context.reverso.net/",
+"official": false
+},
+{
+"t": "YouGlish",
+"d": "جستجوی تلفظ واقعی هر کلمه در میلیون‌ها ویدیوی یوتیوب با لهجه‌های مختلف است.",
+"u": "https://youglish.com/",
+"official": false
+},
+{
+"t": "LyricsTraining",
+"d": "یادگیری زبان‌های خارجی از طریق گوش دادن به موسیقی و پر کردن جای خالی متن آهنگ‌ها است.",
+"u": "https://lyricstraining.com/",
+"official": false
+},
+{
+"t": "News in Levels",
+"d": "اخبار روز دنیا در سه سطح آسان، متوسط و پیشرفته برای تقویت مهارت خواندن انگلیسی است.",
+"u": "https://www.newsinlevels.com/",
+"official": false
+},
+{
+"t": "Randall's ESL Cyber Listening Lab",
+"d": "صدها فایل شنیداری رایگان زبان انگلیسی همراه با آزمون درک مطلب است.",
+"u": "https://www.esl-lab.com/",
+"official": false
+},
+{
+"t": "Tandem",
+"d": "اپلیکیشن رایگان برای پیدا کردن پارتنر زبانی و تمرین مکالمه با افراد سراسر جهان است.",
+"u": "https://www.tandem.net/",
+"official": false
+}
+]
+},
+{
+"n": 12,
+"name": "منابع و دانلودهای فارسی",
+"items": [
+{
+"t": "آپارات آموزشی",
+"d": "آرشیو عظیمی از ویدیوهای آموزشی رایگان در تمام زمینه‌های علمی، هنری و فنی به زبان فارسی است.",
+"u": "https://www.aparat.com/eduvid",
+"official": false
+},
+{
+"t": "دیجی‌کالا مگ",
+"d": "مجله آنلاین برای خواندن مقالات تخصصی تکنولوژی، سینما، کتاب و هنر به زبان فارسی است.",
+"u": "https://www.digikala.com/mag/",
+"official": false
+},
+{
+"t": "زومیت (Zoomit)",
+"d": "معتبرترین مرجع خبری و تحلیلی فناوری، هوش مصنوعی و علوم به زبان فارسی است.",
+"u": "https://www.zoomit.ir/",
+"official": false
+},
+{
+"t": "دیجیاتو (Digiato)",
+"d": "پوشش کامل اخبار دنیای تکنولوژی، علم و کسب‌وکارهای نوین به زبان فارسی است.",
+"u": "https://digiato.com/",
+"official": false
+},
+{
+"t": "چطور (Chetor)",
+"d": "مقالات کاربردی در زمینه مهارت‌های فردی، بهره‌وری، روانشناسی و سبک زندگی است.",
+"u": "https://www.chetor.com/",
+"official": false
+},
+{
+"t": "متمم (Motamem)",
+"d": "مرجع تخصصی آموزش مدیریت، تفکر سیستمی و مهارت‌های نرم به زبان فارسی است.",
+"u": "https://motamem.org/",
+"official": false
+},
+{
+"t": "طاقچه (Taaghche)",
+"d": "پلتفرم دانلود قانونی هزاران کتاب الکترونیکی و صوتی رایگان و پولی فارسی است.",
+"u": "https://taaghche.com/",
+"official": false
+},
+{
+"t": "فیدیبو (Fidibo)",
+"d": "بزرگ‌ترین سامانه کتاب الکترونیکی و صوتی فارسی در ایران و افغانستان است.",
+"u": "https://fidibo.com/",
+"official": false
+},
+{
+"t": "نوار (Navaar)",
+"d": "مرجع تخصصی تولید و دانلود کتاب‌های صوتی فارسی با صدای گویندگان حرفه‌ای است.",
+"u": "https://www.navaar.ir/",
+"official": false
+},
+{
+"t": "شنوتو (Shenoto)",
+"d": "بزرگ‌ترین پلتفرم پادکست‌های فارسی در زمینه‌های علمی، تاریخی، هنری و داستان است.",
+"u": "https://shenoto.com/",
+"official": false
+},
+{
+"t": "کست‌باکس (Castbox)",
+"d": "اپلیکیشن رایگان برای گوش دادن به هزاران پادکست فارسی و انگلیسی در تمام موضوعات است.",
+"u": "https://castbox.fm/",
+"official": false
+},
+{
+"t": "پارس‌کدرز (Parscoders)",
+"d": "سایت فریلنسری فارسی برای انجام پروژه‌های برنامه‌نویسی، طراحی و ترجمه است.",
+"u": "https://parscoders.com/",
+"official": false
+},
+{
+"t": "پونیشا (Ponisha)",
+"d": "پلتفرم ارتباط بین کارفرمایان و فریلنسرهای فارسی‌زبان در حوزه‌های دیجیتال است.",
+"u": "https://ponisha.ir/",
+"official": false
+},
+{
+"t": "سکان آکادمی (Sokan Academy)",
+"d": "مرجع آموزش رایگان برنامه‌نویسی و علوم کامپیوتر به زبان فارسی است.",
+"u": "https://sokanacademy.com/",
+"official": false
+},
+{
+"t": "راکت (Roocket)",
+"d": "سایت آموزش برنامه‌نویسی و طراحی وب با دوره‌های رایگان و پروژه‌محور فارسی است.",
+"u": "https://roocket.ir/",
+"official": false
+},
+{
+"t": "سبزلرن (Sabzlearn)",
+"d": "پلتفرم آموزش رایگان طراحی وب، جاوااسکریپت و پایتون به زبان ساده است.",
+"u": "https://sabzlearn.ir/",
+"official": false
+},
+{
+"t": "ایران‌داک (IranDoc)",
+"d": "پژوهشگاه علوم و فناوری اطلاعات برای جستجوی پایان‌نامه‌ها و مقالات فارسی است.",
+"u": "https://irandoc.ac.ir/",
+"official": false
+},
+{
+"t": "واژه‌یاب (Vajehyab)",
+"d": "جامع‌ترین موتور جستجوی لغت‌نامه‌های فارسی (دهخدا، معین، عمید) است.",
+"u": "https://vajehyab.com/",
+"official": false
+},
+{
+"t": "پی‌سی دانلود (P30Download)",
+"d": "یکی از قدیمی‌ترین و جامع‌ترین مراجع فارسی برای دانلود نرم‌افزارهای ویندوز، مک، فایل‌های گرافیکی و آموزش است.",
+"u": "https://p30download.ir/",
+"official": false
+},
+{
+"t": "سافت‌گذر (SoftGozar)",
+"d": "نخستین دانشنامه نرم‌افزاری فارسی که برنامه‌های تست‌شده و کاربردی را دسته‌بندی می‌کند.",
+"u": "https://www.softgozar.com/",
+"official": false
+},
+{
+"t": "سرزمین دانلود (SarzaminDownload)",
+"d": "مرجع به‌روز برای دریافت نرم‌افزارهای مهندسی، گرافیکی، موبایل و سیستم‌عامل‌ها است.",
+"u": "https://www.sarzamindownload.com/",
+"official": false
+},
+{
+"t": "دانلودها (Downloadha)",
+"d": "پورتال جامع دانلود نرم‌افزارهای تخصصی، ابزارهای طراحی و بازی‌های کامپیوتری است.",
+"u": "https://www.downloadha.com/",
+"official": false
+},
+{
+"t": "دانلود فارسی (Download.ir)",
+"d": "سایتی منظم برای دانلود رایگان نرم‌افزارهای کاربردی، گرافیکی و آموزشی با لینک مستقیم است.",
+"u": "https://download.ir/",
+"official": false
+},
+{
+"t": "مگیتو / گرافیک‌فا (GraphicFa)",
+"d": "مرجع تخصصی فارسی برای دانلود فایل‌های لایه‌باز گرافیکی، فونت، وکتور و اکشن‌های فتوشاپ است.",
+"u": "لینک در فایل اصلی موجود نبود",
+"official": false
+},
+{
+"t": "شاترکده (ShutterKade)",
+"d": "مخزن دانلود طرح‌های گرافیکی، موکاپ، قالب‌های ویدیویی و فایل‌های آماده طراحی است.",
+"u": "لینک در فایل اصلی موجود نبود",
+"official": false
+},
+{
+"t": "پارس‌استاک (ParsStock)",
+"d": "پایگاه دانلود رایگان عکس‌های باکیفیت، وکتورها و فایل‌های لایه‌باز برای طراحان گرافیک است.",
+"u": "https://parsstock.ir/",
+"official": false
+},
+{
+"t": "لرن‌فایلز (LearnFiles)",
+"d": "منبع دانلود آموزش‌ها و ابزارهای کاربردی در زمینه گرافیک، انیمیشن و طراحی وب است.",
+"u": "https://learnfiles.com/",
+"official": false
+},
+{
+"t": "سافت‌ویر (Software.af)",
+"d": "مخزنی مرتب برای جستجو و دانلود به‌روزترین نرم‌افزارهای ویندوز و بازی‌ها به زبان فارسی است.",
+"u": "https://software.af/",
+"official": false
+}
+]
+},
+{
+"n": 13,
+"name": "دانش عمومی، مستند، موزه و سرگرمی",
+"items": [
+{
+"t": "TED",
+"d": "مجموعه‌ای از سخنرانی‌های کوتاه و الهام‌بخش از برترین متفکران، دانشمندان و هنرمندان جهان با زیرنویس فارسی است.",
+"u": "https://www.ted.com/",
+"official": false
+},
+{
+"t": "Wikipedia",
+"d": "بزرگ‌ترین دانشنامه آزاد و چندزبانه جهان برای جستجوی سریع هر موضوعی است.",
+"u": "https://fa.wikipedia.org/",
+"official": false
+},
+{
+"t": "WolframAlpha",
+"d": "یک موتور پاسخگویی محاسباتی است که مسائل پیچیده ریاضی، فیزیک و آماری را حل می‌کند.",
+"u": "https://www.wolframalpha.com/",
+"official": false
+},
+{
+"t": "Internet Radio",
+"d": "امکان گوش دادن رایگان به هزاران ایستگاه رادیویی زنده از سراسر جهان را در سبک‌های مختلف می‌دهد.",
+"u": "https://www.internet-radio.com/",
+"official": false
+},
+{
+"t": "Radio Garden",
+"d": "یک کره زمین تعاملی است که با چرخاندن آن می‌توانید به رادیوهای زنده هر شهر در دنیا گوش دهید.",
+"u": "http://radio.garden/",
+"official": false
+},
+{
+"t": "Duolingo",
+"d": "محبوب‌ترین و سرگرم‌کننده‌ترین پلتفرم رایگان برای یادگیری بیش از ۴۰ زبان زنده دنیا است.",
+"u": "https://www.duolingo.com/welcome",
+"official": false
+},
+{
+"t": "wikiHow",
+"d": "بزرگ‌ترین راهنمای تصویری جهان که آموزش انجام هر کاری را قدم‌به‌قدم توضیح می‌دهد.",
+"u": "https://www.wikihow.com/",
+"official": false
+},
+{
+"t": "Instructables",
+"d": "جامعه‌ای برای علاقه‌مندان به کاردستی، الکترونیک، رباتیک و ساخت وسایل خلاقانه در خانه است.",
+"u": "https://www.instructables.com/",
+"official": false
+},
+{
+"t": "OpenStreetMap",
+"d": "نقشه آزاد و متن‌باز جهان است که توسط کاربران به‌روزرسانی می‌شود و جزئیات دقیقی دارد.",
+"u": "https://www.openstreetmap.org/",
+"official": false
+},
+{
+"t": "Forvo",
+"d": "بزرگ‌ترین فرهنگ لغت تلفظ جهان است که تلفظ صحیح کلمات را با صدای افراد بومی هر زبان پخش می‌کند.",
+"u": "https://forvo.com/",
+"official": false
+},
+{
+"t": "Project Euler",
+"d": "مجموعه‌ای از چالش‌های جذاب ریاضی و برنامه‌نویسی برای تقویت قدرت حل مسئله است.",
+"u": "https://projecteuler.net/",
+"official": false
+},
+{
+"t": "HowStuffWorks",
+"d": "سایتی جذاب که به زبان ساده توضیح می‌دهد دستگاه‌ها، پدیده‌های علمی و سیستم‌های مختلف چگونه کار می‌کنند.",
+"u": "https://www.howstuffworks.com/",
+"official": false
+},
+{
+"t": "Project MUSE",
+"d": "منبعی معتبر برای دسترسی به کتاب‌ها و مجلات دانشگاهی در رشته‌های علوم انسانی و اجتماعی است.",
+"u": "https://muse.jhu.edu/",
+"official": false
+},
+{
+"t": "Internet Sacred Text Archive",
+"d": "بزرگ‌ترین آرشیو آنلاین رایگان از متون کهن، اساطیر، فلسفه و ادیان جهان است.",
+"u": "https://www.sacred-texts.com/",
+"official": false
+},
+{
+"t": "Stanford Encyclopedia of Philosophy",
+"d": "معتبرترین و جامع‌ترین دانشنامه آنلاین فلسفه در جهان است.",
+"u": "https://plato.stanford.edu/",
+"official": false
+},
+{
+"t": "Curiosity Stream",
+"d": "پلتفرمی تخصصی برای تماشای هزاران مستند علمی، تاریخی و طبیعت است.",
+"u": "https://curiositystream.com/",
+"official": false
+},
+{
+"t": "Documentary Heaven",
+"d": "مجموعه‌ای از مستندهای رایگان در موضوعات علمی، اجتماعی و هنری برای تماشای آنلاین است.",
+"u": "https://documentaryheaven.com/",
+"official": false
+},
+{
+"t": "How Long To Read",
+"d": "به شما می‌گوید خواندن هر کتابی بر اساس سرعت مطالعه شما چقدر زمان می‌برد.",
+"u": "https://howlongtoread.com/",
+"official": false
+},
+{
+"t": "Goodreads",
+"d": "بزرگ‌ترین شبکه اجتماعی کتاب‌خوان‌ها برای بررسی امتیاز کتاب‌ها و یافتن کتاب‌های جدید است.",
+"u": "https://www.goodreads.com/",
+"official": false
+},
+{
+"t": "گنجور (Ganjoor)",
+"d": "جامع‌ترین کتابخانه آنلاین و رایگان شعر کهن و معاصر فارسی همراه با امکان جستجو است.",
+"u": "https://ganjoor.net/",
+"official": false
+},
+{
+"t": "Louvre Virtual Tours",
+"d": "امکان گشت‌وگذار مجازی در تالارهای موزه لوور پاریس را به صورت رایگان فراهم می‌کند.",
+"u": "https://www.louvre.fr/en/online-tours",
+"official": false
+},
+{
+"t": "NASA Eyes",
+"d": "یک شبیه‌ساز سه‌بعدی تعاملی برای کاوش در منظومه شمسی، سیارات و ماموریت‌های فضایی ناسا است.",
+"u": "https://eyes.nasa.gov/",
+"official": false
+},
+{
+"t": "WindowSwap",
+"d": "به شما اجازه می‌دهد از پشت پنجره خانه‌های مردم در شهرهای مختلف جهان به بیرون نگاه کنید.",
+"u": "https://www.window-swap.com/",
+"official": false
+},
+{
+"t": "Drive & Listen",
+"d": "تجربه رانندگی مجازی در خیابان‌های شهرهای بزرگ دنیا همراه با گوش دادن به رادیوی محلی همان شهر است.",
+"u": "https://driveandlisten.app/",
+"official": false
+},
+{
+"t": "MyNoise",
+"d": "یک مولد صدای پس‌زمینه رایگان (مثل صدای باران، جنگل یا کافه) برای افزایش تمرکز هنگام مطالعه است.",
+"u": "https://mynoise.net/",
+"official": false
+},
+{
+"t": "Lofi Girl",
+"d": "مشهورترین کانال پخش موسیقی بی‌کلام و آرامش‌بخش برای درس خواندن و کدنویسی است.",
+"u": "https://lofigirl.com/",
+"official": false
+},
+{
+"t": "GeoGuessr",
+"d": "یک بازی جغرافیایی جذاب که شما را در نقطه‌ای تصادفی از نقشه جهان قرار می‌دهد و باید موقعیت خود را حدس بزنید.",
+"u": "https://www.geoguessr.com/",
+"official": false
+},
+{
+"t": "A Soft Murmur",
+"d": "ابزاری ساده و رایگان برای ترکیب صداهای طبیعت جهت آرامش و تمرکز است.",
+"u": "https://asoftmurmur.com/",
+"official": false
+},
+{
+"t": "Google Earth",
+"d": "کاوش سه‌بعدی کل کره زمین، شهرها، کوه‌ها و آثار تاریخی با تصاویر ماهواره‌ای است.",
+"u": "https://earth.google.com/web/",
+"official": false
+},
+{
+"t": "Old Maps Online",
+"d": "جستجوی هزاران نقشه تاریخی و قدیمی از تمام نقاط جهان در قرن‌های گذشته است.",
+"u": "https://www.oldmapsonline.org/",
+"official": false
+},
+{
+"t": "Chronas",
+"d": "نقشه تعاملی تاریخ جهان که مرزها، امپراتوری‌ها و رویدادهای تاریخی را در هر سال نشان می‌دهد.",
+"u": "https://www.chronas.org/",
+"official": false
+},
+{
+"t": "World History Encyclopedia",
+"d": "معتبرترین دانشنامه آنلاین رایگان تاریخ تمدن‌های باستانی جهان است.",
+"u": "https://www.worldhistory.org/",
+"official": false
+},
+{
+"t": "Britannica Kids",
+"d": "نسخه ساده و تصویری دانشنامه بریتانیکا برای یادگیری سریع مفاهیم پایه است.",
+"u": "https://kids.britannica.com/",
+"official": false
+},
+{
+"t": "Wait But Why",
+"d": "وبلاگ مشهور با مقالات طولانی، مصور و عمیق درباره علم، هوش مصنوعی و آینده بشر است.",
+"u": "https://waitbutwhy.com/",
+"official": false
+},
+{
+"t": "Aeon",
+"d": "مجله دیجیتال رایگان با مقالات عمیق در زمینه‌های فلسفه، علم، روانشناسی و فرهنگ است.",
+"u": "https://aeon.co/",
+"official": false
+},
+{
+"t": "Nautilus",
+"d": "مجله علمی برتر که علم را با فلسفه و هنر ترکیب می‌کند.",
+"u": "https://nautil.us/",
+"official": false
+},
+{
+"t": "Quanta Magazine",
+"d": "معتبرترین مجله برای خواندن کشفیات جدید ریاضیات، فیزیک و علوم کامپیوتر به",
+"u": "https://www.quantamagazine.org/",
+"official": false
+},
+{
+"t": "Letterboxd",
+"d": "بزرگ‌ترین شبکه اجتماعی عاشقان سینما برای ثبت فیلم‌های دیده‌شده، نقد و کشف فیلم‌های هنری است.",
+"u": "https://letterboxd.com/",
+"official": false
+},
+{
+"t": "IMDb",
+"d": "بزرگ‌ترین پایگاه داده اطلاعات فیلم‌ها، سریال‌ها، بازیگران و کارگردانان جهان است.",
+"u": "https://www.imdb.com/",
+"official": false
+}
+]
+},
+{
+"n": 14,
+"name": "کاریابی، فریلنسری و رزومه",
+"items": [
+{
+"t": "LinkedIn Jobs",
+"d": "بزرگ‌ترین شبکه حرفه‌ای جهان برای جستجوی شغل، ارتباط با کارفرمایان خارجی و ارسال رزومه است.",
+"u": "https://www.linkedin.com/jobs/",
+"official": false
+},
+{
+"t": "Indeed Worldwide",
+"d": "بزرگ‌ترین موتور جستجوی شغل در جهان که میلیون‌ها آگهی استخدام از کشورهای مختلف را جمع‌آوری می‌کند.",
+"u": "https://www.indeed.com/",
+"official": false
+},
+{
+"t": "Glassdoor",
+"d": "علاوه بر جستجوی شغل، اطلاعات دقیقی درباره میزان حقوق و نظرات کارمندان درباره شرکت‌های خارجی ارائه می‌دهد.",
+"u": "https://www.glassdoor.com/",
+"official": false
+},
+{
+"t": "EURES (European Job Mobility Portal)",
+"d": "پورتال رسمی کاریابی اتحادیه اروپا برای یافتن شغل در کشورهای اروپایی است.",
+"u": "https://eures.europa.eu/",
+"official": false
+},
+{
+"t": "Make it in Germany",
+"d": "سایت رسمی دولت آلمان برای جذب نیروهای متخصص خارجی و معرفی فرصت‌های شغلی و ویزا است.",
+"u": "https://www.make-it-in-germany.com/",
+"official": false
+},
+{
+"t": "Work in Estonia",
+"d": "پورتال رسمی کشور استونی برای جذب متخصصان بین‌المللی، به ویژه در حوزه فناوری اطلاعات است.",
+"u": "https://www.workinestonia.com/",
+"official": false
+},
+{
+"t": "Relocate.me",
+"d": "سایتی تخصصی برای یافتن مشاغل فناوری و برنامه‌نویسی در خارج از کشور همراه با بسته مهاجرتی و ویزای کاری است.",
+"u": "https://relocate.me/",
+"official": false
+},
+{
+"t": "Landing.Jobs",
+"d": "پلتفرم کاریابی تخصصی برای متخصصان تکنولوژی در اروپا با امکان فیلتر کردن مشاغل دارای اسپانسر ویزا است.",
+"u": "https://landing.jobs/",
+"official": false
+},
+{
+"t": "StepStone",
+"d": "یکی از بزرگ‌ترین و معتبرترین سایت‌های کاریابی در کشور آلمان و اروپای مرکزی است.",
+"u": "https://www.stepstone.de/",
+"official": false
+},
+{
+"t": "Reed.co.uk",
+"d": "یکی از اصلی‌ترین وب‌سایت‌های جستجوی کار در کشور بریتانیا است.",
+"u": "https://www.reed.co.uk/",
+"official": false
+},
+{
+"t": "Upwork",
+"d": "بزرگ‌ترین پلتفرم فریلنسری جهان برای گرفتن پروژه‌های برنامه‌نویسی، طراحی گرافیک، تدوین ویدیو و تولید محتوا است.",
+"u": "https://www.upwork.com/",
+"official": false
+},
+{
+"t": "Fiverr",
+"d": "بازاری جهانی برای ارائه خدمات مهارتی (مثل طراحی لوگو، ادیت فیلم، کدنویسی و هوش مصنوعی) به مشتریان خارجی است.",
+"u": "https://www.fiverr.com/",
+"official": false
+},
+{
+"t": "Freelancer.com",
+"d": "یکی از قدیمی‌ترین سایت‌ها برای رقابت بر سر پروژه‌های بین‌المللی و کسب درآمد آنلاین است.",
+"u": "https://www.freelancer.com/",
+"official": false
+},
+{
+"t": "We Work Remotely",
+"d": "بزرگ‌ترین جامعه آنلاین برای یافتن مشاغل تمام‌وقت و دورکاری در شرکت‌های فناوری جهان است.",
+"u": "https://weworkremotely.com/",
+"official": false
+},
+{
+"t": "Remote OK",
+"d": "فهرستی به‌روز از مشاغل دورکاری در حوزه‌های برنامه‌نویسی، طراحی، بازاریابی و پشتیبانی است.",
+"u": "https://remoteok.com/",
+"official": false
+},
+{
+"t": "Remotive",
+"d": "پلتفرم تخصصی برای یافتن فرصت‌های شغلی دورکاری در استارتاپ‌ها و شرکت‌های معتبر بین‌المللی است.",
+"u": "https://remotive.com/",
+"official": false
+},
+{
+"t": "Toptal",
+"d": "شبکه‌ای برای اتصال برترین توسعه‌دهندگان نرم‌افزار و طراحان به پروژه‌های بزرگ جهانی است.",
+"u": "https://www.toptal.com/",
+"official": false
+},
+{
+"t": "Behance Jobs",
+"d": "بخش کاریابی سایت بیهنس برای یافتن پروژه‌ها و مشاغل تمام‌وقت در زمینه گرافیک، انیمیشن و هنر است.",
+"u": "https://www.behance.net/joblist",
+"official": false
+},
+{
+"t": "Dribbble Jobs",
+"d": "مرجع تخصصی آگهی‌های استخدام و فریلنسری برای طراحان وب و رابط کاربری (UI/UX) است.",
+"u": "https://dribbble.com/jobs",
+"official": false
+},
+{
+"t": "PeoplePerHour",
+"d": "یک سایت فریلنسری معتبر اروپایی برای انجام پروژه‌های ساعتی و پروژه‌ای در حوزه‌های دیجیتال است.",
+"u": "https://www.peopleperhour.com/",
+"official": false
+},
+{
+"t": "Europass",
+"d": "ابزار رسمی و رایگان اتحادیه اروپا برای ساخت رزومه استاندارد و انگیزه‌نامه جهت کار و تحصیل در اروپا است.",
+"u": "https://europass.europa.eu/en",
+"official": false
+},
+{
+"t": "Canva Resume Builder",
+"d": "مجموعه‌ای از قالب‌های حرفه‌ای و رایگان برای طراحی رزومه‌های گرافیکی و مدرن است.",
+"u": "https://www.canva.com/resumes/",
+"official": false
+},
+{
+"t": "Resume.io",
+"d": "ابزاری ساده و سریع برای ساخت رزومه‌های استاندارد بین‌المللی مطابق با سیستم‌های استخدامی شرکت‌ها است.",
+"u": "https://resume.io/",
+"official": false
+},
+{
+"t": "Pramp",
+"d": "پلتفرمی رایگان برای تمرین مصاحبه‌های شغلی برنامه‌نویسی به صورت زنده با همتایان خود در سراسر جهان است.",
+"u": "https://www.pramp.com/",
+"official": false
+}
+]
+},
+{
+"n": 15,
+"name": "سایت‌های معتبر و منابع مرجع جهان",
+"items": [
+{
+"t": "Reuters (رویترز)",
+"d": "یکی از بی‌طرف‌ترین و معتبرترین خبرگزاری‌های بین‌المللی جهان برای دریافت اخبار فوری و دقیق اقتصادی و سیاسی است.",
+"u": "https://www.instagram.com/reuters/",
+"official": false
+},
+{
+"t": "Associated Press (آسوشیتدپرس)",
+"d": "مرجع اصلی اخبار جهانی با استانداردهای بالای روزنامه‌نگاری و راستی‌آزمایی است.",
+"u": "https://apnews.com/",
+"official": false
+},
+{
+"t": "BBC World News",
+"d": "شبکه خبری بین‌المللی بریتانیا که به عنوان یکی از منابع اصلی اخبار جهان شناخته می‌شود.",
+"u": "https://www.bbc.com/news",
+"official": false
+},
+{
+"t": "World Bank Data",
+"d": "پایگاه رسمی داده‌های اقتصادی و توسعه‌ای تمام کشورهای جهان است.",
+"u": "https://data.worldbank.org/",
+"official": false
+},
+{
+"t": "Nature",
+"d": "معتبرترین مجله علمی جهان است که تنها پژوهش‌های دارای داوری دقیق علمی را منتشر می‌کند.",
+"u": "https://www.nature.com/",
+"official": false
+},
+{
+"t": "Science (AAAS)",
+"d": "یکی از بالاترین مراجع علمی برای انتشار کشفیات جدید در تمام رشته‌های علوم است.",
+"u": "https://www.science.org/",
+"official": false
+},
+{
+"t": "World Health Organization (WHO)",
+"d": "مرجع رسمی سازمان بهداشت جهانی برای اطلاعات پزشکی و سلامت عمومی است.",
+"u": "https://www.who.int/",
+"official": false
+},
+{
+"t": "Britannica (دانشنامه بریتانیکا)",
+"d": "قدیمی‌ترین و معتبرترین دانشنامه عمومی جهان که مقالات آن توسط متخصصان نوشته و بازبینی می‌شوند.",
+"u": "https://www.britannica.com/",
+"official": false
+},
+{
+"t": "NASA",
+"d": "مرجع رسمی و دست‌اول تمام داده‌ها، تصاویر و اخبار علوم فضایی و نجوم است.",
+"u": "https://www.nasa.gov/",
+"official": false
+},
+{
+"t": "SpringerLink",
+"d": "یکی از بزرگ‌ترین و معتبرترین مراجع علمی جهان با بیش از ۳۰۰۰ مجله علمی و ۳۰۰ هزار کتاب دانشگاهی در رشته‌های علوم پایه، مهندسی و پزشکی است.",
+"u": "https://link.springer.com/",
+"official": false
+},
+{
+"t": "Wiley Online Library",
+"d": "یکی از قدیمی‌ترین و معتبرترین ناشران علمی دنیا با بیش از ۱۷۰۰ نشریه تخصصی در علوم و فناوری است.",
+"u": "https://onlinelibrary.wiley.com/",
+"official": false
+},
+{
+"t": "Taylor & Francis Online",
+"d": "ناشر بین‌المللی معتبر با بیش از ۲۵۰۰ مجله دانشگاهی در علوم انسانی، اجتماعی و مهندسی است.",
+"u": "https://www.tandfonline.com/",
+"official": false
+},
+{
+"t": "Cambridge Core",
+"d": "پایگاه رسمی انتشارات دانشگاه کمبریج برای دسترسی به معتبرترین کتاب‌ها و مقالات پژوهشی است.",
+"u": "https://www.cambridge.org/core",
+"official": false
+},
+{
+"t": "Oxford Academic",
+"d": "پورتال رسمی انتشارات دانشگاه آکسفورد برای مجلات علمی و منابع دانشگاهی در تمام رشته‌ها است.",
+"u": "https://academic.oup.com/",
+"official": false
+},
+{
+"t": "The Lancet",
+"d": "یکی از قدیمی‌ترین و معتبرترین مجلات پزشکی جهان برای پژوهش‌های بالینی و سلامت است.",
+"u": "https://www.thelancet.com/",
+"official": false
+},
+{
+"t": "New England Journal of Medicine (NEJM)",
+"d": "بالاترین مرجع علمی و پزشکی در جهان برای انتشار تحقیقات نوین پزشکی است.",
+"u": "https://www.nejm.org/",
+"official": false
+},
+{
+"t": "Mayo Clinic",
+"d": "معتبرترین سایت عمومی پزشکی و سلامت در جهان که اطلاعات آن توسط پزشکان متخصص بازبینی می‌شود.",
+"u": "https://www.mayoclinic.org/",
+"official": false
+},
+{
+"t": "AFP (Agence France-Presse)",
+"d": "خبرگزاری رسمی فرانسه و یکی از سه خبرگزاری بزرگ و معتبر جهان است.",
+"u": "https://www.afp.com/en",
+"official": false
+},
+{
+"t": "NPR (National Public Radio)",
+"d": "رسانه عمومی و غیرانتفاعی آمریکا که به دقت و اعتبار گزارش‌های خود شهرت دارد.",
+"u": "https://www.npr.org/",
+"official": false
+},
+{
+"t": "The Weather Channel",
+"d": "بر اساس نظرسنجی‌های بین‌المللی (YouGov)، معتبرترین منبع پیش‌بینی آب‌وهوا و اخبار اقلیمی جهان است.",
+"u": "https://weather.com/",
+"official": false
+},
+{
+"t": "OECD Data",
+"d": "پایگاه رسمی سازمان همکاری و توسعه اقتصادی برای آمارهای دقیق کشورهای جهان است.",
+"u": "https://data.oecd.org/",
+"official": false
+},
+{
+"t": "UNESCO",
+"d": "مرجع رسمی سازمان ملل در زمینه‌های آموزش، علوم، فرهنگ و میراث جهانی است.",
+"u": "https://www.unesco.org/",
+"official": false
+}
+]
+},
+{
+"n": 16,
+"name": "ابزارهای راستی‌آزمایی و بررسی اعتبار سایت‌ها",
+"items": [
+{
+"t": "Scamadviser",
+"d": "بررسی می‌کند که آیا یک وب‌سایت فروشگاهی یا خدماتی معتبر است یا کلاهبرداری (فیشینگ).",
+"u": "https://app.scamadviser.com/",
+"official": false
+},
+{
+"t": "Media Bias/Fact Check",
+"d": "میزان دقت، صداقت و سوگیری سیاسی سایت‌های خبری جهان را نشان می‌دهد.",
+"u": "https://mediabiasfactcheck.com/",
+"official": false
+},
+{
+"t": "Snopes",
+"d": "قدیمی‌ترین و معتبرترین سایت راستی‌آزمایی جهان برای بررسی شایعات و اخبار مشکوک اینترنتی است.",
+"u": "https://www.snopes.com/",
+"official": false
+},
+{
+"t": "Beall's List",
+"d": "فهرست کامل مجلات و ناشران علمی جعلی و غیرمعتبر جهان را نمایش می‌دهد تا پژوهشگران فریب نخورند.",
+"u": "https://beallslist.net/",
+"official": false
+},
+{
+"t": "FactCheck.org",
+"d": "پروژه غیرانتفاعی دانشگاه پنسیلوانیا برای راستی‌آزمایی ادعاهای سیاسی و علمی است.",
+"u": "https://www.factcheck.org/",
+"official": false
+},
+{
+"t": "PolitiFact",
+"d": "سایت برنده جایزه پولیتزر که میزان درستی ادعاهای رسانه‌ها و سیاستمداران را رتبه‌بندی می‌کند.",
+"u": "https://www.politifact.com/",
+"official": false
+},
+{
+"t": "Full Fact",
+"d": "سازمان مستقل راستی‌آزمایی بریتانیا برای بررسی اخبار و آمارهای عمومی است.",
+"u": "https://fullfact.org/",
+"official": false
+},
+{
+"t": "AFP Fact Check",
+"d": "بخش جهانی خبرگزاری فرانسه برای افشای اطلاعات غلط و ویدیوهای دست‌کاری‌شده در شبکه‌های اجتماعی است.",
+"u": "https://factcheck.afp.com/",
+"official": false
+},
+{
+"t": "Retraction Watch",
+"d": "پایگاه مهمی که مقالات علمی جعلی یا باطل‌شده را در سراسر جهان افشا و دنبال می‌کند.",
+"u": "https://retractionwatch.com/",
+"official": false
+},
+{
+"t": "Think. Check. Submit.",
+"d": "یک ابزار بین‌المللی برای کمک به پژوهشگران جهت تشخیص مجلات علمی معتبر از مجلات جعلی است.",
+"u": "https://thinkchecksubmit.org/",
+"official": false
+},
+{
+"t": "NewsGuard",
+"d": "یک ابزار حرفه‌ای برای امتیازدهی به میزان اعتماد و شفافیت وب‌سایت‌های خبری است.",
+"u": "https://www.newsguardtech.com/",
+"official": false
+},
+{
+"t": "فکت‌نامه (Factnameh)",
+"d": "معتبرترین سایت راستی‌آزمایی به زبان فارسی که ادعاها و شایعات فضای مجازی را بررسی می‌کند.",
+"u": "https://factnameh.com/",
+"official": false
+}
+]
+},
+{
+"n": 17,
+"name": "سایت‌های غیرمعتبر یا نیمه‌معتبر (نیازمند احتیاط)",
+"items": [
+{
+"t": "Natural News",
+"d": "توسط نهادهای علمی و پزشکی به عنوان یکی از بزرگ‌ترین منابع انتشار اطلاعات نادرست پزشکی و تئوری‌های توطئه شناخته می‌شود.",
+"u": "https://www.naturalnews.com/",
+"official": false
+},
+{
+"t": "InfoWars",
+"d": "وب‌سایتی مشهور به انتشار شایعات، اخبار تایید نشده و تئوری‌های توطئه بدون مدرک مستند است.",
+"u": "https://www.infowars.com/",
+"official": false
+},
+{
+"t": "Before It's News",
+"d": "پلتفرمی است که هر کاربری بدون هیچ‌گونه بررسی و راستی‌آزمایی می‌تواند در آن خبر و شایعه منتشر کند.",
+"u": "https://beforeitsnews.com/",
+"official": false
+},
+{
+"t": "World News Daily Report",
+"d": "یک سایت طنز و ساختگی است که اخبار کاملاً خیالی منتشر می‌کند اما بسیاری به اشتباه آن‌ها را واقعی می‌پندارند.",
+"u": "https://worldnewsdailyreport.com/",
+"official": false
+},
+{
+"t": "OMICS International",
+"d": "توسط",
+"u": "https://www.omicsonline.org/",
+"official": false
+},
+{
+"t": "WASET (World Academy of Science, Engineering and Technology)",
+"d": "در فهرست‌های بین‌المللی به عنوان برگزارکننده کنفرانس‌ها و مجلات جعلی و فاقد اعتبار علمی شناخته می‌شود.",
+"u": "https://waset.org/",
+"official": false
+},
+{
+"t": "SCIRP (Scientific Research Publishing)",
+"d": "یکی از ناشرانی است که در بسیاری از پایگاه‌های علمی به عنوان ناشر یغماگر (غیرمعتبر) فهرست شده است.",
+"u": "https://www.scirp.org/",
+"official": false
+},
+{
+"t": "Wikipedia (ویکی‌پدیا)",
+"d": "برای شروع تحقیق و کسب اطلاعات کلی عالی است، اما چون هر کسی می‌تواند آن را ویرایش کند، باید همیشه به منابع پایین صفحه آن مراجعه کرد.",
+"u": "https://www.wikipedia.org/",
+"official": false
+},
+{
+"t": "Quora",
+"d": "و",
+"u": "https://www.quora.com/",
+"official": false
+},
+{
+"t": "Now8News",
+"d": "وب‌سایتی است که با ظاهر شبیه به شبکه‌های تلویزیونی، اخبار کاملاً جعلی و ساختگی منتشر می‌کند.",
+"u": "http://now8news.com/",
+"official": false
+},
+{
+"t": "RealFarmacy",
+"d": "در فهرست منابع گمراه‌کننده و شبه‌علمی در حوزه سلامت و تغذیه قرار دارد.",
+"u": "https://www.instagram.com/realfarmacy/",
+"official": false
+},
+{
+"t": "HumansAreFree",
+"d": "پلتفرمی برای انتشار تئوری‌های توطئه و مطالب تایید نشده علمی و تاریخی است.",
+"u": "https://humansarefree.com/",
+"official": false
+},
+{
+"t": "abcnews.com.co",
+"d": "یک دامنه جعلی است که با تقلید از نام شبکه معروف ABC، اخبار دروغین منتشر می‌کرد.",
+"u": "http://abcnews.com.co/",
+"official": false
+},
+{
+"t": "The Onion",
+"d": "معروف‌ترین سایت طنز خبری جهان که تمام مطالب آن خیالی و طنزآمیز است.",
+"u": "https://www.theonion.com/",
+"official": false
+},
+{
+"t": "Huzlers",
+"d": "وب‌سایتی که شایعات ساختگی درباره سلبریتی‌ها و حوادث عجیب منتشر می‌کند.",
+"u": "https://www.huzlers.com/",
+"official": false
+},
+{
+"t": "Empire News",
+"d": "یک سایت طنز و سرگرمی که داستان‌های ساختگی را در قالب خبر منتشر می‌کند.",
+"u": "https://empirenews.net/",
+"official": false
+},
+{
+"t": "ClickHole",
+"d": "زیرمجموعه طنز The Onion که مطالب اغراق‌آمیز و غیرواقعی منتشر می‌کند.",
+"u": "https://clickhole.com/",
+"official": false
+},
+{
+"t": "Bentham Open",
+"d": "در بسیاری از بررسی‌های دانشگاهی به دلیل ضعف شدید در داوری علمی مورد انتقاد قرار گرفته است.",
+"u": "https://benthamopen.com/",
+"official": false
+},
+{
+"t": "Dove Medical Press (برخی مجلات قدیمی)",
+"d": "در گذشته در فهرست‌های نظارتی (Beall's List) به دلیل مسائل داوری قرار داشت و نیازمند بررسی دقیق هر مجله است.",
+"u": "https://www.dovepress.com/",
+"official": false
+}
+]
+}
+]

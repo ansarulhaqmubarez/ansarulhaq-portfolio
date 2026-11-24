@@ -1,0 +1,22 @@
+/* v181 inner pages: unified brand look (Navy #102B55 / Dark #07172D / Blue #39A9E8 / Silver #D8E1EA) */
+main.page:not(.pf){max-width:1120px}
+main.page:not(.pf) .ph1{position:relative;overflow:hidden;isolation:isolate;margin:10px 0 18px;padding:clamp(18px,3.4vw,34px) clamp(18px,3.4vw,40px);border-radius:22px;color:#fff!important;background:linear-gradient(135deg,#07172D 0%,#102B55 65%,#16427e 100%);font-size:clamp(24px,4vw,40px);line-height:1.25;box-shadow:0 12px 34px rgba(7,23,45,.18)}
+main.page:not(.pf) .ph1,main.page:not(.pf) .ph1 *{color:#fff!important;-webkit-text-fill-color:#fff!important;background-image:none!important;opacity:1}
+main.page:not(.pf) .ph1{background:linear-gradient(135deg,#07172D 0%,#102B55 65%,#16427e 100%)!important}
+main.page:not(.pf) .ph1::before{content:"";position:absolute;inset-inline-end:-8%;top:-60%;width:46%;aspect-ratio:1;background:radial-gradient(circle,rgba(57,169,232,.4),transparent 65%);z-index:-1}
+main.page:not(.pf) .ph1::after{content:"";position:absolute;inset-inline:0;bottom:0;height:3px;background:linear-gradient(90deg,#39A9E8,#D8E1EA,#39A9E8);background-size:200% 100%;animation:pfg 6s linear infinite}
+@keyframes pfg{to{background-position:-200% 0}}
+@media(prefers-reduced-motion:reduce){main.page:not(.pf) .ph1::after{animation:none}}
+main.page .lbl{color:#0F5E9C;font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.78rem}
+[dir=rtl] main.page .lbl{letter-spacing:0}
+:root[data-theme="dark"] main.page .lbl{color:#7cc7f2}
+/* cards */
+main.page .ac-card,main.page .cx-side,main.page .st-card,main.page .lib-card,main.page .fq{border-radius:20px}
+main.page .fq{border:1px solid var(--line);background:var(--surface);padding:4px 18px;margin:10px 0}
+main.page .fq summary{min-height:44px;display:flex;align-items:center;cursor:pointer;font-weight:600}
+main.page .fq[open]{border-color:#39A9E8}
+/* primary buttons: brand pill */
+main.page .btn.go{border-radius:999px}
+main.page input:not([type=checkbox]):not([type=range]):focus,main.page textarea:focus,main.page select:focus{outline:2px solid #39A9E8;outline-offset:2px;border-color:#39A9E8}
+/* contact side rows aligned */
+.cx-side li a,.cx-side li{display:flex;align-items:center;gap:10px}
