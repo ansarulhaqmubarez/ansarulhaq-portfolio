@@ -1550,3 +1550,7 @@ if ("serviceWorker" in navigator && (location.protocol === "https:" || location.
 
 /* optional polish layer */
 { const x = document.createElement("script"); x.src = "assets/js/extras.js"; x.defer = true; document.head.appendChild(x); }
+
+
+/* CineCode 2027 Phase 1 shell enhancement (same-origin script; no inline application code). */
+{ const x = document.createElement("script"); x.src = "assets/js/chrome-2027.js"; x.defer = true; document.head.appendChild(x); }
