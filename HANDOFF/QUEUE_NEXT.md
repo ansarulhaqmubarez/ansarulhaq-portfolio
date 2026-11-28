@@ -133,3 +133,7 @@
 - Hero decoration chips (.hchip3, .dec) only on the home page. Course ticker now static.
 - _headers: js/css/data no-cache (were immutable for a year); fonts immutable; img 1 day.
 - Not in this repo: Brevo / Cloudflare Worker (contact form uses Web3Forms public key + Supabase RPC).
+
+## v184
+- ورود با Google و GitHub: دکمه‌ها در auth.html (authorize با implicit flow؛ همان کنترل‌کنندهٔ #access_token). پیام بارگذاری/لغو/خطا، حالت bfcache. باید توسط مالک در Supabase/Google/GitHub تنظیم شود: HANDOFF/OAUTH_SETUP_FA.md. تست با mock (مسیر authorize رهگیری شد)، ورود واقعی تست نشده.
+- ایمیل: amobariz383 اصلی، ansarulhaq.af دوم (هر دو مال مالک)؛ JSON-LD در classic.html یک‌دست شد.

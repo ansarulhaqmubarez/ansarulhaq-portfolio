@@ -1121,9 +1121,9 @@ async function liveCourse(id, root, C0) {
 }
 
 /* e-mail links (confirm, recover) arrive as #access_token=... on the site address */
-(async () => { const h = location.hash;
-  if (/error_code=|error_description=/.test(h) && !/access_token=/.test(h)) { const q = new URLSearchParams(h.slice(1)), ec = q.get("error_code") || "";
-    try { sessionStorage.setItem("am-autherr", ec === "otp_expired" ? "expired" : "failed"); } catch (e) {}
+(async () => { const h = location.hash || (/[?&]error(_code|_description)?=/.test(location.search) ? "#" + location.search.slice(1) : "");
+  if (/error=|error_code=|error_description=/.test(h) && !/access_token=/.test(h)) { const q = new URLSearchParams(h.slice(1)), ec = q.get("error_code") || "", ed = (q.get("error") || "") + " " + (q.get("error_description") || "");
+    try { sessionStorage.setItem("am-autherr", ec === "otp_expired" ? "expired" : /access_denied|cancel|denied/i.test(ed) ? "cancel" : "failed"); } catch (e) {}
     history.replaceState(null, "", location.pathname); if (PAGE !== "auth") location.replace("auth.html"); return; }
   if (!/access_token=/.test(h) || !SB.on()) return; const q = new URLSearchParams(h.slice(1)), at = q.get("access_token"), rt = q.get("refresh_token"), ty = q.get("type");
   try { const r = await fetch(SB.base() + "/auth/v1/user", { headers: { apikey: S.supabaseAnonKey, Authorization: "Bearer " + at } }); const u = r.ok ? await r.json() : null;
@@ -1142,6 +1142,7 @@ function renderAuth() {
     <div class="atabs" role="tablist"><button type="button" role="tab" aria-selected="${!reg}" data-m="login">${esc(T_.aLogin)}</button><button type="button" role="tab" aria-selected="${reg}" data-m="register">${esc(T_.aReg)}</button></div>
     <h1 class="ph1">${esc(reg ? T_.aReg : T_.aLogin)}</h1>
     <p class="muted">${esc(on ? T_.aNote : T_.aOff)}</p>
+    ${on ? `<div class="oauth" role="group" aria-label="${lang === "fa" ? "ورود با حساب دیگر" : "Continue with another account"}"><button type="button" class="btn oa" data-p="google"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M21.35 11.1H12v2.98h5.35c-.23 1.4-1.6 4.1-5.35 4.1a5.9 5.9 0 0 1 0-11.8c1.9 0 3.17.8 3.9 1.5l2.66-2.56A9.4 9.4 0 0 0 12 2.5a9.5 9.5 0 1 0 0 19c5.48 0 9.1-3.85 9.1-9.27 0-.62-.07-1.1-.15-1.13z"/></svg><span>${lang === "fa" ? "ادامه با Google" : "Continue with Google"}</span></button><button type="button" class="btn oa" data-p="github"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.4c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg><span>${lang === "fa" ? "ادامه با GitHub" : "Continue with GitHub"}</span></button></div><p class="oadiv" aria-hidden="true"><span>${lang === "fa" ? "یا با ایمیل" : "or with email"}</span></p>` : ""}
     <form id="af" novalidate>
       ${reg ? `<label>${esc(T_.fName)}<input name="name" autocomplete="name" required></label>` : ""}
       <label>${esc(T_.fEmail)}<input name="email" type="email" autocomplete="email" dir="ltr" required></label>
@@ -1155,7 +1156,7 @@ function renderAuth() {
   $$(".atabs button", root).forEach(b => b.onclick = () => { authMode = b.dataset.m; renderAuth(); });
   { const pb = $("#pwb"); if (pb) pb.onclick = () => { const i = $("input[name=password]", root), sh = i.type === "password"; i.type = sh ? "text" : "password"; pb.setAttribute("aria-pressed", String(sh)); pb.setAttribute("aria-label", lang === "fa" ? (sh ? "پنهان کردن رمز" : "نمایش رمز") : (sh ? "Hide password" : "Show password")); pb.classList.toggle("on", sh); }; }
   const f = $("#af"), st = $("#astatus"), say = (m, k) => { st.textContent = m; st.className = "fstatus " + (k || ""); };
-  try { const ae = sessionStorage.getItem("am-autherr"); if (ae) { sessionStorage.removeItem("am-autherr"); say(lang === "fa" ? (ae === "expired" ? "لینک تأیید منقضی یا استفاده‌شده است. وارد شوید؛ اگر ایمیل شما قبلاً تأیید شده باشد وارد می‌شوید، وگرنه دوباره ثبت‌نام کنید." : "تأیید ایمیل انجام نشد. دوباره تلاش کنید.") : (ae === "expired" ? "This link expired or was already used. Sign in: if your email is already confirmed you will get in, otherwise register again." : "Email confirmation failed. Please try again."), "err"); } } catch (e) {}
+  try { const ae = sessionStorage.getItem("am-autherr"); if (ae) { sessionStorage.removeItem("am-autherr"); const fa_ = lang === "fa"; say(ae === "cancel" ? (fa_ ? "ورود لغو شد. هر وقت خواستی دوباره تلاش کن." : "Sign-in was cancelled. You can try again any time.") : ae === "expired" ? (fa_ ? "لینک تأیید منقضی یا استفاده‌شده است. وارد شوید؛ اگر ایمیل شما قبلاً تأیید شده باشد وارد می‌شوید، وگرنه دوباره ثبت‌نام کنید." : "This link expired or was already used. Sign in; if your email was already confirmed you will get in, otherwise register again.") : (fa_ ? "ورود انجام نشد. دوباره تلاش کنید یا با ایمیل وارد شوید." : "Sign-in failed. Try again or use your email."), "err"); } } catch (e) {}
   const call = async (path, body) => {
     const r = await fetch(S.supabaseUrl.replace(/\/$/, "") + "/auth/v1/" + path, { method: "POST", headers: { "Content-Type": "application/json", apikey: S.supabaseAnonKey }, body: JSON.stringify(body) });
     return { ok: r.ok, status: r.status, j: await r.json().catch(() => ({})) };
@@ -1173,6 +1174,18 @@ function renderAuth() {
       else { const r = await call("token?grant_type=password", { email, password: pw }); if (r.ok && r.j.access_token) { SB.keep(r.j, email); say(T_.aIn, "ok"); location.href = "account.html"; } else say(r.status === 400 || r.status === 401 ? T_.aBad : why(r), "err"); }
     } catch (x) { say(T_.errNet, "err"); }
   });
+  const oas = $$(".oa", root), oaOff = () => oas.forEach(b => { b.disabled = false; b.removeAttribute("aria-busy"); });
+  oas.forEach(b => b.onclick = () => {
+    if (!on) return say(T_.aOffMsg, "err");
+    const p = b.dataset.p, nm = p === "google" ? "Google" : "GitHub";
+    oas.forEach(x => x.disabled = true); b.setAttribute("aria-busy", "true");
+    say(lang === "fa" ? "در حال رفتن به " + nm + "…" : "Redirecting to " + nm + "…", "");
+    const to = encodeURIComponent(location.origin + "/auth.html");
+    const ok = setTimeout(() => { oaOff(); say(lang === "fa" ? "پاسخی نیامد. اینترنت را بررسی کن و دوباره تلاش کن." : "No response. Check your connection and try again.", "err"); }, 15000);
+    window.addEventListener("pagehide", () => clearTimeout(ok), { once: true });
+    location.href = S.supabaseUrl.replace(/\/$/, "") + "/auth/v1/authorize?provider=" + p + "&redirect_to=" + to;
+  });
+  window.addEventListener("pageshow", e => { if (e.persisted) { oaOff(); say("", ""); } });
   const fg = $("#aforgot");
   if (fg) fg.onclick = async () => {
     const email = f.elements.email.value.trim();
