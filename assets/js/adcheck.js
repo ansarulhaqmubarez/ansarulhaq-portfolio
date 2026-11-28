@@ -14,7 +14,8 @@
       les: "دوره‌های منتشرشده درس دارند", lesH: "برای هر دوره درس (ویدیوی یوتیوب) اضافه کن.",
       sav: "ذخیرهٔ تنظیمات ظاهر کار می‌کند (cms-6)", savH: "فایل cms-6.sql را اجرا کن و با حساب super_admin وارد شو.",
       nws: "جدول خبرنامه آماده است (cms-7)", nwsH: "فایل cms-7.sql را اجرا کن و با حساب super_admin وارد شو.", mail: "ایمیل تماس تنظیم شده", mailH: "در ویرایش متن‌ها فیلد contactEmail را پر کن.",
-      supa: "اتصال Supabase برقرار است", supaH: "آدرس و کلید Supabase در data/content.js را بررسی کن." },
+      supa: "اتصال Supabase برقرار است", supaH: "آدرس و کلید Supabase در data/content.js را بررسی کن.",
+      fbk: "جدول بازخورد آماده است (cms-11)", fbkH: "فایل cms-11-feedback.sql را اجرا کن و با حساب super_admin وارد شو.", qa: "جدول پرسش و پاسخ دوره آماده است (cms-13)", qaH: "فایل cms-13-qa.sql و بعد cms-14-qa-notify.sql را اجرا کن." },
     en: { p: "This check shows what is ready for launch. Press the button.", run: "Run check", busy: "Checking…", ok: "Ready", no: "Needed", warn: "Note",
       sum: "ready", of: "of", https: "Site is opened over HTTPS", httpsH: "Open it from the real https address.", local: "Site is on a real host (not localhost)", localH: "Upload the site to Cloudflare.",
       role: "Your account is super_admin", roleH: "In Supabase: update public.profiles set role='super_admin' where email='…'",
@@ -25,7 +26,8 @@
       les: "Published courses have lessons", lesH: "Add lessons (YouTube videos) to each course.",
       sav: "Saving look settings works (cms-6)", savH: "Run cms-6.sql and sign in as super_admin.",
       nws: "Newsletter table is ready (cms-7)", nwsH: "Run cms-7.sql and sign in as super_admin.", mail: "Contact email is set", mailH: "Fill contactEmail in the text editor.",
-      supa: "Supabase connection works", supaH: "Check the Supabase URL and key in data/content.js." }
+      supa: "Supabase connection works", supaH: "Check the Supabase URL and key in data/content.js.",
+      fbk: "Feedback table is ready (cms-11)", fbkH: "Run cms-11-feedback.sql and sign in as super_admin.", qa: "Course Q&A table is ready (cms-13)", qaH: "Run cms-13-qa.sql, then cms-14-qa-notify.sql." }
   };
   window.__adCheck = { mount: function (box, o) {
     var SB = o.SB, S = o.S || window.SITE || {}, L = T[o.lang === "fa" ? "fa" : "en"];
@@ -36,7 +38,7 @@
       out.innerHTML = '<p class="muted">' + esc(L.busy) + '</p>';
       Promise.all([
         q("profiles?select=role&id=eq." + ((SB.get() || {}).id || "x")), q("site_content?select=key&limit=1"), q("site_projects?select=id&limit=1"), q("site_gallery?select=id&limit=1"), q("site_resume?select=id&limit=1"),
-        q("courses?select=id&status=eq.published&limit=50"), q("lessons?select=course_id&limit=500"), q("newsletter_subscribers?select=id&limit=1"),
+        q("courses?select=id&status=eq.published&limit=50"), q("lessons?select=course_id&limit=500"), q("newsletter_subscribers?select=id&limit=1"), q("feedback_public?select=id&limit=1"), q("course_questions?select=id&limit=1"),
         SB.send("POST", "site_settings?on_conflict=key", { key: "design._ping", value: new Date().toISOString() }, "resolution=merge-duplicates,return=minimal").then(function () { return true; }, function () { return false; })
       ]).then(function (r) {
         var courses = r[5].rows.map(function (c) { return c.id; }), withL = {}; r[6].rows.forEach(function (l) { withL[l.course_id] = 1; });
@@ -51,8 +53,10 @@
           [r[4].ok && r[4].rows.length > 0, L.resT + " · " + L.imp, r[4].ok ? L.impH : L.tblH],
           [courses.length > 0, L.pub, L.pubH],
           [courses.length > 0 && courses.every(function (c) { return withL[c]; }), L.les, L.lesH],
-          [r[8] === true, L.sav, L.savH],
+          [r[10] === true, L.sav, L.savH],
           [r[7].ok, L.nws, L.nwsH],
+          [r[8].ok, L.fbk, L.fbkH],
+          [r[9].ok, L.qa, L.qaH],
           [!!S.contactEmail, L.mail, L.mailH]
         ];
         var good = items.filter(function (i) { return i[0]; }).length;
