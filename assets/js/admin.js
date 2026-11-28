@@ -35,6 +35,8 @@ window.__admin = { async mount(o) {
     <section class="ac-sec" id="pagesec"><h2>${esc(lang === "fa" ? "ساخت صفحهٔ دلخواه" : "Page builder")}</h2><div id="adPages"></div></section>
     <section class="ac-sec" id="ftsec"><h2>${esc(lang === "fa" ? "لینک‌های فوتر" : "Footer links")}</h2><div id="adFooter"></div></section>
     <section class="ac-sec" id="llsec"><h2>${esc(lang === "fa" ? "لینک مطالعه و دانلود درس‌ها" : "Lesson study and download links")}</h2><div id="adLinks"></div></section>
+    <section class="ac-sec" id="pfsec"><h2>${esc(lang === "fa" ? "پورتفولیو: پروژه، پست و مقاله" : "Portfolio: projects, posts, articles")}</h2><div id="adPortfolio"></div></section>
+    <section class="ac-sec" id="evsec"><h2>${esc(lang === "fa" ? "رویدادها و وبینار" : "Events and webinars")}</h2><div id="adEvents"></div></section>
     <section class="ac-sec" id="rlsec"><h2>${esc(lang === "fa" ? "ریلز (ویدیوهای کوتاه)" : "Reels (short videos)")}</h2><div id="adReels"></div></section>
     <section class="ac-sec"><h2>${esc(lang === "fa" ? "خبرنامه (ایمیل‌ها)" : "Newsletter (emails)")}</h2><div id="adNews"></div></section>
     <section class="ac-sec"><h2>${esc(lang === "fa" ? "نظرهای بازدیدکنندگان (تأیید برای نمایش)" : "Visitor feedback (approve to show)")}</h2><div id="adFeed"></div></section>
@@ -68,6 +70,8 @@ window.__admin = { async mount(o) {
     if (window.__adPages) window.__adPages.mount(root.querySelector("#adPages"), { SB, lang, S });
     if (window.__adFooter) window.__adFooter.mount(root.querySelector("#adFooter"), { SB, lang, S });
     if (window.__adLinks) window.__adLinks.mount(root.querySelector("#adLinks"), { SB, lang, S });
+    if (window.__adPortfolio) window.__adPortfolio.mount(root.querySelector("#adPortfolio"), { SB, lang, S });
+    if (window.__adEvents) window.__adEvents.mount(root.querySelector("#adEvents"), { SB, lang, S });
     if (window.__adReels) window.__adReels.mount(root.querySelector("#adReels"), { SB, lang, S });
     if (window.__adNews) window.__adNews.mount(root.querySelector("#adNews"), { SB, lang, S });
     if (window.__adFeed) window.__adFeed.mount(root.querySelector("#adFeed"), { SB, lang, S });
