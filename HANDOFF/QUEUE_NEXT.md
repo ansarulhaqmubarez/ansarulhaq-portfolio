@@ -137,3 +137,9 @@
 ## v184
 - ورود با Google و GitHub: دکمه‌ها در auth.html (authorize با implicit flow؛ همان کنترل‌کنندهٔ #access_token). پیام بارگذاری/لغو/خطا، حالت bfcache. باید توسط مالک در Supabase/Google/GitHub تنظیم شود: HANDOFF/OAUTH_SETUP_FA.md. تست با mock (مسیر authorize رهگیری شد)، ورود واقعی تست نشده.
 - ایمیل: amobariz383 اصلی، ansarulhaq.af دوم (هر دو مال مالک)؛ JSON-LD در classic.html یک‌دست شد.
+
+## v185
+- ادمین «پورتفولیو: پروژه، پست و مقاله» (adportfolio.js، کلید design.portfolio). پروژه‌ها وضعیت «در حال انجام» دارند و در portfolio.html زیر عنوان جدا می‌آیند. مخفی/ترتیب/ویرایش/حذف. به data/portfolio.js اضافه می‌شود، جایگزین نمی‌شود. نیاز: cms-6.sql.
+- رویدادها و وبینار: events.html + events.js، ادمین adevents.js (design.events). ثبت‌نام با واتساپ/ایمیل، لینک ورود، افزودن به تقویم (.ics، وقت کابل). در sitemap و لینک «آکادمی» فوتر.
+- عمداً نشد: 2FA مدیر (بدون اجرای سمت سرور فقط ظاهری است و خطر قفل‌شدن مالک دارد؛ در عوض 2FA را روی خود حساب Gmail/GitHub روشن کن). Turnstile: منتظر کلید عمومی.
+- همه با بررسی نحو (node --check) و بدون آزمایش مرورگر؛ مالک خودش امتحان می‌کند.
