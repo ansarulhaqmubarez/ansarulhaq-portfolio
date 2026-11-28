@@ -1,5 +1,5 @@
 /* Offline support. Network first, so updates always show; the cache is only a fallback. Change V when you want to clear old caches. */
-const V = "mub-v186";
+const V = "mub-v187";
 const CORE = ["./", "blog.html", "verify.html", "activity.html", "works.html", "assets/css/nh.css", "assets/js/nh.js", "assets/js/bot2.js",
   
   
