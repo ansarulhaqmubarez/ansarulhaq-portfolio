@@ -10,9 +10,9 @@
     var lang = function () { try { var l = localStorage.getItem("am-lang"); if (l === "en" || l === "fa") return l; } catch (e) {} return document.documentElement.lang === "fa" ? "fa" : "en"; };
     var TX = {
       fa: { b: "اعلان‌ها", none: "اعلانی نیست.", all: "همه را خوانده‌شده کن", ago: "پیش", now: "همین حالا", m: "دقیقه", h: "ساعت", d: "روز",
-        certificate_issued: "گواهی شما صادر شد", enrolled: "ثبت‌نام شما در دوره انجام شد", staff_new_enrollment: "ثبت‌نام تازه در دوره", staff_new_message: "پیام تماس تازه", staff_new_lead: "درخواست کار تازه" },
+        certificate_issued: "گواهی شما صادر شد", question_answered: "به سؤال شما در دوره پاسخ داده شد", enrolled: "ثبت‌نام شما در دوره انجام شد", staff_new_enrollment: "ثبت‌نام تازه در دوره", staff_new_message: "پیام تماس تازه", staff_new_lead: "درخواست کار تازه" },
       en: { b: "Notifications", none: "No notifications.", all: "Mark all as read", ago: "ago", now: "just now", m: "min", h: "h", d: "d",
-        certificate_issued: "Your certificate was issued", enrolled: "You are enrolled in the course", staff_new_enrollment: "New course enrolment", staff_new_message: "New contact message", staff_new_lead: "New work request" }
+        certificate_issued: "Your certificate was issued", question_answered: "Your course question was answered", enrolled: "You are enrolled in the course", staff_new_enrollment: "New course enrolment", staff_new_message: "New contact message", staff_new_lead: "New work request" }
     };
     var cname = function (id, l) { var cs = S.courses || []; for (var i = 0; i < cs.length; i++) if (cs[i].id === id) { var t = cs[i].title; return (t && (t[l] || t.en || t.fa)) || id; } return id; };
     var ago = function (iso, X) { var s = Math.max(0, (Date.now() - new Date(iso).getTime()) / 1000); if (s < 60) return X.now; var m = s / 60; if (m < 60) return Math.floor(m) + " " + X.m + " " + X.ago; var h = m / 60; if (h < 24) return Math.floor(h) + " " + X.h + " " + X.ago; return Math.floor(h / 24) + " " + X.d + " " + X.ago; };
