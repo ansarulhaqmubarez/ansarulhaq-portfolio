@@ -22,6 +22,26 @@
     ar: "Articles & Publications", arE: "No article has been published yet. The blog and notes will appear here after the first post.", arB: "Blog", arN: "Notes", read: "Read", share: "Share",
     cv: "My CV", cvD: "Experience, skills and certificates on one page.", cvB: "Download My CV", cvV: "View CV", cvP: "The CV PDF file has not been uploaded yet; use the CV page to print / save as PDF.", more: "Show more", all2: "All", zoom: "Zoom" }; };
   var dn = function (d) { return lang === "fa" ? d.fa : d.en; };
+  /* admin-managed content (design.portfolio) is merged on top of data/portfolio.js; hidden items are skipped */
+  var BASE = { cases: (P.cases || []).slice(), posts: (P.posts || []).slice(), articles: (P.articles || []).slice() };
+  function mergeRemote(v) {
+    if (!v || typeof v !== "object") return;
+    ["cases", "posts", "articles"].forEach(function (k) { P[k] = BASE[k].concat((Array.isArray(v[k]) ? v[k] : []).filter(function (x) { return x && !x.hide; })); });
+  }
+  function cachedRemote() { try { return (JSON.parse(localStorage.getItem("am-design") || "{}") || {}).portfolio; } catch (e) { return null; } }
+  function img(u) { return /^assets\/[\w\-./]+$/.test(u || "") || (S.supabaseUrl && (u || "").indexOf(S.supabaseUrl + "/storage/") === 0) ? u : ""; }
+  function caseCard(c) {
+    var fa = lang === "fa", im = img(c.cover), u = safe(c.url);
+    return '<article class="pf-card' + (c.status === "wip" ? " pf-wip" : "") + '">' + (im ? '<img src="' + esc(im) + '" alt="" loading="lazy" decoding="async">' : "") +
+      (c.status === "wip" ? '<span class="pill pf-badge">' + (fa ? "در حال انجام" : "In progress") + "</span>" : "") +
+      '<h3>' + esc(tx(c.title)) + '</h3><p>' + esc(tx(c.overview) || "") + '</p><p class="muted">' + esc([c.role, c.year, (c.tools || []).join(", ")].filter(Boolean).join(" · ")) + "</p>" +
+      (u ? '<a class="btn" href="' + esc(u) + '" target="_blank" rel="noopener noreferrer">' + (fa ? "دیدن پروژه" : "View project") + "</a>" : "") + "</article>";
+  }
+  function caseGroup(list) {
+    var fa = lang === "fa", done = list.filter(function (c) { return c.status !== "wip"; }), wip = list.filter(function (c) { return c.status === "wip"; });
+    return (done.length ? '<div class="pf-cards">' + done.map(caseCard).join("") + "</div>" : "") +
+      (wip.length ? '<h3 class="pf-sub">' + (fa ? "پروژه‌های در حال انجام" : "Projects in progress") + '</h3><div class="pf-cards">' + wip.map(caseCard).join("") + "</div>" : "");
+  }
   function worksOf(d) {
     var gl = S.gallery || [], ex = P.extraCats || {};
     return gl.filter(function (g) { return d.gal.indexOf(g.cat) >= 0 || (ex[g.id] || []).indexOf(d.id) >= 0; });
@@ -64,7 +84,7 @@
       ds.map(function (d) { var n = worksOf(d).length; return '<button type="button" class="wkt-i' + (fl === d.id ? " on" : "") + '" data-f="' + d.id + '" aria-pressed="' + (fl === d.id) + '"><span class="wkt-n">' + esc(dn(d)) + '</span><span class="wkt-c">' + n + ' ' + esc(l.cnt) + '</span></button>'; }).join("") +
       '</div><div class="wkg" id="pfGrid" aria-live="polite"></div></section>' +
       '<section class="pf-sec" id="pfCase" aria-labelledby="pfCaseH"><h2 id="pfCaseH">' + esc(l.cs) + '</h2>' +
-      ((P.cases || []).length ? '<div class="pf-cards">' + P.cases.map(function (c) { return '<article class="pf-card"><h3>' + esc(tx(c.title)) + '</h3><p>' + esc(tx(c.overview) || "") + '</p><p class="muted">' + esc([c.role, c.year, (c.tools || []).join(", ")].filter(Boolean).join(" · ")) + '</p></article>'; }).join("") + '</div>'
+      ((P.cases || []).length ? caseGroup(P.cases)
         : '<div class="pjl-empty"><div><p>' + esc(l.csE) + '</p><a class="btn" href="project.html">' + esc(l.csA) + '</a></div></div>') + '</section>' +
       '<section class="pf-sec" id="pfSoc" aria-labelledby="pfSocH"><h2 id="pfSocH">' + esc(l.so) + '</h2>' +
       (posts.length ? '<div class="pf-tiles pf-plat" role="group"><button type="button" class="wkt-i' + (sp === "all" ? " on" : "") + '" data-p="all" aria-pressed="' + (sp === "all") + '"><span class="wkt-n">' + esc(l.all2) + '</span></button>' + plats.map(function (p) { return '<button type="button" class="wkt-i' + (sp === p ? " on" : "") + '" data-p="' + esc(p) + '" aria-pressed="' + (sp === p) + '"><span class="wkt-n">' + esc(p) + '</span></button>'; }).join("") + '</div><div class="pf-cards" id="pfPosts"></div>'
@@ -95,5 +115,14 @@
     grid.onclick = function (e) { var b = e.target.closest(".wkb"); if (b) open(cur, +b.dataset.i); };
   }
   window.renderPortfolio = render;
+  mergeRemote(cachedRemote());
   render();
+  try {
+    var SBc = window.__SB;
+    if (SBc && SBc.on && SBc.on()) SBc.rest("site_settings?select=value&key=eq.design.portfolio").then(function (r) {
+      var v = r && r[0] && r[0].value; if (!v) return;
+      try { var d = JSON.parse(localStorage.getItem("am-design") || "{}") || {}; d.portfolio = v; localStorage.setItem("am-design", JSON.stringify(d)); } catch (e) {}
+      mergeRemote(v); render();
+    }).catch(function () {});
+  } catch (e) {}
 })();

@@ -165,3 +165,9 @@ body[data-page=certs] main#top,body[data-page=certificates] main#top{min-height:
 .fbar-r{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center}.ft-ckb{font:inherit;color:inherit;background:none;border:1px solid var(--line);border-radius:999px;padding:6px 14px;min-height:32px;display:inline-flex;align-items:center;cursor:pointer}.ft-ckb:hover{border-color:#39A9E8}
 .ann>span{flex:1 1 auto;min-width:0}.ann>a{flex:none}.ann .ann-ph{display:inline-flex;align-items:center;gap:6px;text-decoration:none;font-weight:600;margin-inline-start:6px;padding:0 4px;min-height:24px}.ann .ann-ph svg{color:#39A9E8}
 .ft-ch{display:inline-flex;align-items:center;gap:6px}.ft-ch svg{width:15px;height:15px}
+
+/* v185: portfolio cards from admin (cover image, in-progress badge) */
+.pf-card img{border-radius:12px;aspect-ratio:16/10;object-fit:cover}
+.pf-badge{align-self:flex-start}
+.pf-wip{border-style:dashed}
+.pf-sub{margin:22px 0 4px}
