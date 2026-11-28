@@ -1065,6 +1065,7 @@ async function liveCourse(id, root, C0) {
     return `<div class="lrow${enrolled && !lk ? "" : " lk"}"><span class="ln">${esc(L.les)} ${i + 1}</span><span class="lt">${icon(enrolled && !lk ? "play" : "lock")}${esc(ttl(l.title))}${ok ? ` <b class="lok">✓ ${esc(L.done)}</b>` : ""}</span>${enrolled && !lk ? `<button type="button" class="btn lpl" data-l="${esc(l.id)}">${esc(L.watch)}</button>` : `<span class="ld">${esc(lk ? L.lockPrev : mins)}</span>`}</div>`; }).join("");
   lt.innerHTML = `<div class="lhead"><span>${esc(L.les)}</span><span></span><span>${esc(enrolled ? L.pct + " " + done + "/" + lessons.length : L.lock)}</span></div>${rows}<div id="lplay" role="region" aria-label="${esc(L.pl)}"></div>`;
   if (enrolled && window.__exam) window.__exam.mount({ root: lt.parentNode, course: id, lessons, prog, lang, ttl, SB, reload: () => liveCourse(id, root, C0) });
+  if (enrolled && window.__qa) window.__qa.mount({ root: lt.parentNode, course: id, lessons, lang, ttl, SB });
   btn.disabled = false;
   if (enrolled) { btn.innerHTML = "✓ " + esc(L.enrd); btn.disabled = true; }
   else if (!ses) { btn.innerHTML = esc(L.login); btn.onclick = () => { location.href = "auth.html"; }; }

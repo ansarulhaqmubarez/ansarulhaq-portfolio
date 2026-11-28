@@ -171,3 +171,12 @@ body[data-page=certs] main#top,body[data-page=certificates] main#top{min-height:
 .pf-badge{align-self:flex-start}
 .pf-wip{border-style:dashed}
 .pf-sub{margin:22px 0 4px}
+
+/* v186: course questions and answers */
+.qa{margin-top:28px;padding-top:18px;border-top:1px solid var(--line)}
+.qa-f{display:grid;gap:10px;margin:12px 0}
+.qa-f select,.qa-f textarea{font:inherit;width:100%;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.qa-l{list-style:none;padding:0;margin:14px 0;display:grid;gap:12px}
+.qa-i{border:1px solid var(--line);border-radius:14px;padding:14px;background:var(--surface)}
+.qa-i p{margin:0 0 8px}
+.qa-a{border-inline-start:3px solid var(--accent,#39A9E8);padding-inline-start:10px}
